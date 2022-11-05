@@ -45,8 +45,8 @@ class DataProcessor(object):
     #
     # set_publications_df(self, _publication_df: DataFrame): -> None.
     #
-    def set_publications_df(self, _publications_df):
-        # Check if the Graph is empty.
+    def set_publications_df(self, _publications_df: DataFrame) -> None:
+        # Check if the DataFrame is empty.
         if len(_publications_df) < 1 :
             print('-- WARN: Publications Data Frame is empty :(')
 
