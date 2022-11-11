@@ -36,7 +36,7 @@ bash:
 echo 'export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"' >> ~/.bashrc
 ```
 
-## ⛓ Libs
+## ⛓ Libss
 
 ```
 requirements.txt
