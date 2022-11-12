@@ -170,27 +170,27 @@ def app():
 
                 do_publications_by_author_id(generic)
 
-                do_most_cited_publication(generic)
+                # do_most_cited_publication(generic)
 
-                do_most_cited_venue(generic)
+                # do_most_cited_venue(generic)
 
-                do_venues_by_publisher_id(generic)
+                # do_venues_by_publisher_id(generic)
 
-                do_publication_in_venue(generic)
+                # do_publication_in_venue(generic)
 
-                do_journal_articles_in_issue(generic)
+                # do_journal_articles_in_issue(generic)
 
-                do_journal_articles_in_volume(generic)
+                # do_journal_articles_in_volume(generic)
 
-                do_journal_articles_in_journal(generic)
+                # do_journal_articles_in_journal(generic)
 
                 # TODO: "proceedings by event" query but we dont have the event.
 
-                do_publication_authors(generic)
+                # do_publication_authors(generic)
 
-                do_publications_by_author_name(generic)
+                # do_publications_by_author_name(generic)
 
-                do_distinct_publisher_of_publications(generic)
+                # do_distinct_publisher_of_publications(generic)
             
             print('-- INFO: All results were been produced!')
 
