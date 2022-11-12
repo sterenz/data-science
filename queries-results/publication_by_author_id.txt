@@ -1,0 +1,40 @@
+List Publications by Author ID published in 0000-0003-0530-4305:
+
+
+Doi: doi:10.3233/ds-190016.
+Name: Enabling Text Search On Sparql Endpoints Through Oscar.
+Author ORC-ID: 0000-0003-0530-4305.
+
+Doi: doi:10.1007/s11192-020-03397-6.
+Name: The Practice Of Self-Citations: A Longitudinal Study.
+Author ORC-ID: 0000-0003-0530-4305.
+
+Doi: publication-0.
+Name: Opencitations, An Infrastructure Organization For Open Scholarship.
+Author ORC-ID: 0000-0003-0530-4305.
+
+Doi: publication-1.
+Name: Software Review: Coci, The Opencitations Index Of Crossref Open Doi-To-Doi Citations.
+Author ORC-ID: 0000-0003-0530-4305.
+
+Doi: publication-13.
+Name: The Opencitations Data Model.
+Author ORC-ID: 0000-0003-0530-4305.
+
+Doi: publication-19.
+Name: A Qualitative And Quantitative Analysis Of Open Citations To Retracted Articles: The Wakefield 1998 Et Al.'S Case.
+Author ORC-ID: 0000-0003-0530-4305.
+
+Doi: publication-39.
+Name: Editorial: Special Issue On Scholarly Data Analysis (Semantics, Analytics, Visualisation).
+Author ORC-ID: 0000-0003-0530-4305.
+
+Doi: publication-5.
+Name: Enabling Text Search On Sparql Endpoints Through Oscar.
+Author ORC-ID: 0000-0003-0530-4305.
+
+Doi: publication-6.
+Name: The Practice Of Self-Citations: A Longitudinal Study.
+Author ORC-ID: 0000-0003-0530-4305.
+
+Items found: 9

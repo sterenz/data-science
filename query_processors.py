@@ -747,14 +747,14 @@ class GenericQueryProcessor(object):
         # Triplestore Dataframe clean up.
         if not triplestore_publications_by_author_id_df.empty:
              # Relational Dataframe clean up.
-            triplestore_publications_by_author_id_df.drop(["publication", "id", "author", "authorFamilyName"], axis=1, inplace=True)
+            triplestore_publications_by_author_id_df.drop(["publication", "authorId", "authorName", "authorFamilyName"], axis=1, inplace=True)
 
             # Rename Data Frame columns.
             triplestore_publications_by_author_id_df.rename(
                     columns = {
                         'publicationId'   :'publication_doi', 
-                        'publication_year':'publication_year', 
-                        'title'           :'publication_title'
+                        'publicationYear' :'publication_year', 
+                        'publicationTitle':'publication_title'
                     }, 
                     inplace = True,
                     errors  = 'raise'
@@ -763,11 +763,11 @@ class GenericQueryProcessor(object):
         # Relational Dataframe clean up.
         if not relational_publications_by_author_id_df.empty:
             # Relational Dataframe clean up.
-            #relational_publications_by_author_id_df.drop(["internalID","issue", "volume", "chapternumber"], axis=1, inplace=True)
+            relational_publications_by_author_id_df.drop(["id","issue", "volume", "chapternumber", "author", "id", "event"], axis=1, inplace=True)
             # Rename Data Frame columns.
             relational_publications_by_author_id_df.rename(
                     columns = { 
-                        'publicationId'   :'publication_doi', 
+                        'internalID'      :'publication_doi', 
                         'publication_year':'publication_year', 
                         'title'           :'publication_title'
                     }, 
