@@ -34,7 +34,7 @@ class RelationalProcessor(object):
             return False
 
 
-class RelationalDataProcessor(RelationalProcessor, QueryProcessor):
+class RelationalDataProcessor(RelationalProcessor):
     def __init__(self):
         super().__init__()
 
