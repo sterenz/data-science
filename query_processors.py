@@ -762,14 +762,30 @@ class GenericQueryProcessor(object):
 
         # Relational Dataframe clean up.
         if not relational_publications_by_author_id_df.empty:
-            # Relational Dataframe clean up.
-            relational_publications_by_author_id_df.drop(["id","issue", "volume", "chapternumber", "author", "id", "event"], axis=1, inplace=True)
+            # Relational Dataframe clean up. We recive too many columns and "id" is repeated too many times.
+            relational_publications_by_author_id_df.set_axis([
+                                                "internalId",
+                                                "publicationId",
+                                                "publicationTitle",
+                                                "publicationYear",
+                                                "issue",
+                                                "volume",
+                                                "chapternumber",
+                                                "author",
+                                                "authorId",
+                                                "event",
+                                            ],
+                                            axis = 'columns',
+                                            inplace = True
+                                        )
+
+            relational_publications_by_author_id_df.drop(["internalId","issue", "volume", "chapternumber", "author", "authorId", "event"], axis=1, inplace=True)
             # Rename Data Frame columns.
             relational_publications_by_author_id_df.rename(
                     columns = { 
-                        'internalID'      :'publication_doi', 
-                        'publication_year':'publication_year', 
-                        'title'           :'publication_title'
+                        'publicationId'   :'publication_doi',
+                        'publicationYear' :'publication_year', 
+                        'publicationTitle':'publication_title'
                     }, 
                     inplace = True,
                     errors  = 'raise'
@@ -807,9 +823,9 @@ class GenericQueryProcessor(object):
             # Rename Data Frame columns.
             triplestore_most_cited_publication_df.rename(
                 columns = {
-                    'publicationId'   :'publication_doi', 
-                    'publicationYear' :'publication_year', 
+                    'publicationId'   :'publication_doi',
                     'publicationTitle':'publication_title', 
+                    'publicationYear' :'publication_year'
                 }, 
                 inplace = True,
                 errors  = 'raise'
@@ -817,18 +833,64 @@ class GenericQueryProcessor(object):
 
         # Relational Dataframe clean up.
         if not relational_most_cited_publication_df.empty:
-            # Relational Dataframe clean up.
-            #relational_most_cited_publication_df.drop(["internalID","issue", "volume", "chapternumber"], axis=1, inplace=True)
+            
+            # Relational Dataframe clean up. We recive too many columns with same label. E.g. "id" is repeated too many times.
+            relational_most_cited_publication_df.set_axis([
+                                            "internalId",
+                                            "publicationId",
+                                            "publicationTitle",
+                                            "publicationYear",
+                                            "issue",
+                                            "volume",
+                                            "chapternumber",
+                                            "author",
+                                            "authorId",
+                                            "given_name",
+                                            "family_name",
+                                            "PublicationVenue",
+                                            "venueID",
+                                            "venueTitle",
+                                            "event",
+                                            "Publisher",
+                                            "publisherId",
+                                            "name",
+                                            "organizationId"
+                                        ],
+                                        axis = 'columns',
+                                        inplace = True
+                                    )
+
+            relational_most_cited_publication_df.drop([
+                                            "internalId",
+                                            "issue","volume",
+                                            "chapternumber",
+                                            "author",
+                                            "authorId",
+                                            "given_name",
+                                            "family_name",
+                                            "PublicationVenue",
+                                            "venueID",
+                                            "venueTitle",
+                                            "event",
+                                            "Publisher",
+                                            "publisherId",
+                                            "name",
+                                            "organizationId"
+                                        ],
+                                        axis = 'columns',
+                                        inplace=True
+                                    )
+            
             # Rename Data Frame columns.
             relational_most_cited_publication_df.rename(
-                    columns = { 
+                columns = { 
                     'publicationId'   :'publication_doi', 
-                    'publicationYear' :'publication_year', 
-                    'publicationTitle':'publication_title', 
-                    }, 
-                    inplace = True,
-                    errors  = 'raise'
-                )
+                    'publicationTitle':'publication_title',
+                    'publicationYear' :'publication_year'
+                }, 
+                inplace = True,
+                errors  = 'raise'
+            )
  
         # Concatenate both DataFrame(s).
         most_cited_publication_df: DataFrame = pd.concat(

@@ -170,7 +170,7 @@ def app():
 
                 do_publications_by_author_id(generic)
 
-                # do_most_cited_publication(generic)
+                do_most_cited_publication(generic)
 
                 # do_most_cited_venue(generic)
 
