@@ -1,80 +1,88 @@
 Publications published in 2020:
 
 
-Doi: doi:10.1007/978-3-030-62466-8_41.
-Name: Google Dataset Search By The Numbers.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-42517-3_1.
-Name: Comparative Study Of Rdf And Owl Ontology Languages As Support For The Semantic Web.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-58285-2_27.
-Name: Fast Pathfinding In Knowledge Graphs Using Word Embeddings.
-Year: 2020.
-
-Doi: doi:10.1080/17538947.2020.1738568.
-Name: Geo-Analytical Question-Answering With Gis.
-Year: 2020.
-
-Doi: doi:10.1016/j.ijinfomgt.2019.05.008.
-Name: The Dual Effects Of The Internet Of Things (Iot): A Systematic Review Of The Benefits And Risks Of Iot Adoption By Organizations.
-Year: 2020.
-
-Doi: doi:10.3390/app10144893.
-Name: Cognitive Aspects-Based Short Text Representation With Named Entity, Concept And Knowledge.
-Year: 2020.
-
-Doi: doi:10.1002/eng2.12217.
-Name: What Is Knowledge In Industry 4.0?.
-Year: 2020.
-
-Doi: doi:10.1590/1678-9865202032e180077.
-Name: ConstrucciÃ³n De Una Red De OntologÃ­as Sobre Eventos MeteorolÃ³gicos A Partir De PeriÃ³dicos HistÃ³ricos.
-Year: 2020.
-
-Doi: doi:10.1093/nar/gkaa753.
-Name: Iddb: A Comprehensive Resource Featuring Genes, Variants And Characteristics Associated With Infertility.
-Year: 2020.
-
-Doi: doi:10.1108/bpmj-05-2019-0183.
-Name: Knowledge Management In Improving Business Process: An Interpretative Framework For Successful Implementation Of AiâCrmâKm System In Organizations.
-Year: 2020.
-
 Doi: doi:10.1007/978-3-030-65847-2_11.
 Name: Mapping The Web Ontology Language To The Openapi Specification.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-59621-7_2.
-Name: Malont: An Ontology For Malware Threat Intelligence.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-60276-5_25.
-Name: Legal Tech: Documentsâ Validation Method Based On The Associative-Ontological Approach.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-61380-8_3.
-Name: Agentdevlaw: A Middleware Architecture For Integrating Legal Ontologies And Multi-Agent Systems.
 Year: 2020.
 
 Doi: doi:10.1007/978-3-030-62015-8_2.
 Name: Croppesto: An Ontology Model For Identifying And Managing Plant Pests And Diseases.
 Year: 2020.
 
-Doi: doi:10.1007/978-3-030-50316-1_26.
-Name: Ontology Evolution In The Context Of Model-Based Secure Software Engineering.
+Doi: doi:10.4018/978-1-7998-1934-9.ch013.
+Name: Model Based On Ontological Engineering As Support For Stakeholder Management.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-37933-9_8.
+Name: Maturity Assessment Of Togaf Adm Using Enterprise Architecture Model Analysis And Description Logics.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-49461-2_4.
+Name: A Simple Method For Inducing Class Taxonomies In Knowledge Graphs.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-42517-3_1.
+Name: Comparative Study Of Rdf And Owl Ontology Languages As Support For The Semantic Web.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-62466-8_41.
+Name: Google Dataset Search By The Numbers.
 Year: 2020.
 
 Doi: doi:10.1007/978-3-030-46970-2_22.
 Name: Towards A More Reproducible Biomedical Research Environment: Endorsement And Adoption Of The Fair Principles.
 Year: 2020.
 
-Doi: doi:10.1007/978-3-030-54956-5_2.
-Name: Question Answering On Scholarly Knowledge Graphs.
+Doi: doi:10.1007/978-3-030-58285-2_27.
+Name: Fast Pathfinding In Knowledge Graphs Using Word Embeddings.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-61380-8_3.
+Name: Agentdevlaw: A Middleware Architecture For Integrating Legal Ontologies And Multi-Agent Systems.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-60276-5_25.
+Name: Legal Tech: Documentsâ Validation Method Based On The Associative-Ontological Approach.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-49461-2_31.
+Name: Vquanda: Verbalization Question Answering Dataset.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-59833-4_1.
+Name: The New Dbpedia Release Cycle: Increasing Agility And Efficiency In Knowledge Extraction Workflows.
 Year: 2020.
 
 Doi: doi:10.1007/978-3-030-62466-8_1.
 Name: Casqad â A New Dataset For Context-Aware Spatial Question Answering.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-50316-1_26.
+Name: Ontology Evolution In The Context Of Model-Based Secure Software Engineering.
+Year: 2020.
+
+Doi: doi:10.4018/978-1-7998-1863-2.ch002.
+Name: Fuzzy Ontology For Requirements Determination And Documentation During Software Development.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-59621-7_2.
+Name: Malont: An Ontology For Malware Threat Intelligence.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-54956-5_2.
+Name: Question Answering On Scholarly Knowledge Graphs.
+Year: 2020.
+
+Doi: doi:10.4018/978-1-7998-2104-5.ch009.
+Name: Contemporary Archival Description As Required Digital Competence Of Today'S Archivists.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-49461-2_25.
+Name: Qanswer Kg: Designing A Portable Question Answering System Over Rdf Data.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-45442-5_78.
+Name: Graph-Based Entity-Oriented Search: A Unified Framework In Information Retrieval.
 Year: 2020.
 
 Doi: doi:10.1007/978-3-030-39459-2_2.
@@ -85,360 +93,352 @@ Doi: doi:10.1007/978-3-030-54956-5_1.
 Name: Requirements Analysis For An Open Research Knowledge Graph.
 Year: 2020.
 
-Doi: doi:10.1007/978-3-030-50146-4_31.
-Name: Image-Based World-Perceiving Knowledge Graph (Wpkg) With Imprecision.
-Year: 2020.
-
-Doi: doi:10.4018/978-1-7998-1934-9.ch013.
-Name: Model Based On Ontological Engineering As Support For Stakeholder Management.
+Doi: doi:10.1007/978-3-030-44584-3_39.
+Name: Orometric Methods In Bounded Metric Data.
 Year: 2020.
 
 Doi: doi:10.1007/978-3-030-63799-6_17.
 Name: Semantic Technologies Towards Accountable Artificial Intelligence: A Poultry Chain Management Use Case.
 Year: 2020.
 
-Doi: doi:10.1007/978-3-030-45442-5_78.
-Name: Graph-Based Entity-Oriented Search: A Unified Framework In Information Retrieval.
-Year: 2020.
-
-Doi: doi:10.4018/978-1-7998-1863-2.ch002.
-Name: Fuzzy Ontology For Requirements Determination And Documentation During Software Development.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-44584-3_39.
-Name: Orometric Methods In Bounded Metric Data.
-Year: 2020.
-
 Doi: doi:10.1007/978-3-030-45442-5_15.
 Name: Machine-Actionable Data Management Plans: A Knowledge Retrieval Approach To Automate The Assessment Of Fundersâ Requirements.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-37933-9_8.
-Name: Maturity Assessment Of Togaf Adm Using Enterprise Architecture Model Analysis And Description Logics.
 Year: 2020.
 
 Doi: doi:10.4018/978-1-5225-9687-5.ch002.
 Name: Ontology-Based Open Tourism Data Integration Framework.
 Year: 2020.
 
-Doi: doi:10.1007/978-3-030-59833-4_1.
-Name: The New Dbpedia Release Cycle: Increasing Agility And Efficiency In Knowledge Extraction Workflows.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-49461-2_4.
-Name: A Simple Method For Inducing Class Taxonomies In Knowledge Graphs.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-49461-2_31.
-Name: Vquanda: Verbalization Question Answering Dataset.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-49461-2_25.
-Name: Qanswer Kg: Designing A Portable Question Answering System Over Rdf Data.
-Year: 2020.
-
-Doi: doi:10.4018/978-1-7998-2104-5.ch009.
-Name: Contemporary Archival Description As Required Digital Competence Of Today'S Archivists.
-Year: 2020.
-
-Doi: doi:10.3390/info11030129.
-Name: The ZaragozaâS Knowledge Graph: Open Data To Harness The City Knowledge.
-Year: 2020.
-
-Doi: doi:10.1093/jamiaopen/ooaa030.
-Name: The Case For Open Science: Rare Diseases.
-Year: 2020.
-
-Doi: doi:10.3390/designs4040047.
-Name: SympÃ©rasmology: A Proposal For The Theory Of Synthetic System Knowledge.
-Year: 2020.
-
-Doi: doi:10.1145/3369875.
-Name: What Are Links In Linked Open Data? A Characterization And Evaluation Of Links Between Knowledge Graphs On The Web.
-Year: 2020.
-
-Doi: doi:10.1186/s12911-020-01267-y.
-Name: Conversational Ontology Operator: Patient-Centric Vaccine Dialogue Management Engine For Spoken Conversational Agents.
-Year: 2020.
-
-Doi: doi:10.1093/jamia/ocaa061.
-Name: Development Of The Gender, Sex, And Sexual Orientation Ontology: Evaluation And Workflow.
-Year: 2020.
-
-Doi: doi:10.1145/3345551.
-Name: Large-Scale Semantic Integration Of Linked Data.
-Year: 2020.
-
-Doi: doi:10.1016/j.eswa.2019.112965.
-Name: Automating The Expansion Of A Knowledge Graph.
-Year: 2020.
-
-Doi: doi:10.1017/s1471068420000101.
-Name: Restricted Chase Termination For Existential Rules: A Hierarchical Approach And Experimentation.
-Year: 2020.
-
-Doi: doi:10.1007/s10462-020-09866-x.
-Name: Survey On Evaluation Methods For Dialogue Systems.
-Year: 2020.
-
-Doi: doi:10.1111/tgis.12602.
-Name: Categories Are In Flux, But Their Computational Representations Are Fixed: That'S A Problem.
-Year: 2020.
-
-Doi: doi:10.1371/journal.pcbi.1008453.
-Name: Deeppheno: Predicting Single Gene Loss-Of-Function Phenotypes Using An Ontology-Aware Hierarchical Classifier.
-Year: 2020.
-
-Doi: doi:10.3390/electronics9050750.
-Name: A Survey On Knowledge Graph Embedding: Approaches, Applications And Benchmarks.
-Year: 2020.
-
-Doi: doi:10.1016/j.eswa.2020.113205.
-Name: Data-Driven Construction Of Sparql Queries By Approximate Question Graph Alignment In Question Answering Over Knowledge Graphs.
-Year: 2020.
-
-Doi: doi:10.1016/j.eswa.2019.113135.
-Name: Iota: Interlinking Of Heterogeneous Multilingual Open Fiscal Data.
-Year: 2020.
-
-Doi: doi:10.5028/jatm.v12.1098.
-Name: Aeb Online Calculator For Assessing Technology Maturity: Imatec.
-Year: 2020.
-
-Doi: doi:10.1007/s12652-020-02150-4.
-Name: Ontological Concepts For Information Sharing In Cloud Robotics.
-Year: 2020.
-
-Doi: doi:10.1016/j.yjbinx.2020.100074.
-Name: Interoperability Of Population-Based Patient Registries.
-Year: 2020.
-
-Doi: doi:10.3390/en13153990.
-Name: Constrained Generation Bids In Local Electricity Markets: A Semantic Approach.
-Year: 2020.
-
-Doi: doi:10.4018/ijhcitp.2020070105.
-Name: Integrating Cobit 5 Pam And Tipa For Itil Using An Ontology Matching System.
-Year: 2020.
-
-Doi: doi:10.1093/nar/gkaa980.
-Name: Genenames.Org: The Hgnc And Vgnc Resources In 2021.
+Doi: doi:10.1007/978-3-030-50146-4_31.
+Name: Image-Based World-Perceiving Knowledge Graph (Wpkg) With Imprecision.
 Year: 2020.
 
 Doi: doi:10.3390/a13090217.
 Name: R2D2: A Dbpedia Chatbot Using Triple-Pattern Like Queries.
 Year: 2020.
 
-Doi: doi:10.15407/csc.2020.04.044.
-Name: Ontology Application To Construct Inductive Modeling Tools With Intelligent Interface.
-Year: 2020.
-
-Doi: doi:10.1177/0165551520911590.
-Name: An Ensemble Clustering Approach For Topic Discovery Using Implicit Text Segmentation.
-Year: 2020.
-
-Doi: doi:10.7466/jfbl.2020.38.4.1.
-Name: An Ontology Of Intimate Partnerships For Social Big Data Research.
-Year: 2020.
-
-Doi: doi:10.1007/s13218-020-00686-3.
-Name: Ontologies And Data Management: A Brief Survey.
-Year: 2020.
-
-Doi: doi:10.1145/3407194.
-Name: Early Detection Of Social Media Hoaxes At Scale.
-Year: 2020.
-
-Doi: doi:10.1017/s026988892000017x.
-Name: Sanom-Hobbit: Simulated Annealing-Based Ontology Matching On Hobbit Platform.
-Year: 2020.
-
-Doi: doi:10.1038/s41581-020-00335-w.
-Name: Modelling Kidney Disease Using Ontology: Insights From The Kidney Precision Medicine Project.
-Year: 2020.
-
-Doi: doi:10.4018/ijkss.2020040101.
-Name: Discovering Cross-Disciplinary Concepts In Multidisciplinary Context Through Collaborative Framework.
-Year: 2020.
-
-Doi: doi:10.1002/er.5262.
-Name: Formal Development Of An Operation Monitoring And Control System For Nuclear Reactors Using EventâB Method.
-Year: 2020.
-
-Doi: doi:10.1007/s11280-020-00836-5.
-Name: Temporal Knowledge Extraction From Large-Scale Text Corpus.
-Year: 2020.
-
 Doi: doi:10.12688/f1000research.25144.1.
 Name: Dictionary Of Disease Ontologies (Dodo): A Graph Database To Facilitate Access And Interaction With Disease And Phenotype Ontologies.
 Year: 2020.
 
-Doi: doi:10.3390/app10020591.
-Name: An Analytical Game For Knowledge Acquisition For Maritime Behavioral Analysis Systems.
-Year: 2020.
-
-Doi: doi:10.1017/s0266462320000471.
-Name: Exploring The Identification, Validation, And Categorization Of The Cost And Benefits Of Criminal Justice In Mental Health: The Pecunia Project.
-Year: 2020.
-
-Doi: doi:10.1007/s10462-020-09826-5.
-Name: A Short Survey On End-To-End Simple Question Answering Systems.
-Year: 2020.
-
-Doi: doi:10.1007/s10115-020-01498-5.
-Name: Snowl Model: Social Networks Unification-Based Semantic Data Integration.
+Doi: doi:10.1007/s12652-020-02150-4.
+Name: Ontological Concepts For Information Sharing In Cloud Robotics.
 Year: 2020.
 
 Doi: doi:10.1093/ije/dyz051.
 Name: Availability, Access, Analysis And Dissemination Of Small-Area Data.
 Year: 2020.
 
-Doi: doi:10.1007/s11192-020-03397-6.
-Name: The Practice Of Self-Citations: A Longitudinal Study.
+Doi: doi:10.17645/pag.v8i2.2591.
+Name: Integrating Manual And Automatic Annotation For The Creation Of Discourse Network Data Sets.
 Year: 2020.
 
-Doi: doi:10.1093/nar/gkaa1043.
-Name: The Human Phenotype Ontology In 2021.
+Doi: doi:10.1145/3407194.
+Name: Early Detection Of Social Media Hoaxes At Scale.
 Year: 2020.
 
-Doi: doi:10.1177/1420326x20952817.
-Name: Simulated Physical Ageing: A Prioritized Persona-Based Model For Accessible Interiors In Senior Housing Environments.
-Year: 2020.
-
-Doi: doi:10.3390/data5020046.
-Name: Standartox: Standardizing Toxicity Data.
+Doi: doi:10.1016/j.eswa.2019.112965.
+Name: Automating The Expansion Of A Knowledge Graph.
 Year: 2020.
 
 Doi: doi:10.1007/s00521-020-05491-5.
 Name: Automated Organization Of Interaction Between Modules Of Information Systems Based On Neural Network Data Channels.
 Year: 2020.
 
-Doi: doi:10.1007/s11629-019-5576-7.
-Name: Augmented Planning Support System Framework For Mountainous Urban Master Planning.
-Year: 2020.
-
-Doi: doi:10.1016/j.patter.2020.100136.
-Name: Dataset Reuse: Toward Translating Principles To Practice.
-Year: 2020.
-
-Doi: doi:10.3390/app10031040.
-Name: Agrient: A Knowledge-Based Web Platform For Managing Insect Pests Of Field Crops.
-Year: 2020.
-
-Doi: doi:10.1145/3371315.
-Name: Mining Expressive Rules In Knowledge Graphs.
-Year: 2020.
-
-Doi: doi:10.1186/s12911-020-01336-2.
-Name: Towards Semantic Interoperability: Finding And Repairing Hidden Contradictions In Biomedical Ontologies.
-Year: 2020.
-
-Doi: doi:10.3390/info11050263.
-Name: Modeling Popularity And Reliability Of Sources In Multilingual Wikipedia.
-Year: 2020.
-
-Doi: doi:10.1007/s42421-020-00023-y.
-Name: A Rubric-Driven Evaluation Of Open Data Portals And Their Data In Transportation.
-Year: 2020.
-
-Doi: doi:10.1093/g3journal/jkaa035.
-Name: Insights From The Reanalysis Of High-Throughput Chemical Genomics Data For Escherichia Coli K-12.
-Year: 2020.
-
-Doi: doi:10.1108/dta-09-2019-0164.
-Name: Computational Implementation And Formalism Of Fair Data Stewardship Principles.
-Year: 2020.
-
-Doi: doi:10.1093/bioinformatics/btaa879.
-Name: Predicting Candidate Genes From Phenotypes, Functions And Anatomical Site Of Expression.
-Year: 2020.
-
-Doi: doi:10.1007/s13218-020-00655-w.
-Name: Lethe: Forgetting And Uniform Interpolation For Expressive Description Logics.
-Year: 2020.
-
-Doi: doi:10.3390/ijgi9100588.
-Name: A Built Heritage Information System Based On Point Cloud Data: His-Pc.
-Year: 2020.
-
-Doi: doi:10.17645/pag.v8i2.2591.
-Name: Integrating Manual And Automatic Annotation For The Creation Of Discourse Network Data Sets.
-Year: 2020.
-
-Doi: doi:10.1007/s11280-020-00842-7.
-Name: Using Context Information To Enhance Simple Question Answering.
-Year: 2020.
-
-Doi: doi:10.1371/journal.pone.0236863.
-Name: Microblog Topic Identification Using Linked Open Data.
-Year: 2020.
-
-Doi: doi:10.1108/jmtm-04-2020-0137.
-Name: Application Of Design Thinking To Product-Configuration Projects.
-Year: 2020.
-
-Doi: doi:10.1016/j.jbi.2020.103504.
-Name: A Knowledge-Based System To Find Over-The-Counter Medicines For Self-Medication.
-Year: 2020.
-
-Doi: doi:10.1002/cpe.5744.
-Name: Enhanced Semantic Representation Of Coaxiality With Double Material Requirements.
+Doi: doi:10.1016/j.eswa.2019.113135.
+Name: Iota: Interlinking Of Heterogeneous Multilingual Open Fiscal Data.
 Year: 2020.
 
 Doi: doi:10.1186/s12911-020-01291-y.
 Name: Analysis Of Readability And Structural Accuracy In Snomed Ct.
 Year: 2020.
 
-Doi: doi:10.1108/ajim-11-2019-0320.
-Name: Participatory Design For Ontologies: A Case Study Of An Open Science Ontology For Qualitative Coding Schemas.
+Doi: doi:10.1016/j.eswa.2020.113205.
+Name: Data-Driven Construction Of Sparql Queries By Approximate Question Graph Alignment In Question Answering Over Knowledge Graphs.
 Year: 2020.
 
-Doi: doi:10.1177/0165551520921342.
-Name: A Survey On Automatically Constructed Universal Knowledge Bases.
+Doi: doi:10.1038/s41581-020-00335-w.
+Name: Modelling Kidney Disease Using Ontology: Insights From The Kidney Precision Medicine Project.
 Year: 2020.
 
-Doi: doi:10.1017/s0269888920000065.
-Name: Ontology Engineering Methodologies For The Evolution Of Living And Reused Ontologies: Status, Trends, Findings And Recommendations.
+Doi: doi:10.1080/17538947.2020.1738568.
+Name: Geo-Analytical Question-Answering With Gis.
+Year: 2020.
+
+Doi: doi:10.1007/s13218-020-00686-3.
+Name: Ontologies And Data Management: A Brief Survey.
+Year: 2020.
+
+Doi: doi:10.1093/nar/gkaa1043.
+Name: The Human Phenotype Ontology In 2021.
 Year: 2020.
 
 Doi: doi:10.1111/exsy.12629.
 Name: A SemanticâEnabled And ContextâAware Monitoring System For The Internet Of Medical Things.
 Year: 2020.
 
-Doi: doi:10.3390/app10186328.
-Name: Ontology Fixing By Using Software Engineering Technology.
+Doi: doi:10.3390/designs4040047.
+Name: SympÃ©rasmology: A Proposal For The Theory Of Synthetic System Knowledge.
 Year: 2020.
 
-Doi: doi:10.1007/s12008-020-00712-6.
-Name: Knowledge Management For Modeled Heritage Objects, Requirement Specifications Towards A Tool For Heterogeneity Embracing.
+Doi: doi:10.1093/g3journal/jkaa035.
+Name: Insights From The Reanalysis Of High-Throughput Chemical Genomics Data For Escherichia Coli K-12.
 Year: 2020.
 
-Doi: doi:10.1371/journal.pcbi.1008376.
-Name: Transforming The Study Of Organisms: Phenomic Data Models And Knowledge Bases.
+Doi: doi:10.1145/3345551.
+Name: Large-Scale Semantic Integration Of Linked Data.
+Year: 2020.
+
+Doi: doi:10.1002/eng2.12217.
+Name: What Is Knowledge In Industry 4.0?.
 Year: 2020.
 
 Doi: doi:10.2196/20443.
 Name: Ontological Organization And Bioinformatic Analysis Of Adverse Drug Reactions From Package Inserts: Development And Usability Study.
 Year: 2020.
 
-Doi: doi:10.1162/dint_a_00030.
-Name: Fair Data Reuse â The Path Through Data Citation.
+Doi: doi:10.3390/en13153990.
+Name: Constrained Generation Bids In Local Electricity Markets: A Semantic Approach.
+Year: 2020.
+
+Doi: doi:10.1016/j.patter.2020.100136.
+Name: Dataset Reuse: Toward Translating Principles To Practice.
+Year: 2020.
+
+Doi: doi:10.1002/cpe.5744.
+Name: Enhanced Semantic Representation Of Coaxiality With Double Material Requirements.
+Year: 2020.
+
+Doi: doi:10.1016/j.yjbinx.2020.100074.
+Name: Interoperability Of Population-Based Patient Registries.
+Year: 2020.
+
+Doi: doi:10.1007/s11192-020-03397-6.
+Name: The Practice Of Self-Citations: A Longitudinal Study.
+Year: 2020.
+
+Doi: doi:10.15407/csc.2020.04.044.
+Name: Ontology Application To Construct Inductive Modeling Tools With Intelligent Interface.
+Year: 2020.
+
+Doi: doi:10.3390/app10186328.
+Name: Ontology Fixing By Using Software Engineering Technology.
+Year: 2020.
+
+Doi: doi:10.7466/jfbl.2020.38.4.1.
+Name: An Ontology Of Intimate Partnerships For Social Big Data Research.
+Year: 2020.
+
+Doi: doi:10.1017/s1471068420000101.
+Name: Restricted Chase Termination For Existential Rules: A Hierarchical Approach And Experimentation.
+Year: 2020.
+
+Doi: doi:10.3390/info11030129.
+Name: The ZaragozaâS Knowledge Graph: Open Data To Harness The City Knowledge.
+Year: 2020.
+
+Doi: doi:10.1093/nar/gkaa753.
+Name: Iddb: A Comprehensive Resource Featuring Genes, Variants And Characteristics Associated With Infertility.
+Year: 2020.
+
+Doi: doi:10.1007/s13218-020-00655-w.
+Name: Lethe: Forgetting And Uniform Interpolation For Expressive Description Logics.
+Year: 2020.
+
+Doi: doi:10.4018/ijkss.2020040101.
+Name: Discovering Cross-Disciplinary Concepts In Multidisciplinary Context Through Collaborative Framework.
+Year: 2020.
+
+Doi: doi:10.1186/s12911-020-01267-y.
+Name: Conversational Ontology Operator: Patient-Centric Vaccine Dialogue Management Engine For Spoken Conversational Agents.
+Year: 2020.
+
+Doi: doi:10.3390/data5020046.
+Name: Standartox: Standardizing Toxicity Data.
+Year: 2020.
+
+Doi: doi:10.1371/journal.pone.0236863.
+Name: Microblog Topic Identification Using Linked Open Data.
+Year: 2020.
+
+Doi: doi:10.1016/j.jbi.2020.103504.
+Name: A Knowledge-Based System To Find Over-The-Counter Medicines For Self-Medication.
+Year: 2020.
+
+Doi: doi:10.1093/jamia/ocaa061.
+Name: Development Of The Gender, Sex, And Sexual Orientation Ontology: Evaluation And Workflow.
+Year: 2020.
+
+Doi: doi:10.1007/s12008-020-00712-6.
+Name: Knowledge Management For Modeled Heritage Objects, Requirement Specifications Towards A Tool For Heterogeneity Embracing.
+Year: 2020.
+
+Doi: doi:10.1371/journal.pcbi.1008453.
+Name: Deeppheno: Predicting Single Gene Loss-Of-Function Phenotypes Using An Ontology-Aware Hierarchical Classifier.
+Year: 2020.
+
+Doi: doi:10.1177/0165551520911590.
+Name: An Ensemble Clustering Approach For Topic Discovery Using Implicit Text Segmentation.
+Year: 2020.
+
+Doi: doi:10.1002/er.5262.
+Name: Formal Development Of An Operation Monitoring And Control System For Nuclear Reactors Using EventâB Method.
+Year: 2020.
+
+Doi: doi:10.5028/jatm.v12.1098.
+Name: Aeb Online Calculator For Assessing Technology Maturity: Imatec.
+Year: 2020.
+
+Doi: doi:10.3390/app10031040.
+Name: Agrient: A Knowledge-Based Web Platform For Managing Insect Pests Of Field Crops.
+Year: 2020.
+
+Doi: doi:10.1016/j.ijinfomgt.2019.05.008.
+Name: The Dual Effects Of The Internet Of Things (Iot): A Systematic Review Of The Benefits And Risks Of Iot Adoption By Organizations.
+Year: 2020.
+
+Doi: doi:10.1017/s0269888920000065.
+Name: Ontology Engineering Methodologies For The Evolution Of Living And Reused Ontologies: Status, Trends, Findings And Recommendations.
+Year: 2020.
+
+Doi: doi:10.1108/bpmj-05-2019-0183.
+Name: Knowledge Management In Improving Business Process: An Interpretative Framework For Successful Implementation Of AiâCrmâKm System In Organizations.
+Year: 2020.
+
+Doi: doi:10.1007/s11280-020-00842-7.
+Name: Using Context Information To Enhance Simple Question Answering.
 Year: 2020.
 
 Doi: doi:10.1007/s10796-020-10035-2.
 Name: An Overview Of Utilizing Knowledge Bases In Neural Networks For Question Answering.
 Year: 2020.
 
-Doi: doi:10.1007/s10639-020-10226-z.
-Name: Ontologies In Education â State Of The Art.
+Doi: doi:10.1108/jmtm-04-2020-0137.
+Name: Application Of Design Thinking To Product-Configuration Projects.
+Year: 2020.
+
+Doi: doi:10.1371/journal.pcbi.1008376.
+Name: Transforming The Study Of Organisms: Phenomic Data Models And Knowledge Bases.
+Year: 2020.
+
+Doi: doi:10.1145/3371315.
+Name: Mining Expressive Rules In Knowledge Graphs.
+Year: 2020.
+
+Doi: doi:10.1017/s0266462320000471.
+Name: Exploring The Identification, Validation, And Categorization Of The Cost And Benefits Of Criminal Justice In Mental Health: The Pecunia Project.
+Year: 2020.
+
+Doi: doi:10.3390/app10020591.
+Name: An Analytical Game For Knowledge Acquisition For Maritime Behavioral Analysis Systems.
+Year: 2020.
+
+Doi: doi:10.1093/bioinformatics/btaa879.
+Name: Predicting Candidate Genes From Phenotypes, Functions And Anatomical Site Of Expression.
+Year: 2020.
+
+Doi: doi:10.1007/s10462-020-09826-5.
+Name: A Short Survey On End-To-End Simple Question Answering Systems.
+Year: 2020.
+
+Doi: doi:10.1111/tgis.12602.
+Name: Categories Are In Flux, But Their Computational Representations Are Fixed: That'S A Problem.
+Year: 2020.
+
+Doi: doi:10.1017/s026988892000017x.
+Name: Sanom-Hobbit: Simulated Annealing-Based Ontology Matching On Hobbit Platform.
+Year: 2020.
+
+Doi: doi:10.1108/ajim-11-2019-0320.
+Name: Participatory Design For Ontologies: A Case Study Of An Open Science Ontology For Qualitative Coding Schemas.
+Year: 2020.
+
+Doi: doi:10.1093/jamiaopen/ooaa030.
+Name: The Case For Open Science: Rare Diseases.
+Year: 2020.
+
+Doi: doi:10.3390/app10144893.
+Name: Cognitive Aspects-Based Short Text Representation With Named Entity, Concept And Knowledge.
+Year: 2020.
+
+Doi: doi:10.1145/3369875.
+Name: What Are Links In Linked Open Data? A Characterization And Evaluation Of Links Between Knowledge Graphs On The Web.
+Year: 2020.
+
+Doi: doi:10.1093/nar/gkaa980.
+Name: Genenames.Org: The Hgnc And Vgnc Resources In 2021.
+Year: 2020.
+
+Doi: doi:10.1186/s12911-020-01336-2.
+Name: Towards Semantic Interoperability: Finding And Repairing Hidden Contradictions In Biomedical Ontologies.
 Year: 2020.
 
 Doi: doi:10.3390/app10072277.
 Name: The Systematic Design Of Industrial Products Through Design Archetypes: An Application On Mechanical Transmissions.
 Year: 2020.
 
+Doi: doi:10.3390/info11050263.
+Name: Modeling Popularity And Reliability Of Sources In Multilingual Wikipedia.
+Year: 2020.
+
+Doi: doi:10.1108/dta-09-2019-0164.
+Name: Computational Implementation And Formalism Of Fair Data Stewardship Principles.
+Year: 2020.
+
+Doi: doi:10.1177/1420326x20952817.
+Name: Simulated Physical Ageing: A Prioritized Persona-Based Model For Accessible Interiors In Senior Housing Environments.
+Year: 2020.
+
+Doi: doi:10.4018/ijhcitp.2020070105.
+Name: Integrating Cobit 5 Pam And Tipa For Itil Using An Ontology Matching System.
+Year: 2020.
+
+Doi: doi:10.1590/1678-9865202032e180077.
+Name: ConstrucciÃ³n De Una Red De OntologÃ­as Sobre Eventos MeteorolÃ³gicos A Partir De PeriÃ³dicos HistÃ³ricos.
+Year: 2020.
+
+Doi: doi:10.1007/s42421-020-00023-y.
+Name: A Rubric-Driven Evaluation Of Open Data Portals And Their Data In Transportation.
+Year: 2020.
+
+Doi: doi:10.1177/0165551520921342.
+Name: A Survey On Automatically Constructed Universal Knowledge Bases.
+Year: 2020.
+
+Doi: doi:10.1162/dint_a_00030.
+Name: Fair Data Reuse â The Path Through Data Citation.
+Year: 2020.
+
+Doi: doi:10.1007/s10462-020-09866-x.
+Name: Survey On Evaluation Methods For Dialogue Systems.
+Year: 2020.
+
+Doi: doi:10.1007/s11280-020-00836-5.
+Name: Temporal Knowledge Extraction From Large-Scale Text Corpus.
+Year: 2020.
+
+Doi: doi:10.1007/s11629-019-5576-7.
+Name: Augmented Planning Support System Framework For Mountainous Urban Master Planning.
+Year: 2020.
+
+Doi: doi:10.3390/electronics9050750.
+Name: A Survey On Knowledge Graph Embedding: Approaches, Applications And Benchmarks.
+Year: 2020.
+
+Doi: doi:10.3390/ijgi9100588.
+Name: A Built Heritage Information System Based On Point Cloud Data: His-Pc.
+Year: 2020.
+
 Doi: doi:10.1002/cpe.5743.
 Name: Explicitly Semantic Representation Of Pattern And Combined Geometrical Specification.
+Year: 2020.
+
+Doi: doi:10.1007/s10115-020-01498-5.
+Name: Snowl Model: Social Networks Unification-Based Semantic Data Integration.
+Year: 2020.
+
+Doi: doi:10.1007/s10639-020-10226-z.
+Name: Ontologies In Education â State Of The Art.
 Year: 2020.
 
 Doi: doi:10.1162/qss_a_00023.

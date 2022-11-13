@@ -172,13 +172,13 @@ def app():
 
                 do_most_cited_publication(generic)
 
-                # do_most_cited_venue(generic)
+                # do_most_cited_venue(generic) #TODO: FIX - SQL query
 
-                # do_venues_by_publisher_id(generic)
+                do_venues_by_publisher_id(generic) #TODO: FIX - Triplestore creation of venueId resources
 
-                # do_publication_in_venue(generic)
+                # do_publication_in_venue(generic) #TODO: FIX - Triplestore creation of venueId resources & SQL query empty 
 
-                # do_journal_articles_in_issue(generic)
+                do_journal_articles_in_issue(generic) #TODO: FIX Triplestore empty & SQL no publication DOI
 
                 # do_journal_articles_in_volume(generic)
 

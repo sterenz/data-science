@@ -293,9 +293,9 @@ WHERE {
 # Journal articles in Issue. #
 #                            #
 ##############################
-JOURNAL_ARTICLES_IN_ISSUE_ISSUE    = '1'
-JOURNAL_ARTICLES_IN_ISSUE_VOLUME   = '37'
-JOURNAL_ARTICLES_IN_ISSUE_VENUE_ID = 'issn:1758-0463'
+JOURNAL_ARTICLES_IN_ISSUE_ISSUE    = '9'
+JOURNAL_ARTICLES_IN_ISSUE_VOLUME   = '17'
+JOURNAL_ARTICLES_IN_ISSUE_VENUE_ID = 'issn:2164-5515'
 
 JOURNAL_ARTICLES_IN_ISSUE = """
 PREFIX res:     <https://allorapy.github.io/res/>

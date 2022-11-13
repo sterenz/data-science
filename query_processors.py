@@ -762,7 +762,7 @@ class GenericQueryProcessor(object):
 
         # Relational Dataframe clean up.
         if not relational_publications_by_author_id_df.empty:
-            # Relational Dataframe clean up. We recive too many columns and "id" is repeated too many times.
+            # Relational Dataframe clean up.
             relational_publications_by_author_id_df.set_axis([
                                                 "internalId",
                                                 "publicationId",
@@ -779,6 +779,9 @@ class GenericQueryProcessor(object):
                                             inplace = True
                                         )
 
+            #TEST
+            print(relational_publications_by_author_id_df.head())
+
             relational_publications_by_author_id_df.drop(["internalId","issue", "volume", "chapternumber", "author", "authorId", "event"], axis=1, inplace=True)
             # Rename Data Frame columns.
             relational_publications_by_author_id_df.rename(
@@ -790,7 +793,12 @@ class GenericQueryProcessor(object):
                     inplace = True,
                     errors  = 'raise'
                 )
- 
+
+            #TEST
+            print(relational_publications_by_author_id_df.head())
+            #TEST
+            print(triplestore_publications_by_author_id_df.head())
+
         # Concatenate both DataFrame(s).
         publications_by_author_id_df: DataFrame = pd.concat(
                 [triplestore_publications_by_author_id_df, relational_publications_by_author_id_df],
@@ -810,6 +818,7 @@ class GenericQueryProcessor(object):
         most_cited_publication = []
 
         for processor in self.queryProcessor:
+
             # Type guard.
             if isinstance(processor, TriplestoreQueryProcessor):
                 triplestore_most_cited_publication_df = processor.getMostCitedPublication()
@@ -834,7 +843,7 @@ class GenericQueryProcessor(object):
         # Relational Dataframe clean up.
         if not relational_most_cited_publication_df.empty:
             
-            # Relational Dataframe clean up. We recive too many columns with same label. E.g. "id" is repeated too many times.
+            # Relational Dataframe clean up.
             relational_most_cited_publication_df.set_axis([
                                             "internalId",
                                             "publicationId",
@@ -913,6 +922,7 @@ class GenericQueryProcessor(object):
         most_cited_venue = []
 
         for processor in self.queryProcessor:
+
             # Type guard.
             if isinstance(processor, TriplestoreQueryProcessor):
                 triplestore_most_cited_venue_df = processor.getMostCitedVenue()
@@ -934,18 +944,32 @@ class GenericQueryProcessor(object):
                 )
             
         if relational_most_cited_venue_df.empty:
-            # Relational DataFrame Clean up.
-            #relational_most_cited_venue_df.drop(["venue", "noOfCites"], axis=1, inplace=True)
+            
+            # Relational Dataframe clean up.
+            relational_most_cited_venue_df.set_axis([
 
+                                        ],
+                                        axis = 'columns',
+                                        inplace = True
+                                    )
+
+            relational_most_cited_venue_df.drop([
+
+                                        ],
+                                        axis = 'columns',
+                                        inplace=True
+                                    )
+            
             # Rename Data Frame columns.
             relational_most_cited_venue_df.rename(
-                    columns = {
-                        'venueId'   :'venue_id', 
-                        'venueTitle':'venue_title', 
-                    }, 
-                    inplace = True,
-                    errors  = 'raise'
-                )
+                columns = { 
+                    'publicationId'   :'publication_doi', 
+                    'publicationTitle':'publication_title',
+                    'publicationYear' :'publication_year'
+                }, 
+                inplace = True,
+                errors  = 'raise'
+            )
 
         # Concatenate both DataFrame(s).
         most_cited_publication_df: DataFrame = pd.concat(
@@ -992,19 +1016,23 @@ class GenericQueryProcessor(object):
 
         # Relational Dataframe clean up.
         if not relational_venues_by_publisher_id_df.empty:
-            # Relational Dataframe clean up.
-            relational_venues_by_publisher_id_df.drop(["id"], axis=1, inplace=True) # Since two columns are named id both are dropped.
             
-            # Rename Data Frame columns.
-            relational_venues_by_publisher_id_df.rename(
-                    columns = {
-                        'id'  : 'venue_id', 
-                        'name': 'venue_title', 
-                    }, 
-                    inplace = True,
-                    errors  = 'raise'
-                )
+            # Relational Dataframe clean up.
+            relational_venues_by_publisher_id_df.set_axis([
+                                            "venue_id",
+                                            "crossref",
+                                            "venue_title"
+                                        ],
+                                        axis = 'columns',
+                                        inplace = True
+                                    )
 
+            relational_venues_by_publisher_id_df.drop([
+                                            "crossref"
+                                        ],
+                                        axis = 'columns',
+                                        inplace = True
+                                    )
             # Concatenate both DataFrame(s).
             most_cited_publication_df: DataFrame = pd.concat(
                     [triplestore_venues_by_publisher_id_df, relational_venues_by_publisher_id_df],
@@ -1102,22 +1130,34 @@ class GenericQueryProcessor(object):
                     errors  = 'raise'
                 )
 
+
+        # TEST
+        print(relational_journal_articles_in_issue_df.head())
+
         if not relational_journal_articles_in_issue_df.empty:
-            # Relational DataFrame clean up.
-            #relational_journal_articles_in_issue_df.drop(["JournalArticle", "journal", "venueId"], axis=1, inplace=True)
-                
-            # Rename Data Frame columns.
-            triplestore_journal_articles_in_issue_df.rename(
-                    columns = {
-                        'JournalArticleId'              :'journal_article_doi', 
-                        'JournalArticleTitle'           :'journal_article_title', 
-                        'JournalArticlePublicationYear' :'journal_article_publication_year', 
-                        'issue'                         :'issue', 
-                        'volume'                        :'volume', 
-                    }, 
-                    inplace = True,
-                    errors  = 'raise'
-                )
+            
+            # Relational DataFrame clean up.                
+            relational_journal_articles_in_issue_df.set_axis([
+                                            "journal_article_interal_id",
+                                            "journal_article_doi",
+                                            "journal_article_title",
+                                            "journal_article_publication_year",
+                                            "issue",
+                                            "volume",
+                                            "venue_id"
+
+                                        ],
+                                        axis = 'columns',
+                                        inplace = True
+                                    )
+
+            relational_journal_articles_in_issue_df.drop([
+                                            "journal_article_interal_id",
+                                            "venue_id"
+                                        ],
+                                        axis = 'columns',
+                                        inplace = True
+                                    )
 
         # Concatenate both DataFrame(s).
         journal_articles_in_issue_df: DataFrame = pd.concat(
