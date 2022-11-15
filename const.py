@@ -336,8 +336,8 @@ FILTER(?issue = '$ISSUE' && ?volume = '$VOLUME' && ?venueId = '$VENUE_ID')
 # Journal articles in Volume. #
 #                             #
 ###############################
-JOURNAL_ARTICLES_IN_VOLUME_VOLUME   = '37'
-JOURNAL_ARTICLES_IN_VOLUME_VENUE_ID = 'issn:1758-0463'
+JOURNAL_ARTICLES_IN_VOLUME_VOLUME   = '17'
+JOURNAL_ARTICLES_IN_VOLUME_VENUE_ID = 'issn:2164-5515'
 
 JOURNAL_ARTICLES_IN_VOLUME = """
 PREFIX res:     <https://allorapy.github.io/res/>

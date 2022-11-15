@@ -612,7 +612,7 @@ class RelationalQueryProcessor(RelationalProcessor):
     #             lst.append(df_sql)
     #     final = pd.concat(lst)
     #     return final
-    def getDistinctPublishersOfPublications(self, pubIdList):
+    def getDistinctPublisherOfPublications(self, pubIdList):
         lst = []
         for item in pubIdList:
             with connect(self.getDbPath()) as con:
@@ -779,9 +779,6 @@ class GenericQueryProcessor(object):
                                             inplace = True
                                         )
 
-            #TEST
-            print(relational_publications_by_author_id_df.head())
-
             relational_publications_by_author_id_df.drop(["internalId","issue", "volume", "chapternumber", "author", "authorId", "event"], axis=1, inplace=True)
             # Rename Data Frame columns.
             relational_publications_by_author_id_df.rename(
@@ -793,11 +790,6 @@ class GenericQueryProcessor(object):
                     inplace = True,
                     errors  = 'raise'
                 )
-
-            #TEST
-            print(relational_publications_by_author_id_df.head())
-            #TEST
-            print(triplestore_publications_by_author_id_df.head())
 
         # Concatenate both DataFrame(s).
         publications_by_author_id_df: DataFrame = pd.concat(
@@ -846,9 +838,9 @@ class GenericQueryProcessor(object):
             # Relational Dataframe clean up.
             relational_most_cited_publication_df.set_axis([
                                             "internalId",
-                                            "publicationId",
-                                            "publicationTitle",
-                                            "publicationYear",
+                                            "publication_doi",
+                                            "publication_title",
+                                            "publication_year",
                                             "issue",
                                             "volume",
                                             "chapternumber",
@@ -865,7 +857,7 @@ class GenericQueryProcessor(object):
                                             "name",
                                             "organizationId"
                                         ],
-                                        axis = 'columns',
+                                        axis = 1,
                                         inplace = True
                                     )
 
@@ -886,25 +878,15 @@ class GenericQueryProcessor(object):
                                             "name",
                                             "organizationId"
                                         ],
-                                        axis = 'columns',
-                                        inplace=True
+                                        axis = 1,
+                                        inplace = True
                                     )
-            
-            # Rename Data Frame columns.
-            relational_most_cited_publication_df.rename(
-                columns = { 
-                    'publicationId'   :'publication_doi', 
-                    'publicationTitle':'publication_title',
-                    'publicationYear' :'publication_year'
-                }, 
-                inplace = True,
-                errors  = 'raise'
-            )
+
  
         # Concatenate both DataFrame(s).
         most_cited_publication_df: DataFrame = pd.concat(
                 [triplestore_most_cited_publication_df, relational_most_cited_publication_df],
-                ignore_index=True, 
+                ignore_index=True 
             ).drop_duplicates().reset_index(drop=True)
 
         for idx, row in most_cited_publication_df.iterrows():
@@ -974,7 +956,7 @@ class GenericQueryProcessor(object):
         # Concatenate both DataFrame(s).
         most_cited_publication_df: DataFrame = pd.concat(
                 [triplestore_most_cited_venue_df, relational_most_cited_venue_df],
-                ignore_index=True, 
+                ignore_index=True 
             ).drop_duplicates().reset_index(drop=True)
 
 
@@ -1036,7 +1018,7 @@ class GenericQueryProcessor(object):
             # Concatenate both DataFrame(s).
             most_cited_publication_df: DataFrame = pd.concat(
                     [triplestore_venues_by_publisher_id_df, relational_venues_by_publisher_id_df],
-                    ignore_index=True, 
+                    ignore_index=True 
                 ).drop_duplicates().reset_index(drop=True)
 
             for idx, row in most_cited_publication_df.iterrows():
@@ -1091,7 +1073,7 @@ class GenericQueryProcessor(object):
         # Concatenate both DataFrame(s).
         publication_in_venue_df: DataFrame = pd.concat(
                 [triplestore_publication_in_venue_df, relational_publication_in_venue_df],
-                ignore_index=True, 
+                ignore_index=True 
             ).drop_duplicates().reset_index(drop=True)
 
         for idx, row in publication_in_venue_df.iterrows():
@@ -1130,10 +1112,6 @@ class GenericQueryProcessor(object):
                     errors  = 'raise'
                 )
 
-
-        # TEST
-        print(relational_journal_articles_in_issue_df.head())
-
         if not relational_journal_articles_in_issue_df.empty:
             
             # Relational DataFrame clean up.                
@@ -1162,7 +1140,7 @@ class GenericQueryProcessor(object):
         # Concatenate both DataFrame(s).
         journal_articles_in_issue_df: DataFrame = pd.concat(
                 [triplestore_journal_articles_in_issue_df, relational_journal_articles_in_issue_df],
-                ignore_index=True, 
+                ignore_index=True 
             ).drop_duplicates().reset_index(drop=True)
 
         for idx, row in journal_articles_in_issue_df.iterrows():
@@ -1227,7 +1205,7 @@ class GenericQueryProcessor(object):
          # Concatenate both DataFrame(s).
         journal_articles_in_volume_df: DataFrame = pd.concat(
                 [triplestore_journal_articles_in_volume_df, relational_journal_articles_in_volume_df],
-                ignore_index=True, 
+                ignore_index=True 
             ).drop_duplicates().reset_index(drop=True)
 
         for idx, row in journal_articles_in_volume_df.iterrows():
@@ -1292,7 +1270,7 @@ class GenericQueryProcessor(object):
          # Concatenate both DataFrame(s).
         journal_articles_in_journal_df: DataFrame = pd.concat(
                 [triplestore_journal_articles_in_journal_df, relational_journal_articles_in_journal_df],
-                ignore_index=True, 
+                ignore_index=True 
             ).drop_duplicates().reset_index(drop=True)
 
         for idx, row in journal_articles_in_journal_df.iterrows():
@@ -1352,37 +1330,36 @@ class GenericQueryProcessor(object):
                     errors  = 'raise'
                 )
             
-        if not relational_publication_authors_df.empty:
-            # Relational DataFrame clean up.
-            """
-            relational_publication_authors_df.drop(
-                    [
-                        "publication", 
-                        "publicationId", 
-                        "publicationYear", 
-                        "publicationTitle", 
-                        "author"
-                    ], 
-                    axis=1, 
-                    inplace=True
-                )
-            """
-            # Rename Data Frame columns.
-            relational_publication_authors_df.rename(
-                    columns = {
-                        'authorName'       :'author_name', 
-                        'authorFamilyName' :'author_family_name',
-                        'authorId'         :'author_id'
-                    }, 
-                    inplace = True,
-                    errors  = 'raise'
-                )
+        #if not relational_publication_authors_df.empty:
 
-         # Concatenate both DataFrame(s).
+        # Relational DataFrame clean up.
+        relational_publication_authors_df.set_axis(
+                [
+                    "internalId",
+                    "publicationId",
+                    "author_name",
+                    "author_family_name",
+                    "author_id"
+                ],
+                axis    = 1,
+                inplace = True
+            )
+
+        relational_publication_authors_df.drop(
+                [
+                    "internalId", 
+                    "publicationId"
+                ], 
+                axis    = 1, 
+                inplace = True
+            )
+
+        # Concatenate both DataFrame(s).
         publication_authors_df: DataFrame = pd.concat(
                 [triplestore_publication_authors_df, relational_publication_authors_df],
-                ignore_index=True, 
+                ignore_index = True
             ).drop_duplicates().reset_index(drop=True)
+
 
         for idx, row in publication_authors_df.iterrows():
 
@@ -1409,7 +1386,8 @@ class GenericQueryProcessor(object):
                 relational_publications_by_author_name_df = processor.getPublicationsByAuthorName(_authorPartialName)
 
         if not triplestore_publications_by_author_name_df.empty:
-            # Relational Dataframe clean up.
+
+            # Triplestore Dataframe clean up.
             triplestore_publications_by_author_name_df.drop(
                     [
                         "publication", 
@@ -1418,8 +1396,8 @@ class GenericQueryProcessor(object):
                         "authorFamilyName", 
                         "authorId"
                     ],
-                    axis=1,
-                    inplace=True
+                    axis    = 1,
+                    inplace = True
                 )
             # Rename Data Frame columns.
             triplestore_publications_by_author_name_df.rename(
@@ -1431,8 +1409,10 @@ class GenericQueryProcessor(object):
                     inplace = True,
                     errors  = 'raise'
                 )
+
         if not relational_publications_by_author_name_df.empty:
-            # Relational Dataframe clean up.
+    
+        # Relational Dataframe clean up.
             relational_publications_by_author_name_df.drop(
                     [
                         "internalID", 
@@ -1442,8 +1422,8 @@ class GenericQueryProcessor(object):
                         "given_name", 
                         "family_name"
                     ], 
-                    axis=1, 
-                    inplace=True
+                    axis    = 1, 
+                    inplace = True
                 )
             # Rename Data Frame columns.
             relational_publications_by_author_name_df.rename(
@@ -1459,7 +1439,7 @@ class GenericQueryProcessor(object):
         # Concatenate both DataFrame(s).
         publications_by_author_name_df: DataFrame = pd.concat(
                 [triplestore_publications_by_author_name_df, relational_publications_by_author_name_df],
-                ignore_index=True, 
+                ignore_index=True 
             ).drop_duplicates().reset_index(drop=True)
             
         for idx, row in publications_by_author_name_df.iterrows():

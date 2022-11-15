@@ -174,23 +174,23 @@ def app():
 
                 # do_most_cited_venue(generic) #TODO: FIX - SQL query
 
-                do_venues_by_publisher_id(generic) #TODO: FIX - Triplestore creation of venueId resources
+                do_venues_by_publisher_id(generic)
 
                 # do_publication_in_venue(generic) #TODO: FIX - Triplestore creation of venueId resources & SQL query empty 
 
-                do_journal_articles_in_issue(generic) #TODO: FIX Triplestore empty & SQL no publication DOI
+                # do_journal_articles_in_issue(generic) #TODO: FIX - Triplestore empty & SQL no publication DOI
 
-                # do_journal_articles_in_volume(generic)
+                # do_journal_articles_in_volume(generic) #TODO: FIX - Triplestore creation of venueId resources
 
-                # do_journal_articles_in_journal(generic)
+                # do_journal_articles_in_journal(generic) #TODO: FIX - Triplestore creation of venueId resources
 
                 # TODO: "proceedings by event" query but we dont have the event.
 
-                # do_publication_authors(generic)
+                do_publication_authors(generic)
 
-                # do_publications_by_author_name(generic)
+                do_publications_by_author_name(generic)
 
-                # do_distinct_publisher_of_publications(generic)
+                # do_distinct_publisher_of_publications(generic) #TODO: FIX - SQL query
             
             print('-- INFO: All results were been produced!')
 

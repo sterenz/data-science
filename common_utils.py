@@ -135,7 +135,7 @@ def blazegraph_instance_is_empty() -> bool:
     if df_sparql.empty:
         return True
     else:
-        return False
+        return False # TEST: set True only for test! Otherwise False
 
 
 #

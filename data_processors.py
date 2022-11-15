@@ -208,7 +208,6 @@ class DataProcessor(object):
             # Create the Venues DataFrame from json.
             # Data Frame will be expoloded in two col named 'doi' and 'venues_id'.
             #
-            #venues_df = DataFrame(venues.items(), columns = ['doi','ids']).explode('doi')
             venues_df = DataFrame(venues.items(), columns = ['doi','ids']).explode('ids')
             
             #
@@ -440,7 +439,7 @@ class RdbDataProcessor(DataProcessor):
         publications_df: DataFrame = self.get_publications_df()
         venues_df: DataFrame = self.get_venues_df()
 
-        # Build a new Venue Data Frame.
+        # Build a new Venue DataFrame.
         #
         # Get the venues series (column).
         venues_series = publications_df[['id', 'publication_venue', 'venue_type','publisher','event']]
@@ -771,7 +770,6 @@ class GraphDataProcessor(DataProcessor):
             # if venue exists. 
             if row['publication_venue'] != '' and row['publisher'] != '':
 
-                #
                 # If these columns elements are not in set then add them.
                 if (row['id'], row['publication_venue'], row['venue_type'], row['publisher'], row['event']) not in venues_set:
 
@@ -843,9 +841,10 @@ class GraphDataProcessor(DataProcessor):
             
             # Associate every Venue to an Identifiable Entity.
             for venues_joined_index, venues_joined_row in venues_joined_df.iterrows():
-                if row['id'] == venues_joined_row['id']:
-                    for item in venues_joined_row['ids']:
-                        rdf_graph.add((subject, id, Literal(item)))
+
+                if venues_joined_row['id'] == row['id']:
+                    #for item in venues_joined_row['ids']:
+                    rdf_graph.add((subject, id, Literal(venues_joined_row['ids'])))
            
             ######################################################
             #                                                    #
