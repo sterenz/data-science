@@ -176,17 +176,17 @@ def app():
 
                 do_venues_by_publisher_id(generic)
 
-                # do_publication_in_venue(generic) #TODO: FIX - Triplestore creation of venueId resources & SQL query empty 
+                # do_publication_in_venue(generic) # TODO: FIX - Reindexing only valid with uniquely valued Index objects
 
-                # do_journal_articles_in_issue(generic) #TODO: FIX - Triplestore empty & SQL no publication DOI
+                do_journal_articles_in_issue(generic)
 
-                # do_journal_articles_in_volume(generic) #TODO: FIX - Triplestore creation of venueId resources
+                do_journal_articles_in_volume(generic)
 
-                # do_journal_articles_in_journal(generic) #TODO: FIX - Triplestore creation of venueId resources
+                # do_journal_articles_in_journal(generic) #TODO: FIX - SQL query
 
                 # TODO: "proceedings by event" query but we dont have the event.
 
-                do_publication_authors(generic)
+                # do_publication_authors(generic) # TODO: FIX - Reindexing only valid with uniquely valued Index objects
 
                 do_publications_by_author_name(generic)
 

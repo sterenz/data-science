@@ -1175,7 +1175,7 @@ class GenericQueryProcessor(object):
             # Rename Data Frame columns.
             triplestore_journal_articles_in_volume_df.rename(
                     columns = {
-                       'JournalArticleId'              : 'journal_article_doi', 
+                        'JournalArticleId'             : 'journal_article_doi', 
                         'JournalArticleTitle'          : 'journal_article_title', 
                         'JournalArticlePublicationYear': 'journal_article_publication_year', 
                         'issue'                        : 'issue', 
@@ -1186,21 +1186,30 @@ class GenericQueryProcessor(object):
                 )
 
         if not relational_journal_articles_in_volume_df.empty:
-            # Relational DataFrame clean up.
-            relational_journal_articles_in_volume_df.drop([], axis=1, inplace=True)
-                
-            # Rename Data Frame columns.
-            relational_journal_articles_in_volume_df.rename(
-                    columns = {
-                        'JournalArticleId'             : 'journal_article_doi', 
-                        'JournalArticleTitle'          : 'journal_article_title', 
-                        'JournalArticlePublicationYear': 'journal_article_publication_year', 
-                        'issue'                        : 'issue', 
-                        'volume'                       : 'volume'
-                    }, 
-                    inplace = True,
-                    errors  = 'raise'
-                )
+ 
+            # Relational DataFrame clean up.                
+            relational_journal_articles_in_volume_df.set_axis([
+
+                                            "journal_article_interal_id",
+                                            "journal_article_doi",
+                                            "journal_article_title",
+                                            "journal_article_publication_year",
+                                            "issue",
+                                            "volume",
+                                            "venue_id"
+
+                                        ],
+                                        axis = 'columns',
+                                        inplace = True
+                                    )
+
+            relational_journal_articles_in_volume_df.drop([
+                                            "journal_article_interal_id",
+                                            "venue_id"
+                                        ],
+                                        axis = 'columns',
+                                        inplace = True
+                                    )
             
          # Concatenate both DataFrame(s).
         journal_articles_in_volume_df: DataFrame = pd.concat(
@@ -1315,8 +1324,8 @@ class GenericQueryProcessor(object):
                         "publicationTitle", 
                         "author"
                     ], 
-                    axis=1, 
-                    inplace=True
+                    axis    = 1, 
+                    inplace = True
                 )
 
             # Rename Data Frame columns.
@@ -1330,29 +1339,29 @@ class GenericQueryProcessor(object):
                     errors  = 'raise'
                 )
             
-        #if not relational_publication_authors_df.empty:
+        if not relational_publication_authors_df.empty:
 
-        # Relational DataFrame clean up.
-        relational_publication_authors_df.set_axis(
-                [
-                    "internalId",
-                    "publicationId",
-                    "author_name",
-                    "author_family_name",
-                    "author_id"
-                ],
-                axis    = 1,
-                inplace = True
-            )
+            # Relational DataFrame clean up.
+            relational_publication_authors_df.set_axis(
+                    [
+                        "internalId",
+                        "publicationId",
+                        "author_name",
+                        "author_family_name",
+                        "author_id"
+                    ],
+                    axis    = 1,
+                    inplace = True
+                )
 
-        relational_publication_authors_df.drop(
-                [
-                    "internalId", 
-                    "publicationId"
-                ], 
-                axis    = 1, 
-                inplace = True
-            )
+            relational_publication_authors_df.drop(
+                    [
+                        "internalId", 
+                        "publicationId"
+                    ], 
+                    axis    = 1, 
+                    inplace = True
+                )
 
         # Concatenate both DataFrame(s).
         publication_authors_df: DataFrame = pd.concat(
@@ -1425,7 +1434,7 @@ class GenericQueryProcessor(object):
                     axis    = 1, 
                     inplace = True
                 )
-            # Rename Data Frame columns.
+            # Rename DataFrame columns.
             relational_publications_by_author_name_df.rename(
                     columns = {
                         'id'              : 'publication_doi', 

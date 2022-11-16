@@ -1,12 +1,12 @@
 List Publications by Author ID published in 0000-0003-0530-4305:
 
 
-Doi: doi:10.3233/ds-190016.
-Name: Enabling Text Search On Sparql Endpoints Through Oscar.
-Author ORC-ID: 0000-0003-0530-4305.
-
 Doi: doi:10.1007/s11192-020-03397-6.
 Name: The Practice Of Self-Citations: A Longitudinal Study.
+Author ORC-ID: 0000-0003-0530-4305.
+
+Doi: doi:10.3233/ds-190016.
+Name: Enabling Text Search On Sparql Endpoints Through Oscar.
 Author ORC-ID: 0000-0003-0530-4305.
 
 Doi: doi:10.1162/qss_a_00023.
