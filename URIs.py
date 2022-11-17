@@ -23,7 +23,7 @@ DATACITE = Namespace("http://purl.org/spar/datacite/")
 DCTERMS  = Namespace("http://purl.org/dc/terms/")
 FOAF     = Namespace("http://xmlns.com/foaf/0.1/")
 SCHEMA   = Namespace("https://schema.org/")
-WD       = Namespace("http://wikidata.org/")
+WD       = Namespace("http://wikidata.org/entity/")
 
 # my_graph.bind('fabio', FABIO)
 # my_graph.bind('prism', PRISM)
