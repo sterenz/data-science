@@ -7,3 +7,4 @@ __pycache__/data_processors.cpython-310.pyc
 __pycache__/query_processors.cpython-310.pyc
 __pycache__/relational_processor.cpython-310.pyc
 .gitignore
+sqlite/relational.db

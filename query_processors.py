@@ -306,7 +306,7 @@ class RelationalQueryProcessor(RelationalProcessor):
 
     def getMostCitedVenue(self):
         with connect(self.getDbPath()) as con:
-            query = """SELECT VenueID.id, VenueID.internalID, Organization.name
+            query = """SELECT VenueID.id, VenueID.VenueID, Organization.name
                                FROM JournalArticle JOIN (SELECT PublicationID  FROM Cites
                                                             GROUP BY PublicationID
                                                             ORDER BY COUNT (*) DESC
@@ -317,7 +317,7 @@ class RelationalQueryProcessor(RelationalProcessor):
                                LEFT JOIN Organization ON JournalArticle.PublicationVenue == Organization.internalID
 
                                UNION
-                               SELECT  VenueID.id, VenueID.internalID, Organization.name
+                               SELECT  VenueID.id, VenueID.VenueID, Organization.name
                                FROM BookChapter JOIN (SELECT PublicationID  FROM Cites
                                                             GROUP BY PublicationID
                                                             ORDER BY COUNT (*) DESC
@@ -328,7 +328,7 @@ class RelationalQueryProcessor(RelationalProcessor):
                                 LEFT JOIN Organization ON BookChapter.PublicationVenue == Organization.internalID
 
                                UNION
-                               SELECT  VenueID.id, VenueID.internalID, Organization.name
+                               SELECT  VenueID.id, VenueID.VenueID, Organization.name
                                FROM ProceedingPaper JOIN (SELECT PublicationID  FROM Cites
                                                             GROUP BY PublicationID
                                                             ORDER BY COUNT (*) DESC

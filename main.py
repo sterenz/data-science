@@ -172,7 +172,7 @@ def app():
 
                 do_most_cited_publication(generic)
 
-                # do_most_cited_venue(generic) #TODO: FIX - SQL query
+                do_most_cited_venue(generic) # TODO: FIX - SQL query (Journal title è la publication venue che è quello da riportare al posto dell'org name)
 
                 do_venues_by_publisher_id(generic)
 
