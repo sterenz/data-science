@@ -306,37 +306,36 @@ class RelationalQueryProcessor(RelationalProcessor):
 
     def getMostCitedVenue(self):
         with connect(self.getDbPath()) as con:
-            query = """SELECT VenueID.id, VenueID.VenueID, Organization.name
+            query = """SELECT VenueID.id, VenueID.VenueID, Journal.title
                                FROM JournalArticle JOIN (SELECT PublicationID  FROM Cites
                                                             GROUP BY PublicationID
                                                             ORDER BY COUNT (*) DESC
                                                             LIMIT 1) pub
                                ON JournalArticle.internalID == pub.PublicationID
                                LEFT JOIN VenueID ON JournalArticle.PublicationVenue == VenueID.VenueID
-                               LEFT JOIN PubID ON JournalArticle.internalID == PubID.PublicationID
-                               LEFT JOIN Organization ON JournalArticle.PublicationVenue == Organization.internalID
+                               LEFT JOIN Journal ON Journal.internalID == JournalArticle.PublicationVenue
 
                                UNION
-                               SELECT  VenueID.id, VenueID.VenueID, Organization.name
+                               SELECT  VenueID.id, VenueID.VenueID, Book.title
                                FROM BookChapter JOIN (SELECT PublicationID  FROM Cites
                                                             GROUP BY PublicationID
                                                             ORDER BY COUNT (*) DESC
                                                             LIMIT 1) pub
                                ON BookChapter.internalID == pub.PublicationID
                                LEFT JOIN VenueID ON BookChapter.PublicationVenue == VenueID.VenueID
-                               LEFT JOIN PubID ON BookChapter.internalID == PubID.PublicationID
-                                LEFT JOIN Organization ON BookChapter.PublicationVenue == Organization.internalID
+                               LEFT JOIN Book ON Book.internalID == BookChapter.PublicationVenue
+                               
 
                                UNION
-                               SELECT  VenueID.id, VenueID.VenueID, Organization.name
+                               SELECT  VenueID.id, VenueID.VenueID, Proceeding.title
                                FROM ProceedingPaper JOIN (SELECT PublicationID  FROM Cites
                                                             GROUP BY PublicationID
                                                             ORDER BY COUNT (*) DESC
                                                             LIMIT 1) pub
                                ON ProceedingPaper.internalID == pub.PublicationID
                                LEFT JOIN VenueID ON ProceedingPaper.PublicationVenue == VenueID.VenueID
-                               LEFT JOIN PubID ON ProceedingPaper.internalID == PubID.PublicationID
-                                LEFT JOIN Organization ON ProceedingPaper.PublicationVenue == Organization.internalID
+                               LEFT JOIN Proceeding ON Proceeding.internalID == ProceedingPaper.PublicationVenue
+                               
 
 
                             """
