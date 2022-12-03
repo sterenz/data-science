@@ -305,7 +305,7 @@ class RelationalQueryProcessor(RelationalProcessor):
             return df_sql
 
     def getMostCitedVenue(self):
-        with connect(self.getDbPath()) as con:
+        with connect(self.getDbPath()) as con: #modificata
             query = """SELECT VenueID.id, VenueID.VenueID, Journal.title
                                FROM JournalArticle JOIN (SELECT PublicationID  FROM Cites
                                                             GROUP BY PublicationID
