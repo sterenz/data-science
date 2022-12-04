@@ -150,6 +150,6 @@ name = URIRef("https://schema.org/name")
 
 # Classes relations.
 hasAuthor           = URIRef("http://purl.org/dc/terms/creator")
-hasCites            = URIRef("http://purl.org/spar/cito/cites") 
+hasCites            = URIRef("http://purl.org/spar/cito/cites") #TODO: correct hasCites
 hasPublicationVenue = URIRef("https://schema.org/isPartOf")
 hasPublisher        = URIRef("http://purl.org/dc/terms/publisher")

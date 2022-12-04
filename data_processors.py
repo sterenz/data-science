@@ -162,17 +162,17 @@ class DataProcessor(object):
         try:
             data_frame = json_to_df(_json_f_path)
 
-            # Read from json file only authors objects.
+            # Read from json file only references objects.
             references = data_frame['references']
 
             #
-            # Create the Refernces DataFrame from json.
-            # Data Frame will be expoloded in two col named 'doi' and 'cites'.
+            # Create the References DataFrame from json.
+            # Data Frame will be exploded in two col named 'doi' and 'cites'.
             #
             references_df = DataFrame(references.items(), columns = ['doi','cites']).explode('doi')
             
             #
-            # Convert refernces_df DataFrame object to a JSON string and
+            # Convert references_df DataFrame object to a JSON string and
             # deserialize it to a Python object,
             # finally, normalize semi-structured JSON data into a 
             # flat table (DataFrame).
@@ -201,17 +201,17 @@ class DataProcessor(object):
         try:
             data_frame = json_to_df(_json_f_path)
 
-            # Read from json file only authors objects.
+            # Read from json file only venues objects.
             venues = data_frame['venues_id']
 
             #
             # Create the Venues DataFrame from json.
-            # Data Frame will be expoloded in two col named 'doi' and 'venues_id'.
+            # Data Frame will be exploded in two col named 'doi' and 'venues_id'.
             #
             venues_df = DataFrame(venues.items(), columns = ['doi','ids']).explode('ids')
             
             #
-            # Convert references_df DataFrame object to a JSON string and
+            # Convert venues_df DataFrame object to a JSON string and
             # deserialize it to a Python object,
             # finally, normalize semi-structured JSON data into a 
             # flat table (DataFrame).
@@ -247,7 +247,7 @@ class DataProcessor(object):
 
             #
             # Create the authors DataFrame from json.
-            # Data Frame will be expoloded in two col named 'doi' and 'author'.
+            # Data Frame will be exploded in two col named 'doi' and 'author'.
             #
             authors_df = DataFrame(authors.items(), columns = ['doi','author']).explode('author')
 
@@ -289,7 +289,7 @@ class DataProcessor(object):
             
             #
             # Create the authors DataFrame from json.
-            # Data Frame will be expoloded in two col named 'id' and 'publishers'.
+            # Data Frame will be exploded in two col named 'id' and 'publishers'.
             #                            
             publishers_df = DataFrame(publishers.items(), columns=['id','publishers'])
                                                 
