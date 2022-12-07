@@ -1,0 +1,19 @@
+Publications by Venue id = issn:0949-877X:
+
+
+Id: doi:10.1007/s00778-016-0444-3.
+Name: Scalekb: Scalable Learning And Inference Over Large Knowledge Bases.
+
+Id: doi:10.1007/s00778-019-00558-9.
+Name: An Analytical Study Of Large Sparql Query Logs.
+
+Id: doi:10.1007/s00778-019-00564-x.
+Name: Dataset Search: A Survey.
+
+Id: doi:10.1007/s00778-018-0528-3.
+Name: Summarizing Semantic Graphs: A Survey.
+
+Id: doi:10.1007/s00778-019-00591-8.
+Name: Top-K Relevant Semantic Place Retrieval On Spatiotemporal Rdf Data.
+
+Items found: 5

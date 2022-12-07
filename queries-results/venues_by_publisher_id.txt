@@ -1,134 +1,62 @@
 Venues published by Organization with id = crossref:78:
 
 
-Id: issn:1570-8268.
-Name: Journal Of Web Semantics.
-
-Id: issn:0021-9991.
-Name: Journal Of Computational Physics.
-
-Id: issn:0278-6125.
-Name: Journal Of Manufacturing Systems.
-
-Id: issn:0169-023X.
-Name: Data & Knowledge Engineering.
-
-Id: issn:0098-1354.
-Name: Computers & Chemical Engineering.
-
-Id: issn:1474-0346.
-Name: Advanced Engineering Informatics.
-
-Id: issn:1532-0464.
-Name: Journal Of Biomedical Informatics.
-
-Id: issn:1574-1192.
-Name: Pervasive And Mobile Computing.
-
-Id: issn:0098-3004.
-Name: Computers & Geosciences.
-
-Id: issn:0957-4174.
-Name: Expert Systems With Applications.
-
-Id: issn:0140-3664.
-Name: Computer Communications.
-
-Id: issn:0377-0273.
-Name: Journal Of Volcanology And Geothermal Research.
-
-Id: issn:1574-0137.
-Name: Computer Science Review.
-
-Id: issn:0926-5805.
-Name: Automation In Construction.
-
-Id: issn:0020-0255.
-Name: Information Sciences.
-
-Id: issn:0166-3615.
-Name: Computers In Industry.
-
-Id: issn:0148-2963.
-Name: Journal Of Business Research.
-
-Id: issn:0950-7051.
-Name: Knowledge-Based Systems.
-
-Id: issn:0022-0000.
-Name: Journal Of Computer And System Sciences.
+Id: issn:0306-4379.
+Name: Information Systems.
 
 Id: issn:0164-1212.
 Name: Journal Of Systems And Software.
 
-Id: issn:0925-7535.
-Name: Safety Science.
+Id: issn:1532-0464.
+Name: Journal Of Biomedical Informatics.
 
-Id: issn:0012-1606.
-Name: Developmental Biology.
-
-Id: issn:0268-4012.
-Name: International Journal Of Information Management.
-
-Id: issn:1574-9541.
-Name: Ecological Informatics.
-
-Id: issn:0306-4379.
-Name: Information Systems.
-
-Id: issn:0264-2751.
-Name: Cities.
-
-Id: issn:0169-2607.
-Name: Computer Methods And Programs In Biomedicine.
-
-Id: issn:0012-8252.
-Name: Earth-Science Reviews.
-
-Id: issn:0048-9697.
-Name: Science Of The Total Environment.
-
-Id: issn:0740-624X.
-Name: Government Information Quarterly.
-
-Id: issn:1364-8152.
-Name: Environmental Modelling & Software.
+Id: issn:0098-1354.
+Name: Computers & Chemical Engineering.
 
 Id: issn:2666-979X.
 Name: Cell Genomics.
 
+Id: issn:0169-023X.
+Name: Data & Knowledge Engineering.
+
+Id: issn:1570-8268.
+Name: Journal Of Web Semantics.
+
+Id: issn:0012-1606.
+Name: Developmental Biology.
+
+Id: issn:0012-8252.
+Name: Earth-Science Reviews.
+
+Id: issn:0268-4012.
+Name: International Journal Of Information Management.
+
 Id: issn:2352-3964.
 Name: Ebiomedicine.
+
+Id: issn:0166-3615.
+Name: Computers In Industry.
+
+Id: issn:0098-3004.
+Name: Computers & Geosciences.
+
+Id: issn:0740-624X.
+Name: Government Information Quarterly.
+
+Id: issn:0021-9991.
+Name: Journal Of Computational Physics.
+
+Id: issn:0957-4174.
+Name: Expert Systems With Applications.
 
 Id: issn:0167-739X.
 Name: Future Generation Computer Systems.
 
-Id: issn:2666-027X.
-Name: Current Research In Toxicology.
+Id: issn:0140-3664.
+Name: Computer Communications.
 
-Id: issn:1755-5817.
-Name: Cirp Journal Of Manufacturing Science And Technology.
-
-Id: issn:0167-6423.
-Name: Science Of Computer Programming.
-
-Id: issn:1364-0321.
-Name: Renewable And Sustainable Energy Reviews.
-
-Id: issn:2666-3899.
-Name: Patterns.
-
-Id: issn:2214-5796.
-Name: Big Data Research.
-
-Id: issn:0959-6526.
-Name: Journal Of Cleaner Production.
-
-Id: issn:0168-1699.
-Name: Computers And Electronics In Agriculture.
-
-Id: issn:0736-5845.
-Name: Robotics And Computer-Integrated Manufacturing.
+Id: issn:0167-4048.
+Name: Computers & Security.
 
 Id: issn:2352-2208.
 Name: Journal Of Logical And Algebraic Methods In Programming.
@@ -136,17 +64,89 @@ Name: Journal Of Logical And Algebraic Methods In Programming.
 Id: issn:0895-6111.
 Name: Computerized Medical Imaging And Graphics.
 
-Id: issn:2352-7110.
-Name: Softwarex.
+Id: issn:1574-9541.
+Name: Ecological Informatics.
+
+Id: issn:0048-9697.
+Name: Science Of The Total Environment.
+
+Id: issn:1364-0321.
+Name: Renewable And Sustainable Energy Reviews.
+
+Id: issn:1364-8152.
+Name: Environmental Modelling & Software.
+
+Id: issn:0020-0255.
+Name: Information Sciences.
+
+Id: issn:0168-1699.
+Name: Computers And Electronics In Agriculture.
+
+Id: issn:0263-2241.
+Name: Measurement.
+
+Id: issn:2666-027X.
+Name: Current Research In Toxicology.
+
+Id: issn:0169-2607.
+Name: Computer Methods And Programs In Biomedicine.
+
+Id: issn:0736-5845.
+Name: Robotics And Computer-Integrated Manufacturing.
+
+Id: issn:0950-7051.
+Name: Knowledge-Based Systems.
+
+Id: issn:0022-0000.
+Name: Journal Of Computer And System Sciences.
+
+Id: issn:1755-5817.
+Name: Cirp Journal Of Manufacturing Science And Technology.
+
+Id: issn:1474-0346.
+Name: Advanced Engineering Informatics.
+
+Id: issn:0264-2751.
+Name: Cities.
+
+Id: issn:0926-5805.
+Name: Automation In Construction.
+
+Id: issn:0148-2963.
+Name: Journal Of Business Research.
+
+Id: issn:2666-3899.
+Name: Patterns.
+
+Id: issn:0959-6526.
+Name: Journal Of Cleaner Production.
+
+Id: issn:0167-6423.
+Name: Science Of Computer Programming.
+
+Id: issn:1574-0137.
+Name: Computer Science Review.
+
+Id: issn:1574-1192.
+Name: Pervasive And Mobile Computing.
+
+Id: issn:0925-7535.
+Name: Safety Science.
+
+Id: issn:0377-0273.
+Name: Journal Of Volcanology And Geothermal Research.
+
+Id: issn:2214-5796.
+Name: Big Data Research.
 
 Id: issn:1566-2535.
 Name: Information Fusion.
 
-Id: issn:0167-4048.
-Name: Computers & Security.
+Id: issn:2352-7110.
+Name: Softwarex.
 
-Id: issn:0263-2241.
-Name: Measurement.
+Id: issn:0278-6125.
+Name: Journal Of Manufacturing Systems.
 
 Id: issn:0001-4575.
 Name: Elsevier BV.

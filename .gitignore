@@ -2,11 +2,11 @@
 .ipynb_checkpoints/software-documentation-checkpoint.ipynb
 blazegraph/rules.log
 blazegraph/blazegraph.jnl
-__pycache__
+__pycache__/
 __pycache__/data_processors.cpython-310.pyc
 __pycache__/query_processors.cpython-310.pyc
 __pycache__/relational_processor.cpython-310.pyc
-sqlite/relational.db
+sqlite/
 __pycache__/common_utils.cpython-310.pyc
 __pycache__/const.cpython-310.pyc
 __pycache__/data_processors.cpython-310.pyc

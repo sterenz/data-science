@@ -172,21 +172,21 @@ def app():
 
                 do_most_cited_publication(generic)
 
-                do_most_cited_venue(generic) # TODO: FIX - SQL query (Journal title è la publication venue che è quello da riportare al posto dell'org name)
+                do_most_cited_venue(generic) # TODO: Check if the most cited of the two databases is returned
 
                 do_venues_by_publisher_id(generic)
 
-                # do_publication_in_venue(generic) # TODO: FIX - Reindexing only valid with uniquely valued Index objects
+                # do_publication_in_venue(generic) # TODO: FIX: SQL query should returns also publicationTitle - FIX - Reindexing only valid with uniquely valued Index objects
 
                 do_journal_articles_in_issue(generic)
 
                 do_journal_articles_in_volume(generic)
 
-                # do_journal_articles_in_journal(generic) #TODO: FIX - SQL query
+                do_journal_articles_in_journal(generic)
 
                 # TODO: "proceedings by event" query but we dont have the event.
 
-                # do_publication_authors(generic) # TODO: FIX - Reindexing only valid with uniquely valued Index objects
+                do_publication_authors(generic)
 
                 do_publications_by_author_name(generic)
 
