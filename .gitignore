@@ -1,3 +1,7 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
 .ipynb_checkpoints/software-documentation-checkpoint.ipynb
 blazegraph/rules.log
@@ -14,3 +18,5 @@ __pycache__/query_processors.cpython-310.pyc
 __pycache__/relational_processor.cpython-310.pyc
 __pycache__/URIs.cpython-310.pyc
 relational.db
+*.pyc
+__pycache__
