@@ -176,7 +176,7 @@ def app():
 
                 do_venues_by_publisher_id(generic)
 
-                # do_publication_in_venue(generic) # TODO: FIX: SQL query should returns also publicationTitle - FIX - Reindexing only valid with uniquely valued Index objects
+                do_publication_in_venue(generic)
 
                 do_journal_articles_in_issue(generic)
 

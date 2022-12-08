@@ -324,7 +324,7 @@ class DataProcessor(object):
 # RdbDataProcessor Class. #
 #                         #
 ###########################
-class RdbDataProcessor(DataProcessor):
+class RdbDataProcessor(DataProcessor): # TODO: Delete
 
     def __init__(self, _db_path: str) -> None:
         super().__init__()
