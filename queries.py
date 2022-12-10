@@ -608,8 +608,9 @@ def do_proceedings_by_event(_generic_query_processor: QueryProcessor) -> None:
 
     if len(res_proceedings_by_event) <= 0:
         # Build the template string.
-        string_to_template = '-- INFO: No proceedings found for the event = $EVENT :\n\n'
+        string_to_template = '-- WARN: No proceedings found for the event = $EVENT'
         print_info = Template(string_to_template).substitute(EVENT = EVENT_PARTIAL_NAME)
+        print(print_info)
 
     else:
 

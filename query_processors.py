@@ -1445,8 +1445,7 @@ class GenericQueryProcessor(object):
 
         if proceeding_by_event_df.empty:
 
-            print('-- INFO: No proceedings found for the event')
-            print('-- INFO: The query produced 0 result.')
+            print('-- WARN:: The query produced 0 result.')
 
             return proceeding_by_event
 
@@ -1454,10 +1453,10 @@ class GenericQueryProcessor(object):
             for idx, row in proceeding_by_event_df.iterrows():
 
                 proceedings = Proceedings(
-                                row['proceedings_id'],
-                                row['proceedings_title'],
-                                row['proceedings_event']
-                            )
+                    row['proceedings_id'],
+                    row['proceedings_title'],
+                    row['proceedings_event']
+                )
 
                 proceeding_by_event.append(proceedings)
 

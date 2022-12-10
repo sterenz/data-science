@@ -36,505 +36,505 @@ Name: Federated Semantic Search Using Terminological Thesauri For Learning Objec
 Issue: 5.
 Volume: 30.
 
-Id: doi:10.1186/s40965-018-0051-x.
-Name: Hypermap Registry: An Open Source, Standards-Based Geospatial Registry And Search Platform.
-Issue: 1.
-Volume: 3.
+Id: doi:10.1093/nar/gkz997.
+Name: The Monarch Initiative In 2019: An Integrative Data And Analytic Platform Connecting Phenotypes To Genotypes Across Species.
+Issue: D1.
+Volume: 48.
 
-Id: doi:10.1016/j.jbi.2019.103154.
-Name: Patient Data Discovery Platforms As Enablers Of Biomedical And Translational Research: A Systematic Review.
-Issue: nan.
-Volume: 93.
-
-Id: doi:10.1007/s11280-018-0611-0.
-Name: Gstar: An Efficient Framework For Answering Top-K Star Queries On Billion-Node Knowledge Graphs.
-Issue: 4.
-Volume: 22.
-
-Id: doi:10.1038/s41581-020-00335-w.
-Name: Modelling Kidney Disease Using Ontology: Insights From The Kidney Precision Medicine Project.
-Issue: 11.
-Volume: 16.
-
-Id: doi:10.1007/s42421-020-00023-y.
-Name: A Rubric-Driven Evaluation Of Open Data Portals And Their Data In Transportation.
-Issue: 2.
-Volume: 2.
-
-Id: doi:10.1080/17538947.2020.1738568.
-Name: Geo-Analytical Question-Answering With Gis.
-Issue: 1.
+Id: doi:10.1371/journal.pone.0213090.
+Name: An Analysis And Metric Of Reusable Data Licensing Practices For Biomedical Resources.
+Issue: 3.
 Volume: 14.
 
-Id: doi:10.1109/tip.2016.2552401.
-Name: Ontology-Based Semantic Image Segmentation Using Mixture Models And Multiple Crfs.
-Issue: 7.
-Volume: 25.
-
-Id: doi:10.5028/jatm.v12.1098.
-Name: Aeb Online Calculator For Assessing Technology Maturity: Imatec.
-Issue: 12.
-Volume: nan.
-
-Id: doi:10.1016/j.is.2015.02.003.
-Name: Incorporating Ontology-Based Semantics Into Conceptual Modelling.
-Issue: nan.
-Volume: 52.
-
-Id: doi:10.1016/j.websem.2021.100694.
-Name: A Multiplatform Energy-Aware Owl Reasoner Benchmarking Framework.
-Issue: nan.
-Volume: 72.
-
-Id: doi:10.1007/s10817-017-9406-8.
-Name: The Owl Reasoner Evaluation (Ore) 2015 Competition Report.
-Issue: 4.
-Volume: 59.
-
-Id: doi:10.4018/ijsita.2019040104.
-Name: Large-Scale Ontology Alignment- An Extraction Based Method To Support Information System Interoperability.
-Issue: 2.
-Volume: 10.
-
-Id: doi:10.1093/bioinformatics/btab019.
-Name: Phenotagger: A Hybrid Method For Phenotype Concept Recognition Using Human Phenotype Ontology.
-Issue: 13.
-Volume: 37.
-
-Id: doi:10.1093/jamia/ocaa061.
-Name: Development Of The Gender, Sex, And Sexual Orientation Ontology: Evaluation And Workflow.
-Issue: 7.
-Volume: 27.
-
-Id: doi:10.4028/www.scientific.net/amm.809-810.1281.
-Name: A Generic Ontology For Product Structuring.
-Issue: nan.
-Volume: 809-810.
-
-Id: doi:10.1016/j.cirpj.2018.06.002.
-Name: A Problem-Solving Ontology For Human-Centered Cyber Physical Production Systems.
-Issue: nan.
-Volume: 22.
-
-Id: doi:10.3390/electronics10141650.
-Name: Improving Recommendations For Online Retail Markets Based On Ontology Evolution.
-Issue: 14.
-Volume: 10.
-
-Id: doi:10.1080/15228835.2017.1416515.
-Name: Hiding In Plain Sight: Insights About Health-Care Trends Gained Through Open Health Data.
-Issue: 1.
-Volume: 36.
-
-Id: doi:10.3390/electronics9050750.
-Name: A Survey On Knowledge Graph Embedding: Approaches, Applications And Benchmarks.
-Issue: 5.
-Volume: 9.
-
-Id: doi:10.4018/ijossp.2019040101.
-Name: Norjade.
-Issue: 2.
-Volume: 10.
-
-Id: doi:10.4258/hir.2018.24.4.376.
-Name: Design And Construction Of A Nlp Based Knowledge Extraction Methodology In The Medical Domain Applied To Clinical Information.
-Issue: 4.
-Volume: 24.
-
-Id: doi:10.1016/j.cageo.2021.105005.
-Name: Georeservoir: An Ontology For Deep-Marine Depositional System Geometry Description.
-Issue: nan.
-Volume: 159.
-
-Id: doi:10.1145/3407194.
-Name: Early Detection Of Social Media Hoaxes At Scale.
-Issue: 4.
-Volume: 14.
-
-Id: doi:10.1093/nar/gky1056.
-Name: Mouse Genome Database (Mgd) 2019.
-Issue: D1.
-Volume: 47.
-
-Id: doi:10.1016/j.jlamp.2014.12.005.
-Name: Minimal Type Inference For Linked Data Consumers.
-Issue: 4.
-Volume: 84.
-
-Id: doi:10.1111/exsy.12380.
-Name: Onyx: A New CanvasâBased Tool For Visualizing Biomedical And Health Ontologies.
-Issue: 1.
-Volume: 37.
-
-Id: doi:10.1155/2017/8327980.
-Name: Linked Registries: Connecting Rare Diseases Patient Registries Through A Semantic Web Layer.
-Issue: nan.
-Volume: 2017.
-
-Id: doi:10.1016/j.ijinfomgt.2016.05.022.
-Name: Towards Knowledge Modeling And Manipulation Technologies: A Survey.
-Issue: 6.
-Volume: 36.
-
-Id: doi:10.3989/redc.2019.4.1605.
-Name: RevisiÃ³n Del Cumplimiento De Los Datos Abiertos Por Los Ayuntamientos EspaÃ±oles En La Iniciativa Aporta.
-Issue: 4.
-Volume: 42.
-
-Id: doi:10.1038/s41467-021-26674-1.
-Name: Network Analysis Reveals Rare Disease Signatures Across Multiple Levels Of Biological Organization.
-Issue: 1.
-Volume: 12.
-
-Id: doi:10.1002/cpe.4186.
-Name: Analytics For Citizens: A Linked Open Data Model For Statistical Data Exploration.
-Issue: 8.
-Volume: 33.
-
-Id: doi:10.1007/s00165-021-00549-0.
-Name: Enhancing Probabilistic Model Checking With Ontologies.
-Issue: 6.
-Volume: 33.
-
-Id: doi:10.3390/app9214547.
-Name: Ontology-Based System For Dynamic Risk Management In Administrative Domains.
-Issue: 21.
-Volume: 9.
-
-Id: doi:10.1016/j.compind.2021.103496.
-Name: An Ontology For Reasoning Over Engineering Textual Data Stored In Fmea Spreadsheet Tables.
-Issue: nan.
-Volume: 131.
-
-Id: doi:10.3390/ijgi7070264.
-Name: Structured Knowledge Base As Prior Knowledge To Improve Urban Data Analysis.
-Issue: 7.
-Volume: 7.
-
-Id: doi:10.1186/s13326-016-0091-z.
-Name: Supporting The Analysis Of Ontology Evolution Processes Through The Combination Of Static And Dynamic Scaling Functions In Oquare.
-Issue: 1.
-Volume: 7.
-
-Id: doi:10.1016/j.measurement.2018.01.009.
-Name: A Mathematical Evaluation For Measuring Correctness Of Domain Ontologies Using Concept Maps.
-Issue: nan.
-Volume: 118.
-
-Id: doi:10.1016/j.websem.2014.11.003.
-Name: On The Formulation Of Performant Sparql Queries.
-Issue: nan.
-Volume: 31.
-
-Id: doi:10.1016/j.eswa.2019.112965.
-Name: Automating The Expansion Of A Knowledge Graph.
-Issue: nan.
-Volume: 141.
-
-Id: doi:10.1007/s10010-021-00466-x.
-Name: Ontology For Maintenance Of Onshore Wind Turbines.
-Issue: 2.
-Volume: 85.
-
-Id: doi:10.1109/access.2017.2734681.
-Name: Network Security Situation Awareness Based On Semantic Ontology And User-Defined Rules For Internet Of Things.
-Issue: nan.
-Volume: 5.
-
-Id: doi:10.1016/j.ijinfomgt.2019.05.008.
-Name: The Dual Effects Of The Internet Of Things (Iot): A Systematic Review Of The Benefits And Risks Of Iot Adoption By Organizations.
-Issue: nan.
-Volume: 51.
-
-Id: doi:10.7466/jfbl.2020.38.4.1.
-Name: An Ontology Of Intimate Partnerships For Social Big Data Research.
-Issue: 4.
-Volume: 38.
-
-Id: doi:10.1002/humu.23655.
-Name: Matchbox: An Open-Source Tool For Patient Matching Via The Matchmaker Exchange.
-Issue: 12.
-Volume: 39.
-
-Id: doi:10.1038/nprot.2015.124.
-Name: Next-Generation Diagnostics And Disease-Gene Discovery With The Exomiser.
-Issue: 12.
-Volume: 10.
-
-Id: doi:10.1080/23311916.2016.1193959.
-Name: Poem: Practical Ontology Engineering Model For Semantic Web Ontologies.
-Issue: 1.
+Id: doi:10.1080/20964471.2019.1661662.
+Name: Geospatial Data Ontology: The Semantic Foundation Of Geospatial Data Integration And Sharing.
+Issue: 3.
 Volume: 3.
 
-Id: doi:10.1007/s10579-021-09546-4.
-Name: Lexo: An Open-Source System For Managing Ontolex-Lemon Resources.
-Issue: 4.
-Volume: 55.
-
-Id: doi:10.1093/bib/bbab363.
-Name: Genome Sequencing Data Analysis For Rare Disease Gene Discovery.
+Id: doi:10.1186/s13326-017-0133-1.
+Name: An Ontology-Driven Tool For Structured Data Acquisition Using Web Forms.
 Issue: 1.
-Volume: 23.
+Volume: 8.
 
-Id: doi:10.1016/j.future.2015.09.008.
-Name: Scalable Semantic Aware Context Storage.
-Issue: nan.
-Volume: 56.
-
-Id: doi:10.1093/nar/gky1120.
-Name: The Nhgri-Ebi Gwas Catalog Of Published Genome-Wide Association Studies, Targeted Arrays And Summary Statistics 2019.
-Issue: D1.
-Volume: 47.
-
-Id: doi:10.1016/j.jss.2018.09.069.
-Name: Efficient Cloud Service Discovery Approach Based On Lda Topic Modeling.
-Issue: nan.
-Volume: 146.
-
-Id: doi:10.1016/j.cities.2019.03.009.
-Name: Investigating The Barriers Faced By Stakeholders In Open Data Development: A Study On Hong Kong As A âSmart Cityâ.
-Issue: nan.
-Volume: 92.
-
-Id: doi:10.1038/s41598-019-40368-1.
-Name: Quantitative Evaluation Of Ontology Design Patterns For Combining Pathology And Anatomy Ontologies.
-Issue: 1.
-Volume: 9.
-
-Id: doi:10.3390/app11062813.
-Name: Ontology-Based Semantic Conceptualisation Of Historical Built Heritage To Generate Parametric Structured Models From Point Clouds.
-Issue: 6.
-Volume: 11.
-
-Id: doi:10.3390/cancers13164207.
-Name: Computational Approaches For Cancer-Fighting: From Gene Expression To Functional Foods.
-Issue: 16.
-Volume: 13.
-
-Id: doi:10.1049/sfw2.12034.
-Name: Vulcont: A Recommender System Based On Context History Ontology.
-Issue: 1.
-Volume: 16.
-
-Id: doi:10.1002/1873-3468.14067.
-Name: Sharing Biological Data: Why, When, And How.
-Issue: 7.
-Volume: 595.
-
-Id: doi:10.1093/database/bax088.
-Name: A Semantic-Based Workflow For Biomedical Literature Annotation.
-Issue: nan.
-Volume: 2017.
-
-Id: doi:10.1016/j.websem.2021.100655.
-Name: Crossing The Chasm Between Ontology Engineering And Application Development: A Survey.
-Issue: nan.
-Volume: 70.
-
-Id: doi:10.3390/publications7030050.
-Name: Dras-Tic Linked Data: Evenly Distributing The Past.
-Issue: 3.
-Volume: 7.
-
-Id: doi:10.1108/jmtm-04-2020-0137.
-Name: Application Of Design Thinking To Product-Configuration Projects.
-Issue: 1.
-Volume: 32.
-
-Id: doi:10.3390/su132413844.
-Name: Approaching Healthy City Ontology: First-Level Classes Definition Using Bfo.
-Issue: 24.
-Volume: 13.
-
-Id: doi:10.1080/02681102.2017.1412289.
-Name: Open Data And E-Government â Related Or Competing Ecosystems: A Paradox Of Open Government And Promise Of Civic Engagement In Estonia.
-Issue: 3.
-Volume: 25.
-
-Id: doi:10.4018/ijkss.2020040101.
-Name: Discovering Cross-Disciplinary Concepts In Multidisciplinary Context Through Collaborative Framework.
-Issue: 2.
-Volume: 11.
-
-Id: doi:10.3390/app10020591.
-Name: An Analytical Game For Knowledge Acquisition For Maritime Behavioral Analysis Systems.
-Issue: 2.
-Volume: 10.
-
-Id: doi:10.1016/j.eswa.2019.113135.
-Name: Iota: Interlinking Of Heterogeneous Multilingual Open Fiscal Data.
-Issue: nan.
-Volume: 147.
-
-Id: doi:10.1016/j.xgen.2021.100031.
-Name: Empirical Validation Of An Automated Approach To Data Use Oversight.
+Id: doi:10.1016/j.xgen.2021.100029.
+Name: Ga4Gh: International Policies And Standards For Data Sharing Across Genomic Research And Healthcare.
 Issue: 2.
 Volume: 1.
 
-Id: doi:10.3390/asi4010021.
-Name: An Ontological Approach For Early Detection Of Suspected Covid-19 Among Copd Patients.
+Id: doi:10.3390/app12010287.
+Name: Ontology-Driven Cultural Heritage Conservation: A Case Of The Analects Of Confucius.
 Issue: 1.
-Volume: 4.
+Volume: 12.
 
-Id: doi:10.1016/j.crtox.2021.03.001.
-Name: Ctd Anatomy: Analyzing Chemical-Induced Phenotypes And Exposures From An Anatomical Perspective, With Implications For Environmental Health Studies.
+Id: doi:10.1016/j.websem.2014.03.003.
+Name: Api-Centric Linked Data Integration: The Open Phacts Discovery Platform Case Study.
 Issue: nan.
+Volume: 29.
+
+Id: doi:10.3390/electronics10080905.
+Name: Knowledge-Based System For Crop Pests And Diseases Recognition.
+Issue: 8.
+Volume: 10.
+
+Id: doi:10.1038/sdata.2016.18.
+Name: The Fair Guiding Principles For Scientific Data Management And Stewardship.
+Issue: 1.
+Volume: 3.
+
+Id: doi:10.1145/3345551.
+Name: Large-Scale Semantic Integration Of Linked Data.
+Issue: 5.
+Volume: 52.
+
+Id: doi:10.3233/ds-190016.
+Name: Enabling Text Search On Sparql Endpoints Through Oscar.
+Issue: 1-2.
 Volume: 2.
 
-Id: doi:10.1016/j.jbi.2019.103293.
-Name: Making Work Visible For Electronic Phenotype Implementation: Lessons Learned From The Emerge Network.
+Id: doi:10.1007/s10796-020-10035-2.
+Name: An Overview Of Utilizing Knowledge Bases In Neural Networks For Question Answering.
+Issue: 5.
+Volume: 22.
+
+Id: doi:10.1007/s00778-016-0444-3.
+Name: Scalekb: Scalable Learning And Inference Over Large Knowledge Bases.
+Issue: 6.
+Volume: 25.
+
+Id: doi:10.1093/nar/gky1003.
+Name: Flybase 2.0: The Next Generation.
+Issue: D1.
+Volume: 47.
+
+Id: doi:10.1093/jamiaopen/ooaa030.
+Name: The Case For Open Science: Rare Diseases.
+Issue: 3.
+Volume: 3.
+
+Id: doi:10.1007/s41060-016-0025-y.
+Name: Crowdsourcing Chart Digitizer: Task Design And Quality Control For Making Legacy Open Data Machine-Readable.
+Issue: 1-2.
+Volume: 2.
+
+Id: doi:10.1016/j.rcim.2019.05.010.
+Name: Core Domain Ontology For Joining Processes To Consolidate Welding Standards.
 Issue: nan.
-Volume: 99.
+Volume: 59.
 
-Id: doi:10.1371/journal.pcbi.1009283.
-Name: Diffusion Enables Integration Of Heterogeneous Data And User-Driven Learning In A Desktop Knowledge-Base.
-Issue: 8.
-Volume: 17.
+Id: doi:10.1111/exsy.12291.
+Name: Designing Rule-Based Expert Systems With The Aid Of The Model-Driven Development Approach.
+Issue: 5.
+Volume: 35.
 
-Id: doi:10.1186/s12911-020-01267-y.
-Name: Conversational Ontology Operator: Patient-Centric Vaccine Dialogue Management Engine For Spoken Conversational Agents.
-Issue: S4.
-Volume: 20.
-
-Id: doi:10.1007/s00354-019-00074-y.
-Name: Interconnection Of Biological Knowledge Using Nikkajirdf And Interlinking Ontology For Biological Concepts.
-Issue: 4.
-Volume: 37.
-
-Id: doi:10.1007/s40194-021-01151-x.
-Name: Recommendations For An Open Science Approach To Welding Process Research Data.
-Issue: 9.
-Volume: 65.
-
-Id: doi:10.1016/j.jcss.2015.06.001.
-Name: Dynamic Class Hierarchy Management For Multi-Version Ontology-Based Personalization.
-Issue: 1.
-Volume: 82.
-
-Id: doi:10.1016/j.jvolgeores.2014.07.012.
-Name: Knowledge Engineering In Volcanology: Practical Claims And General Approach.
+Id: doi:10.12688/f1000research.14613.2.
+Name: Cytargetlinker App Update: A Flexible Solution For Network Extension In Cytoscape.
 Issue: nan.
-Volume: 286.
+Volume: 7.
 
-Id: doi:10.1016/j.eswa.2019.04.009.
-Name: Legal Ontologies Over Time: A Systematic Mapping Study.
+Id: doi:10.1016/j.jbi.2018.06.008.
+Name: From Lexical Regularities To Axiomatic Patterns For The Quality Assurance Of Biomedical Terminologies And Ontologies.
 Issue: nan.
-Volume: 130.
+Volume: 84.
 
-Id: doi:10.1177/01655515211022185.
-Name: Using Iso And Semantic Web Standard For Building A Multilingual Terminology E-Dictionary: A Use Case Of Chinese Ceramic Vases.
+Id: doi:10.1177/00208523211009955.
+Name: Understanding The Evolution Of Open Government Data Research: Towards Open Data Sustainability And Smartness.
 Issue: nan.
 Volume: nan.
 
-Id: doi:10.1007/s11625-016-0412-2.
-Name: Digital Sustainability: Basic Conditions For Sustainable Digital Artifacts And Their Ecosystems.
-Issue: 2.
-Volume: 12.
+Id: doi:10.1093/nar/gkx998.
+Name: Wormbase 2017: Molting Into A New Stage.
+Issue: D1.
+Volume: 46.
 
-Id: doi:10.1186/s13023-021-01797-2.
-Name: Towards Enhanced Understanding Of Idiopathic Ketotic Hypoglycemia: A Literature Review And Introduction Of The Patient Organization, Ketotic Hypoglycemia International.
+Id: doi:10.1093/nar/gky1079.
+Name: The Biogrid Interaction Database: 2019 Update.
+Issue: D1.
+Volume: 47.
+
+Id: doi:10.1007/s10462-020-09826-5.
+Name: A Short Survey On End-To-End Simple Question Answering Systems.
+Issue: 7.
+Volume: 53.
+
+Id: doi:10.1093/nar/gky1131.
+Name: String V11: ProteinâProtein Association Networks With Increased Coverage, Supporting Functional Discovery In Genome-Wide Experimental Datasets.
+Issue: D1.
+Volume: 47.
+
+Id: doi:10.1177/2055207618804927.
+Name: The Use Of Computer-Interpretable Clinical Guidelines To Manage Care Complexities Of Patients With Multimorbid Conditions: A Review.
+Issue: nan.
+Volume: 4.
+
+Id: doi:10.1016/j.patter.2020.100136.
+Name: Dataset Reuse: Toward Translating Principles To Practice.
+Issue: 8.
+Volume: 1.
+
+Id: doi:10.3390/ani11010145.
+Name: Myfishcheck: A Model To Assess Fish Welfare In Aquaculture.
+Issue: 1.
+Volume: 11.
+
+Id: doi:10.1093/nar/gkaa1043.
+Name: The Human Phenotype Ontology In 2021.
+Issue: D1.
+Volume: 49.
+
+Id: doi:10.1080/00207543.2017.1421785.
+Name: A Novel Approach For Analysing Evolutional Motivation Of Empirical Engineering Knowledge.
+Issue: 8.
+Volume: 56.
+
+Id: doi:10.1007/s00778-019-00558-9.
+Name: An Analytical Study Of Large Sparql Query Logs.
+Issue: 2-3.
+Volume: 29.
+
+Id: doi:10.1002/ett.3625.
+Name: Cognitive Internet Of Vehicles And Disaster Management: A Proposed Architecture And Future Direction.
+Issue: nan.
+Volume: nan.
+
+Id: doi:10.1186/s41239-019-0146-1.
+Name: Supporting Self-Regulated Learning And Personalization Using Eportfolios: A Semantic Approach Based On Learning Paths.
 Issue: 1.
 Volume: 16.
 
-Id: doi:10.1080/00207543.2021.2002967.
-Name: Actionable Cognitive Twins For Decision Making In Manufacturing.
-Issue: 2.
-Volume: 60.
+Id: doi:10.1016/j.giq.2018.10.006.
+Name: A Prioritization-Based Analysis Of Local Open Government Data Portals: A Case Study Of Chinese Province-Level Governments.
+Issue: 4.
+Volume: 35.
 
-Id: doi:10.1016/j.ecoinf.2017.06.003.
-Name: Ontology-Based Support For Taxonomic Functions.
+Id: doi:10.1111/cgf.13324.
+Name: Viewing Visual Analytics As Model Building.
+Issue: 6.
+Volume: 37.
+
+Id: doi:10.1108/dta-09-2019-0164.
+Name: Computational Implementation And Formalism Of Fair Data Stewardship Principles.
+Issue: 2.
+Volume: 54.
+
+Id: doi:10.1017/s0269888918000139.
+Name: Knowledge Machines.
 Issue: nan.
+Volume: 33.
+
+Id: doi:10.1016/j.softx.2021.100952.
+Name: Owloop: A Modular Api To Describe Owl Axioms In Oop Objects Hierarchies.
+Issue: nan.
+Volume: 17.
+
+Id: doi:10.1080/0951192x.2019.1599443.
+Name: Enhancing Supply Chain Resilience Using Ontology-Based Decision Support System.
+Issue: 7.
+Volume: 32.
+
+Id: doi:10.1093/bioinformatics/btx566.
+Name: An Automated Tool For Obtaining Qsar-Ready Series Of Compounds Using Semantic Web Technologies.
+Issue: 1.
+Volume: 34.
+
+Id: doi:10.1007/s41061-021-00349-3.
+Name: Web-Based Quantitative StructureâActivity Relationship Resources Facilitate Effective Drug Discovery.
+Issue: 6.
+Volume: 379.
+
+Id: doi:10.1111/nbu.12482.
+Name: Personalised Nutrition For Healthy Living: The Protein Project.
+Issue: 1.
+Volume: 46.
+
+Id: doi:10.1016/j.eswa.2014.03.022.
+Name: Feature-Based Opinion Mining Through Ontologies.
+Issue: 13.
 Volume: 41.
 
-Id: doi:10.1007/s12652-020-02150-4.
-Name: Ontological Concepts For Information Sharing In Cloud Robotics.
+Id: doi:10.3233/sw-180310.
+Name: Comparison And Evaluation Of Ontologies For Units Of Measurement.
+Issue: 1.
+Volume: 10.
+
+Id: doi:10.1080/00207543.2017.1415468.
+Name: Human Resource Optimisation Through Semantically Enriched Data.
+Issue: 8.
+Volume: 56.
+
+Id: doi:10.1016/j.eswa.2020.113843.
+Name: Development Of A Consumer Financial Goals Ontology For Use With Fintech Applications For Improving Financial Capability.
+Issue: nan.
+Volume: 165.
+
+Id: doi:10.1093/bioinformatics/btaa879.
+Name: Predicting Candidate Genes From Phenotypes, Functions And Anatomical Site Of Expression.
+Issue: 6.
+Volume: 37.
+
+Id: doi:10.1038/s41597-021-00797-y.
+Name: An Empirical Meta-Analysis Of The Life Sciences Linked Open Data On The Web.
+Issue: 1.
+Volume: 8.
+
+Id: doi:10.1145/3369875.
+Name: What Are Links In Linked Open Data? A Characterization And Evaluation Of Links Between Knowledge Graphs On The Web.
+Issue: 2.
+Volume: 12.
+
+Id: doi:10.1111/exsy.12629.
+Name: A SemanticâEnabled And ContextâAware Monitoring System For The Internet Of Medical Things.
+Issue: 2.
+Volume: 38.
+
+Id: doi:10.1186/s12859-017-1999-8.
+Name: Inferring Ontology Graph Structures Using Owl Reasoning.
+Issue: 1.
+Volume: 19.
+
+Id: doi:10.1155/2018/5083247.
+Name: Integrated Modeling, Simulation, And Visualization For Nanomaterials.
+Issue: nan.
+Volume: 2018.
+
+Id: doi:10.1080/00207543.2019.1680895.
+Name: Enriching Analytics Models With Domain Knowledge For Smart Manufacturing Data Analysis.
+Issue: 20.
+Volume: 58.
+
+Id: doi:10.1080/09544828.2019.1643830.
+Name: Analogical Stimuli Retrieval Approach Based On R-Sbf Ontology Model.
+Issue: 10-12.
+Volume: 30.
+
+Id: doi:10.2196/20443.
+Name: Ontological Organization And Bioinformatic Analysis Of Adverse Drug Reactions From Package Inserts: Development And Usability Study.
+Issue: 7.
+Volume: 22.
+
+Id: doi:10.1007/s13740-021-00133-y.
+Name: Sparql Query Generator (Sqg).
+Issue: 3-4.
+Volume: 10.
+
+Id: doi:10.3390/data5020046.
+Name: Standartox: Standardizing Toxicity Data.
+Issue: 2.
+Volume: 5.
+
+Id: doi:10.1093/nar/gky1105.
+Name: Expansion Of The Human Phenotype Ontology (Hpo) Knowledge Base And Resources.
+Issue: D1.
+Volume: 47.
+
+Id: doi:10.1002/ajmg.a.62239.
+Name: NextâGeneration Sequencing And The Evolution Of Data Sharing.
+Issue: 9.
+Volume: 185.
+
+Id: doi:10.1007/s10994-021-06118-z.
+Name: Few-Shot Learning For Spatial Regression Via Neural Embedding-Based Gaussian Processes.
 Issue: nan.
 Volume: nan.
 
-Id: doi:10.3390/electronics10091060.
-Name: Collaborative Ontology Engineering Methodologies For The Development Of Decision Support Systems: Case Studies In The Healthcare Domain.
-Issue: 9.
-Volume: 10.
-
-Id: doi:10.1017/s0269888920000065.
-Name: Ontology Engineering Methodologies For The Evolution Of Living And Reused Ontologies: Status, Trends, Findings And Recommendations.
-Issue: nan.
-Volume: 35.
-
-Id: doi:10.3390/met11071025.
-Name: A Decision Support System For Changes In Operation Modes Of The Copper Heap Leaching Process.
-Issue: 7.
-Volume: 11.
-
-Id: doi:10.1680/jmapl.17.00052.
-Name: An Ontology-Based Data Integration Framework For Construction Information Management.
-Issue: 3.
-Volume: 171.
-
-Id: doi:10.1007/s10115-020-01498-5.
-Name: Snowl Model: Social Networks Unification-Based Semantic Data Integration.
-Issue: 11.
-Volume: 62.
-
-Id: doi:10.1177/2053951717743530.
-Name: Fairer Machine Learning In The Real World: Mitigating Discrimination Without Collecting Sensitive Data.
-Issue: 2.
-Volume: 4.
-
-Id: doi:10.1007/s00778-018-0528-3.
-Name: Summarizing Semantic Graphs: A Survey.
-Issue: 3.
-Volume: 28.
-
-Id: doi:10.1002/eng2.12217.
-Name: What Is Knowledge In Industry 4.0?.
-Issue: 8.
+Id: doi:10.1038/s41746-019-0110-4.
+Name: Semantic Integration Of Clinical Laboratory Tests From Electronic Health Records For Deep Phenotyping And Biomarker Discovery.
+Issue: 1.
 Volume: 2.
 
-Id: doi:10.1016/j.earscirev.2018.07.006.
-Name: Geospatial Sensor Web: A Cyber-Physical Infrastructure For Geoscience Research And Application.
+Id: doi:10.1007/s10592-018-1072-9.
+Name: The International Mouse Phenotyping Consortium (Impc): A Functional Catalogue Of The Mammalian Genome That Informs Conservation.
+Issue: 4.
+Volume: 19.
+
+Id: doi:10.1016/j.jmsy.2014.05.003.
+Name: Development Of A Hybrid Manufacturing Cloud.
+Issue: 4.
+Volume: 33.
+
+Id: doi:10.1186/s12911-020-01336-2.
+Name: Towards Semantic Interoperability: Finding And Repairing Hidden Contradictions In Biomedical Ontologies.
+Issue: S10.
+Volume: 20.
+
+Id: doi:10.3390/encyclopedia1010015.
+Name: Ontologies In Knowledge Organization.
+Issue: 1.
+Volume: 1.
+
+Id: doi:10.1186/s13326-017-0154-9.
+Name: Analysis And Visualization Of Disease Courses In A Semantically-Enabled Cancer Registry.
+Issue: 1.
+Volume: 8.
+
+Id: doi:10.1017/s0269888919000237.
+Name: A Review And Comparison Of Ontology-Based Approaches To Robot Autonomy.
 Issue: nan.
-Volume: 185.
+Volume: 34.
 
-Id: doi:10.1108/ijpsm-02-2018-0062.
-Name: Balancing Control, Usability And Visibility Of Linked Open Government Data To Create Public Value.
-Issue: 5.
-Volume: 32.
-
-Id: doi:10.3390/app11125633.
-Name: Semantic Microservice Framework For Digital Twins.
-Issue: 12.
+Id: doi:10.1093/g3journal/jkaa035.
+Name: Insights From The Reanalysis Of High-Throughput Chemical Genomics Data For Escherichia Coli K-12.
+Issue: 1.
 Volume: 11.
 
-Id: doi:10.1017/s0269888916000011.
-Name: Scientific Knowledge Engineering: A Conceptual Delineation And Overview Of The State Of The Art.
+Id: doi:10.1017/aer.2019.74.
+Name: Semantics-Based Summarisation Of Atm Information.
+Issue: 1268.
+Volume: 123.
+
+Id: doi:10.1016/j.xgen.2021.100028.
+Name: The Data Use Ontology To Streamline Responsible Access To Human Biomedical Datasets.
 Issue: 2.
-Volume: 31.
+Volume: 1.
 
-Id: doi:10.1080/17538947.2016.1266041.
-Name: Multidimensional And Quantitative Interlinking Approach For Linked Geospatial Data.
-Issue: 9.
-Volume: 10.
-
-Id: doi:10.3390/ijgi6120386.
-Name: Benchmarking The Applicability Of Ontology In Geographic Object-Based Image Analysis.
+Id: doi:10.3390/electronics7120371.
+Name: Ontology-Based Model To Support Ubiquitous Healthcare Systems For Copd Patients.
 Issue: 12.
+Volume: 7.
+
+Id: doi:10.1007/s00530-019-00610-2.
+Name: A Semantic Parliamentary Multimedia Approach For Retrieval Of Video Clips With Content Understanding.
+Issue: 4.
+Volume: 25.
+
+Id: doi:10.3233/ds-170010.
+Name: Genuine Semantic Publishing.
+Issue: 1-2.
+Volume: 1.
+
+Id: doi:10.1017/s1351324918000347.
+Name: Models To Represent Linguistic Linked Data.
+Issue: 6.
+Volume: 24.
+
+Id: doi:10.12688/f1000research.12168.1.
+Name: Systematically Linking Transmart, Galaxy And Ega For Reusing Human Translational Research Data.
+Issue: nan.
 Volume: 6.
 
-Id: doi:10.3390/bdcc2030025.
-Name: Exploiting Inter- And Intra-Base Crossing With Multi-Mappings: Application To Environmental Data.
-Issue: 3.
-Volume: 2.
+Id: doi:10.1007/s10115-019-01415-5.
+Name: Dbkwik: Extracting And Integrating Knowledge From Thousands Of Wikis.
+Issue: 6.
+Volume: 62.
 
-Id: doi:10.1108/dta-12-2018-0110.
-Name: A Systematic Literature Review On Wikidata.
-Issue: 3.
+Id: doi:10.21105/joss.03374.
+Name: Jphyloref: A Tool For Testing And Resolving Phyloreferences.
+Issue: 64.
+Volume: 6.
+
+Id: doi:10.1371/journal.pone.0236863.
+Name: Microblog Topic Identification Using Linked Open Data.
+Issue: 8.
+Volume: 15.
+
+Id: doi:10.1007/s10462-019-09693-9.
+Name: A Comprehensive Review Of Type-2 Fuzzy Ontology.
+Issue: 2.
 Volume: 53.
 
-Id: doi:10.12688/f1000research.25144.1.
-Name: Dictionary Of Disease Ontologies (Dodo): A Graph Database To Facilitate Access And Interaction With Disease And Phenotype Ontologies.
+Id: doi:10.4018/jdsst.2011010102.
+Name: Automated Diagnosis Through Ontologies And Logical Descriptions.
+Issue: 1.
+Volume: 3.
+
+Id: doi:10.1016/j.inffus.2021.01.007.
+Name: Ontology Integration: Approaches And Challenging Issues.
 Issue: nan.
-Volume: 9.
+Volume: 71.
+
+Id: doi:10.1186/s12911-017-0568-4.
+Name: An Ontology-Aware Integration Of Clinical Models, Terminologies And Guidelines: An Exploratory Study Of The Scale For The Assessment And Rating Of Ataxia (Sara).
+Issue: 1.
+Volume: 17.
+
+Id: doi:10.1007/s10115-019-01401-x.
+Name: Structured Query Construction Via Knowledge Graph Embedding.
+Issue: 5.
+Volume: 62.
+
+Id: doi:10.3390/info12100432.
+Name: An Ontological Approach To Enhancing Information Sharing In Disaster Response.
+Issue: 10.
+Volume: 12.
+
+Id: doi:10.1016/j.cosrev.2020.100339.
+Name: Ontology Learning: Grand Tour And Challenges.
+Issue: nan.
+Volume: 39.
+
+Id: doi:10.3390/info11050263.
+Name: Modeling Popularity And Reliability Of Sources In Multilingual Wikipedia.
+Issue: 5.
+Volume: 11.
+
+Id: doi:10.1016/j.rcim.2018.04.002.
+Name: Simpm â Upper-Level Ontology For Manufacturing Process Plan Network Generation.
+Issue: nan.
+Volume: 55.
+
+Id: doi:10.1007/s10462-020-09866-x.
+Name: Survey On Evaluation Methods For Dialogue Systems.
+Issue: 1.
+Volume: 54.
+
+Id: doi:10.1016/j.websem.2014.06.002.
+Name: Sina: Semantic Interpretation Of User Queries For Question Answering On Interlinked Data.
+Issue: nan.
+Volume: 30.
+
+Id: doi:10.3390/en14206692.
+Name: Fair Metadata Standards For Low Carbon Energy ResearchâA Review Of Practices And How To Advance.
+Issue: 20.
+Volume: 14.
+
+Id: doi:10.3390/jsan10040066.
+Name: Knowledge-Based Approach For The Perception Enhancement Of A Vehicle.
+Issue: 4.
+Volume: 10.
+
+Id: doi:10.1016/j.compind.2020.103374.
+Name: An Ontology-Based Framework To Formalize And Represent 4D Printing Knowledge In Design.
+Issue: nan.
+Volume: 126.
+
+Id: doi:10.1038/s41588-018-0096-x.
+Name: Plain-Language Medical Vocabulary For Precision Diagnosis.
+Issue: 4.
+Volume: 50.
+
+Id: doi:10.1007/s11192-020-03397-6.
+Name: The Practice Of Self-Citations: A Longitudinal Study.
+Issue: 1.
+Volume: 123.
+
+Id: doi:10.1186/s13326-017-0126-0.
+Name: Dead Simple Owl Design Patterns.
+Issue: 1.
+Volume: 8.
+
+Id: doi:10.1371/journal.pcbi.1008376.
+Name: Transforming The Study Of Organisms: Phenomic Data Models And Knowledge Bases.
+Issue: 11.
+Volume: 16.
+
+Id: doi:10.1007/s10209-021-00791-6.
+Name: An Ontology-Based Framework For Improving Color Vision Deficiency Accessibility.
+Issue: nan.
+Volume: nan.
+
+Id: doi:10.1007/s10845-018-1427-6.
+Name: The Development Of An Ontology For Describing The Capabilities Of Manufacturing Resources.
+Issue: 2.
+Volume: 30.
+
+Id: doi:10.1016/j.ydbio.2021.05.015.
+Name: Developmental Basis Of Trachea-Esophageal Birth Defects.
+Issue: nan.
+Volume: 477.
+
+Id: doi:10.1007/s00778-019-00564-x.
+Name: Dataset Search: A Survey.
+Issue: 1.
+Volume: 29.
 
 Id: doi:10.1242/dev.196097.
 Name: Planarian Anatomy Ontology: A Resource To Connect Data Within And Across Experimental Platforms.
@@ -1036,505 +1036,505 @@ Name: Ontology Fixing By Using Software Engineering Technology.
 Issue: 18.
 Volume: 10.
 
-Id: doi:10.1093/nar/gkz997.
-Name: The Monarch Initiative In 2019: An Integrative Data And Analytic Platform Connecting Phenotypes To Genotypes Across Species.
-Issue: D1.
-Volume: 48.
-
-Id: doi:10.1371/journal.pone.0213090.
-Name: An Analysis And Metric Of Reusable Data Licensing Practices For Biomedical Resources.
-Issue: 3.
-Volume: 14.
-
-Id: doi:10.1080/20964471.2019.1661662.
-Name: Geospatial Data Ontology: The Semantic Foundation Of Geospatial Data Integration And Sharing.
-Issue: 3.
+Id: doi:10.1186/s40965-018-0051-x.
+Name: Hypermap Registry: An Open Source, Standards-Based Geospatial Registry And Search Platform.
+Issue: 1.
 Volume: 3.
 
-Id: doi:10.1186/s13326-017-0133-1.
-Name: An Ontology-Driven Tool For Structured Data Acquisition Using Web Forms.
-Issue: 1.
-Volume: 8.
-
-Id: doi:10.1016/j.xgen.2021.100029.
-Name: Ga4Gh: International Policies And Standards For Data Sharing Across Genomic Research And Healthcare.
-Issue: 2.
-Volume: 1.
-
-Id: doi:10.3390/app12010287.
-Name: Ontology-Driven Cultural Heritage Conservation: A Case Of The Analects Of Confucius.
-Issue: 1.
-Volume: 12.
-
-Id: doi:10.1016/j.websem.2014.03.003.
-Name: Api-Centric Linked Data Integration: The Open Phacts Discovery Platform Case Study.
+Id: doi:10.1016/j.jbi.2019.103154.
+Name: Patient Data Discovery Platforms As Enablers Of Biomedical And Translational Research: A Systematic Review.
 Issue: nan.
-Volume: 29.
+Volume: 93.
 
-Id: doi:10.3390/electronics10080905.
-Name: Knowledge-Based System For Crop Pests And Diseases Recognition.
-Issue: 8.
-Volume: 10.
-
-Id: doi:10.1038/sdata.2016.18.
-Name: The Fair Guiding Principles For Scientific Data Management And Stewardship.
-Issue: 1.
-Volume: 3.
-
-Id: doi:10.1145/3345551.
-Name: Large-Scale Semantic Integration Of Linked Data.
-Issue: 5.
-Volume: 52.
-
-Id: doi:10.3233/ds-190016.
-Name: Enabling Text Search On Sparql Endpoints Through Oscar.
-Issue: 1-2.
-Volume: 2.
-
-Id: doi:10.1007/s10796-020-10035-2.
-Name: An Overview Of Utilizing Knowledge Bases In Neural Networks For Question Answering.
-Issue: 5.
+Id: doi:10.1007/s11280-018-0611-0.
+Name: Gstar: An Efficient Framework For Answering Top-K Star Queries On Billion-Node Knowledge Graphs.
+Issue: 4.
 Volume: 22.
 
-Id: doi:10.1007/s00778-016-0444-3.
-Name: Scalekb: Scalable Learning And Inference Over Large Knowledge Bases.
-Issue: 6.
-Volume: 25.
-
-Id: doi:10.1093/nar/gky1003.
-Name: Flybase 2.0: The Next Generation.
-Issue: D1.
-Volume: 47.
-
-Id: doi:10.1093/jamiaopen/ooaa030.
-Name: The Case For Open Science: Rare Diseases.
-Issue: 3.
-Volume: 3.
-
-Id: doi:10.1007/s41060-016-0025-y.
-Name: Crowdsourcing Chart Digitizer: Task Design And Quality Control For Making Legacy Open Data Machine-Readable.
-Issue: 1-2.
-Volume: 2.
-
-Id: doi:10.1016/j.rcim.2019.05.010.
-Name: Core Domain Ontology For Joining Processes To Consolidate Welding Standards.
-Issue: nan.
-Volume: 59.
-
-Id: doi:10.1111/exsy.12291.
-Name: Designing Rule-Based Expert Systems With The Aid Of The Model-Driven Development Approach.
-Issue: 5.
-Volume: 35.
-
-Id: doi:10.12688/f1000research.14613.2.
-Name: Cytargetlinker App Update: A Flexible Solution For Network Extension In Cytoscape.
-Issue: nan.
-Volume: 7.
-
-Id: doi:10.1016/j.jbi.2018.06.008.
-Name: From Lexical Regularities To Axiomatic Patterns For The Quality Assurance Of Biomedical Terminologies And Ontologies.
-Issue: nan.
-Volume: 84.
-
-Id: doi:10.1177/00208523211009955.
-Name: Understanding The Evolution Of Open Government Data Research: Towards Open Data Sustainability And Smartness.
-Issue: nan.
-Volume: nan.
-
-Id: doi:10.1093/nar/gkx998.
-Name: Wormbase 2017: Molting Into A New Stage.
-Issue: D1.
-Volume: 46.
-
-Id: doi:10.1093/nar/gky1079.
-Name: The Biogrid Interaction Database: 2019 Update.
-Issue: D1.
-Volume: 47.
-
-Id: doi:10.1007/s10462-020-09826-5.
-Name: A Short Survey On End-To-End Simple Question Answering Systems.
-Issue: 7.
-Volume: 53.
-
-Id: doi:10.1093/nar/gky1131.
-Name: String V11: ProteinâProtein Association Networks With Increased Coverage, Supporting Functional Discovery In Genome-Wide Experimental Datasets.
-Issue: D1.
-Volume: 47.
-
-Id: doi:10.1177/2055207618804927.
-Name: The Use Of Computer-Interpretable Clinical Guidelines To Manage Care Complexities Of Patients With Multimorbid Conditions: A Review.
-Issue: nan.
-Volume: 4.
-
-Id: doi:10.1016/j.patter.2020.100136.
-Name: Dataset Reuse: Toward Translating Principles To Practice.
-Issue: 8.
-Volume: 1.
-
-Id: doi:10.3390/ani11010145.
-Name: Myfishcheck: A Model To Assess Fish Welfare In Aquaculture.
-Issue: 1.
-Volume: 11.
-
-Id: doi:10.1093/nar/gkaa1043.
-Name: The Human Phenotype Ontology In 2021.
-Issue: D1.
-Volume: 49.
-
-Id: doi:10.1080/00207543.2017.1421785.
-Name: A Novel Approach For Analysing Evolutional Motivation Of Empirical Engineering Knowledge.
-Issue: 8.
-Volume: 56.
-
-Id: doi:10.1007/s00778-019-00558-9.
-Name: An Analytical Study Of Large Sparql Query Logs.
-Issue: 2-3.
-Volume: 29.
-
-Id: doi:10.1002/ett.3625.
-Name: Cognitive Internet Of Vehicles And Disaster Management: A Proposed Architecture And Future Direction.
-Issue: nan.
-Volume: nan.
-
-Id: doi:10.1186/s41239-019-0146-1.
-Name: Supporting Self-Regulated Learning And Personalization Using Eportfolios: A Semantic Approach Based On Learning Paths.
-Issue: 1.
-Volume: 16.
-
-Id: doi:10.1016/j.giq.2018.10.006.
-Name: A Prioritization-Based Analysis Of Local Open Government Data Portals: A Case Study Of Chinese Province-Level Governments.
-Issue: 4.
-Volume: 35.
-
-Id: doi:10.1111/cgf.13324.
-Name: Viewing Visual Analytics As Model Building.
-Issue: 6.
-Volume: 37.
-
-Id: doi:10.1108/dta-09-2019-0164.
-Name: Computational Implementation And Formalism Of Fair Data Stewardship Principles.
-Issue: 2.
-Volume: 54.
-
-Id: doi:10.1017/s0269888918000139.
-Name: Knowledge Machines.
-Issue: nan.
-Volume: 33.
-
-Id: doi:10.1016/j.softx.2021.100952.
-Name: Owloop: A Modular Api To Describe Owl Axioms In Oop Objects Hierarchies.
-Issue: nan.
-Volume: 17.
-
-Id: doi:10.1080/0951192x.2019.1599443.
-Name: Enhancing Supply Chain Resilience Using Ontology-Based Decision Support System.
-Issue: 7.
-Volume: 32.
-
-Id: doi:10.1093/bioinformatics/btx566.
-Name: An Automated Tool For Obtaining Qsar-Ready Series Of Compounds Using Semantic Web Technologies.
-Issue: 1.
-Volume: 34.
-
-Id: doi:10.1007/s41061-021-00349-3.
-Name: Web-Based Quantitative StructureâActivity Relationship Resources Facilitate Effective Drug Discovery.
-Issue: 6.
-Volume: 379.
-
-Id: doi:10.1111/nbu.12482.
-Name: Personalised Nutrition For Healthy Living: The Protein Project.
-Issue: 1.
-Volume: 46.
-
-Id: doi:10.1016/j.eswa.2014.03.022.
-Name: Feature-Based Opinion Mining Through Ontologies.
-Issue: 13.
-Volume: 41.
-
-Id: doi:10.3233/sw-180310.
-Name: Comparison And Evaluation Of Ontologies For Units Of Measurement.
-Issue: 1.
-Volume: 10.
-
-Id: doi:10.1080/00207543.2017.1415468.
-Name: Human Resource Optimisation Through Semantically Enriched Data.
-Issue: 8.
-Volume: 56.
-
-Id: doi:10.1016/j.eswa.2020.113843.
-Name: Development Of A Consumer Financial Goals Ontology For Use With Fintech Applications For Improving Financial Capability.
-Issue: nan.
-Volume: 165.
-
-Id: doi:10.1093/bioinformatics/btaa879.
-Name: Predicting Candidate Genes From Phenotypes, Functions And Anatomical Site Of Expression.
-Issue: 6.
-Volume: 37.
-
-Id: doi:10.1038/s41597-021-00797-y.
-Name: An Empirical Meta-Analysis Of The Life Sciences Linked Open Data On The Web.
-Issue: 1.
-Volume: 8.
-
-Id: doi:10.1145/3369875.
-Name: What Are Links In Linked Open Data? A Characterization And Evaluation Of Links Between Knowledge Graphs On The Web.
-Issue: 2.
-Volume: 12.
-
-Id: doi:10.1111/exsy.12629.
-Name: A SemanticâEnabled And ContextâAware Monitoring System For The Internet Of Medical Things.
-Issue: 2.
-Volume: 38.
-
-Id: doi:10.1186/s12859-017-1999-8.
-Name: Inferring Ontology Graph Structures Using Owl Reasoning.
-Issue: 1.
-Volume: 19.
-
-Id: doi:10.1155/2018/5083247.
-Name: Integrated Modeling, Simulation, And Visualization For Nanomaterials.
-Issue: nan.
-Volume: 2018.
-
-Id: doi:10.1080/00207543.2019.1680895.
-Name: Enriching Analytics Models With Domain Knowledge For Smart Manufacturing Data Analysis.
-Issue: 20.
-Volume: 58.
-
-Id: doi:10.1080/09544828.2019.1643830.
-Name: Analogical Stimuli Retrieval Approach Based On R-Sbf Ontology Model.
-Issue: 10-12.
-Volume: 30.
-
-Id: doi:10.2196/20443.
-Name: Ontological Organization And Bioinformatic Analysis Of Adverse Drug Reactions From Package Inserts: Development And Usability Study.
-Issue: 7.
-Volume: 22.
-
-Id: doi:10.1007/s13740-021-00133-y.
-Name: Sparql Query Generator (Sqg).
-Issue: 3-4.
-Volume: 10.
-
-Id: doi:10.3390/data5020046.
-Name: Standartox: Standardizing Toxicity Data.
-Issue: 2.
-Volume: 5.
-
-Id: doi:10.1093/nar/gky1105.
-Name: Expansion Of The Human Phenotype Ontology (Hpo) Knowledge Base And Resources.
-Issue: D1.
-Volume: 47.
-
-Id: doi:10.1002/ajmg.a.62239.
-Name: NextâGeneration Sequencing And The Evolution Of Data Sharing.
-Issue: 9.
-Volume: 185.
-
-Id: doi:10.1007/s10994-021-06118-z.
-Name: Few-Shot Learning For Spatial Regression Via Neural Embedding-Based Gaussian Processes.
-Issue: nan.
-Volume: nan.
-
-Id: doi:10.1038/s41746-019-0110-4.
-Name: Semantic Integration Of Clinical Laboratory Tests From Electronic Health Records For Deep Phenotyping And Biomarker Discovery.
-Issue: 1.
-Volume: 2.
-
-Id: doi:10.1007/s10592-018-1072-9.
-Name: The International Mouse Phenotyping Consortium (Impc): A Functional Catalogue Of The Mammalian Genome That Informs Conservation.
-Issue: 4.
-Volume: 19.
-
-Id: doi:10.1016/j.jmsy.2014.05.003.
-Name: Development Of A Hybrid Manufacturing Cloud.
-Issue: 4.
-Volume: 33.
-
-Id: doi:10.1186/s12911-020-01336-2.
-Name: Towards Semantic Interoperability: Finding And Repairing Hidden Contradictions In Biomedical Ontologies.
-Issue: S10.
-Volume: 20.
-
-Id: doi:10.3390/encyclopedia1010015.
-Name: Ontologies In Knowledge Organization.
-Issue: 1.
-Volume: 1.
-
-Id: doi:10.1186/s13326-017-0154-9.
-Name: Analysis And Visualization Of Disease Courses In A Semantically-Enabled Cancer Registry.
-Issue: 1.
-Volume: 8.
-
-Id: doi:10.1017/s0269888919000237.
-Name: A Review And Comparison Of Ontology-Based Approaches To Robot Autonomy.
-Issue: nan.
-Volume: 34.
-
-Id: doi:10.1093/g3journal/jkaa035.
-Name: Insights From The Reanalysis Of High-Throughput Chemical Genomics Data For Escherichia Coli K-12.
-Issue: 1.
-Volume: 11.
-
-Id: doi:10.1017/aer.2019.74.
-Name: Semantics-Based Summarisation Of Atm Information.
-Issue: 1268.
-Volume: 123.
-
-Id: doi:10.1016/j.xgen.2021.100028.
-Name: The Data Use Ontology To Streamline Responsible Access To Human Biomedical Datasets.
-Issue: 2.
-Volume: 1.
-
-Id: doi:10.3390/electronics7120371.
-Name: Ontology-Based Model To Support Ubiquitous Healthcare Systems For Copd Patients.
-Issue: 12.
-Volume: 7.
-
-Id: doi:10.1007/s00530-019-00610-2.
-Name: A Semantic Parliamentary Multimedia Approach For Retrieval Of Video Clips With Content Understanding.
-Issue: 4.
-Volume: 25.
-
-Id: doi:10.3233/ds-170010.
-Name: Genuine Semantic Publishing.
-Issue: 1-2.
-Volume: 1.
-
-Id: doi:10.1017/s1351324918000347.
-Name: Models To Represent Linguistic Linked Data.
-Issue: 6.
-Volume: 24.
-
-Id: doi:10.12688/f1000research.12168.1.
-Name: Systematically Linking Transmart, Galaxy And Ega For Reusing Human Translational Research Data.
-Issue: nan.
-Volume: 6.
-
-Id: doi:10.1007/s10115-019-01415-5.
-Name: Dbkwik: Extracting And Integrating Knowledge From Thousands Of Wikis.
-Issue: 6.
-Volume: 62.
-
-Id: doi:10.21105/joss.03374.
-Name: Jphyloref: A Tool For Testing And Resolving Phyloreferences.
-Issue: 64.
-Volume: 6.
-
-Id: doi:10.1371/journal.pone.0236863.
-Name: Microblog Topic Identification Using Linked Open Data.
-Issue: 8.
-Volume: 15.
-
-Id: doi:10.1007/s10462-019-09693-9.
-Name: A Comprehensive Review Of Type-2 Fuzzy Ontology.
-Issue: 2.
-Volume: 53.
-
-Id: doi:10.4018/jdsst.2011010102.
-Name: Automated Diagnosis Through Ontologies And Logical Descriptions.
-Issue: 1.
-Volume: 3.
-
-Id: doi:10.1016/j.inffus.2021.01.007.
-Name: Ontology Integration: Approaches And Challenging Issues.
-Issue: nan.
-Volume: 71.
-
-Id: doi:10.1186/s12911-017-0568-4.
-Name: An Ontology-Aware Integration Of Clinical Models, Terminologies And Guidelines: An Exploratory Study Of The Scale For The Assessment And Rating Of Ataxia (Sara).
-Issue: 1.
-Volume: 17.
-
-Id: doi:10.1007/s10115-019-01401-x.
-Name: Structured Query Construction Via Knowledge Graph Embedding.
-Issue: 5.
-Volume: 62.
-
-Id: doi:10.3390/info12100432.
-Name: An Ontological Approach To Enhancing Information Sharing In Disaster Response.
-Issue: 10.
-Volume: 12.
-
-Id: doi:10.1016/j.cosrev.2020.100339.
-Name: Ontology Learning: Grand Tour And Challenges.
-Issue: nan.
-Volume: 39.
-
-Id: doi:10.3390/info11050263.
-Name: Modeling Popularity And Reliability Of Sources In Multilingual Wikipedia.
-Issue: 5.
-Volume: 11.
-
-Id: doi:10.1016/j.rcim.2018.04.002.
-Name: Simpm â Upper-Level Ontology For Manufacturing Process Plan Network Generation.
-Issue: nan.
-Volume: 55.
-
-Id: doi:10.1007/s10462-020-09866-x.
-Name: Survey On Evaluation Methods For Dialogue Systems.
-Issue: 1.
-Volume: 54.
-
-Id: doi:10.1016/j.websem.2014.06.002.
-Name: Sina: Semantic Interpretation Of User Queries For Question Answering On Interlinked Data.
-Issue: nan.
-Volume: 30.
-
-Id: doi:10.3390/en14206692.
-Name: Fair Metadata Standards For Low Carbon Energy ResearchâA Review Of Practices And How To Advance.
-Issue: 20.
-Volume: 14.
-
-Id: doi:10.3390/jsan10040066.
-Name: Knowledge-Based Approach For The Perception Enhancement Of A Vehicle.
-Issue: 4.
-Volume: 10.
-
-Id: doi:10.1016/j.compind.2020.103374.
-Name: An Ontology-Based Framework To Formalize And Represent 4D Printing Knowledge In Design.
-Issue: nan.
-Volume: 126.
-
-Id: doi:10.1038/s41588-018-0096-x.
-Name: Plain-Language Medical Vocabulary For Precision Diagnosis.
-Issue: 4.
-Volume: 50.
-
-Id: doi:10.1007/s11192-020-03397-6.
-Name: The Practice Of Self-Citations: A Longitudinal Study.
-Issue: 1.
-Volume: 123.
-
-Id: doi:10.1186/s13326-017-0126-0.
-Name: Dead Simple Owl Design Patterns.
-Issue: 1.
-Volume: 8.
-
-Id: doi:10.1371/journal.pcbi.1008376.
-Name: Transforming The Study Of Organisms: Phenomic Data Models And Knowledge Bases.
+Id: doi:10.1038/s41581-020-00335-w.
+Name: Modelling Kidney Disease Using Ontology: Insights From The Kidney Precision Medicine Project.
 Issue: 11.
 Volume: 16.
 
-Id: doi:10.1007/s10209-021-00791-6.
-Name: An Ontology-Based Framework For Improving Color Vision Deficiency Accessibility.
+Id: doi:10.1007/s42421-020-00023-y.
+Name: A Rubric-Driven Evaluation Of Open Data Portals And Their Data In Transportation.
+Issue: 2.
+Volume: 2.
+
+Id: doi:10.1080/17538947.2020.1738568.
+Name: Geo-Analytical Question-Answering With Gis.
+Issue: 1.
+Volume: 14.
+
+Id: doi:10.1109/tip.2016.2552401.
+Name: Ontology-Based Semantic Image Segmentation Using Mixture Models And Multiple Crfs.
+Issue: 7.
+Volume: 25.
+
+Id: doi:10.5028/jatm.v12.1098.
+Name: Aeb Online Calculator For Assessing Technology Maturity: Imatec.
+Issue: 12.
+Volume: nan.
+
+Id: doi:10.1016/j.is.2015.02.003.
+Name: Incorporating Ontology-Based Semantics Into Conceptual Modelling.
+Issue: nan.
+Volume: 52.
+
+Id: doi:10.1016/j.websem.2021.100694.
+Name: A Multiplatform Energy-Aware Owl Reasoner Benchmarking Framework.
+Issue: nan.
+Volume: 72.
+
+Id: doi:10.1007/s10817-017-9406-8.
+Name: The Owl Reasoner Evaluation (Ore) 2015 Competition Report.
+Issue: 4.
+Volume: 59.
+
+Id: doi:10.4018/ijsita.2019040104.
+Name: Large-Scale Ontology Alignment- An Extraction Based Method To Support Information System Interoperability.
+Issue: 2.
+Volume: 10.
+
+Id: doi:10.1093/bioinformatics/btab019.
+Name: Phenotagger: A Hybrid Method For Phenotype Concept Recognition Using Human Phenotype Ontology.
+Issue: 13.
+Volume: 37.
+
+Id: doi:10.1093/jamia/ocaa061.
+Name: Development Of The Gender, Sex, And Sexual Orientation Ontology: Evaluation And Workflow.
+Issue: 7.
+Volume: 27.
+
+Id: doi:10.4028/www.scientific.net/amm.809-810.1281.
+Name: A Generic Ontology For Product Structuring.
+Issue: nan.
+Volume: 809-810.
+
+Id: doi:10.1016/j.cirpj.2018.06.002.
+Name: A Problem-Solving Ontology For Human-Centered Cyber Physical Production Systems.
+Issue: nan.
+Volume: 22.
+
+Id: doi:10.3390/electronics10141650.
+Name: Improving Recommendations For Online Retail Markets Based On Ontology Evolution.
+Issue: 14.
+Volume: 10.
+
+Id: doi:10.1080/15228835.2017.1416515.
+Name: Hiding In Plain Sight: Insights About Health-Care Trends Gained Through Open Health Data.
+Issue: 1.
+Volume: 36.
+
+Id: doi:10.3390/electronics9050750.
+Name: A Survey On Knowledge Graph Embedding: Approaches, Applications And Benchmarks.
+Issue: 5.
+Volume: 9.
+
+Id: doi:10.4018/ijossp.2019040101.
+Name: Norjade.
+Issue: 2.
+Volume: 10.
+
+Id: doi:10.4258/hir.2018.24.4.376.
+Name: Design And Construction Of A Nlp Based Knowledge Extraction Methodology In The Medical Domain Applied To Clinical Information.
+Issue: 4.
+Volume: 24.
+
+Id: doi:10.1016/j.cageo.2021.105005.
+Name: Georeservoir: An Ontology For Deep-Marine Depositional System Geometry Description.
+Issue: nan.
+Volume: 159.
+
+Id: doi:10.1145/3407194.
+Name: Early Detection Of Social Media Hoaxes At Scale.
+Issue: 4.
+Volume: 14.
+
+Id: doi:10.1093/nar/gky1056.
+Name: Mouse Genome Database (Mgd) 2019.
+Issue: D1.
+Volume: 47.
+
+Id: doi:10.1016/j.jlamp.2014.12.005.
+Name: Minimal Type Inference For Linked Data Consumers.
+Issue: 4.
+Volume: 84.
+
+Id: doi:10.1111/exsy.12380.
+Name: Onyx: A New CanvasâBased Tool For Visualizing Biomedical And Health Ontologies.
+Issue: 1.
+Volume: 37.
+
+Id: doi:10.1155/2017/8327980.
+Name: Linked Registries: Connecting Rare Diseases Patient Registries Through A Semantic Web Layer.
+Issue: nan.
+Volume: 2017.
+
+Id: doi:10.1016/j.ijinfomgt.2016.05.022.
+Name: Towards Knowledge Modeling And Manipulation Technologies: A Survey.
+Issue: 6.
+Volume: 36.
+
+Id: doi:10.3989/redc.2019.4.1605.
+Name: RevisiÃ³n Del Cumplimiento De Los Datos Abiertos Por Los Ayuntamientos EspaÃ±oles En La Iniciativa Aporta.
+Issue: 4.
+Volume: 42.
+
+Id: doi:10.1038/s41467-021-26674-1.
+Name: Network Analysis Reveals Rare Disease Signatures Across Multiple Levels Of Biological Organization.
+Issue: 1.
+Volume: 12.
+
+Id: doi:10.1002/cpe.4186.
+Name: Analytics For Citizens: A Linked Open Data Model For Statistical Data Exploration.
+Issue: 8.
+Volume: 33.
+
+Id: doi:10.1007/s00165-021-00549-0.
+Name: Enhancing Probabilistic Model Checking With Ontologies.
+Issue: 6.
+Volume: 33.
+
+Id: doi:10.3390/app9214547.
+Name: Ontology-Based System For Dynamic Risk Management In Administrative Domains.
+Issue: 21.
+Volume: 9.
+
+Id: doi:10.1016/j.compind.2021.103496.
+Name: An Ontology For Reasoning Over Engineering Textual Data Stored In Fmea Spreadsheet Tables.
+Issue: nan.
+Volume: 131.
+
+Id: doi:10.3390/ijgi7070264.
+Name: Structured Knowledge Base As Prior Knowledge To Improve Urban Data Analysis.
+Issue: 7.
+Volume: 7.
+
+Id: doi:10.1186/s13326-016-0091-z.
+Name: Supporting The Analysis Of Ontology Evolution Processes Through The Combination Of Static And Dynamic Scaling Functions In Oquare.
+Issue: 1.
+Volume: 7.
+
+Id: doi:10.1016/j.measurement.2018.01.009.
+Name: A Mathematical Evaluation For Measuring Correctness Of Domain Ontologies Using Concept Maps.
+Issue: nan.
+Volume: 118.
+
+Id: doi:10.1016/j.websem.2014.11.003.
+Name: On The Formulation Of Performant Sparql Queries.
+Issue: nan.
+Volume: 31.
+
+Id: doi:10.1016/j.eswa.2019.112965.
+Name: Automating The Expansion Of A Knowledge Graph.
+Issue: nan.
+Volume: 141.
+
+Id: doi:10.1007/s10010-021-00466-x.
+Name: Ontology For Maintenance Of Onshore Wind Turbines.
+Issue: 2.
+Volume: 85.
+
+Id: doi:10.1109/access.2017.2734681.
+Name: Network Security Situation Awareness Based On Semantic Ontology And User-Defined Rules For Internet Of Things.
+Issue: nan.
+Volume: 5.
+
+Id: doi:10.1016/j.ijinfomgt.2019.05.008.
+Name: The Dual Effects Of The Internet Of Things (Iot): A Systematic Review Of The Benefits And Risks Of Iot Adoption By Organizations.
+Issue: nan.
+Volume: 51.
+
+Id: doi:10.7466/jfbl.2020.38.4.1.
+Name: An Ontology Of Intimate Partnerships For Social Big Data Research.
+Issue: 4.
+Volume: 38.
+
+Id: doi:10.1002/humu.23655.
+Name: Matchbox: An Open-Source Tool For Patient Matching Via The Matchmaker Exchange.
+Issue: 12.
+Volume: 39.
+
+Id: doi:10.1038/nprot.2015.124.
+Name: Next-Generation Diagnostics And Disease-Gene Discovery With The Exomiser.
+Issue: 12.
+Volume: 10.
+
+Id: doi:10.1080/23311916.2016.1193959.
+Name: Poem: Practical Ontology Engineering Model For Semantic Web Ontologies.
+Issue: 1.
+Volume: 3.
+
+Id: doi:10.1007/s10579-021-09546-4.
+Name: Lexo: An Open-Source System For Managing Ontolex-Lemon Resources.
+Issue: 4.
+Volume: 55.
+
+Id: doi:10.1093/bib/bbab363.
+Name: Genome Sequencing Data Analysis For Rare Disease Gene Discovery.
+Issue: 1.
+Volume: 23.
+
+Id: doi:10.1016/j.future.2015.09.008.
+Name: Scalable Semantic Aware Context Storage.
+Issue: nan.
+Volume: 56.
+
+Id: doi:10.1093/nar/gky1120.
+Name: The Nhgri-Ebi Gwas Catalog Of Published Genome-Wide Association Studies, Targeted Arrays And Summary Statistics 2019.
+Issue: D1.
+Volume: 47.
+
+Id: doi:10.1016/j.jss.2018.09.069.
+Name: Efficient Cloud Service Discovery Approach Based On Lda Topic Modeling.
+Issue: nan.
+Volume: 146.
+
+Id: doi:10.1016/j.cities.2019.03.009.
+Name: Investigating The Barriers Faced By Stakeholders In Open Data Development: A Study On Hong Kong As A âSmart Cityâ.
+Issue: nan.
+Volume: 92.
+
+Id: doi:10.1038/s41598-019-40368-1.
+Name: Quantitative Evaluation Of Ontology Design Patterns For Combining Pathology And Anatomy Ontologies.
+Issue: 1.
+Volume: 9.
+
+Id: doi:10.3390/app11062813.
+Name: Ontology-Based Semantic Conceptualisation Of Historical Built Heritage To Generate Parametric Structured Models From Point Clouds.
+Issue: 6.
+Volume: 11.
+
+Id: doi:10.3390/cancers13164207.
+Name: Computational Approaches For Cancer-Fighting: From Gene Expression To Functional Foods.
+Issue: 16.
+Volume: 13.
+
+Id: doi:10.1049/sfw2.12034.
+Name: Vulcont: A Recommender System Based On Context History Ontology.
+Issue: 1.
+Volume: 16.
+
+Id: doi:10.1002/1873-3468.14067.
+Name: Sharing Biological Data: Why, When, And How.
+Issue: 7.
+Volume: 595.
+
+Id: doi:10.1093/database/bax088.
+Name: A Semantic-Based Workflow For Biomedical Literature Annotation.
+Issue: nan.
+Volume: 2017.
+
+Id: doi:10.1016/j.websem.2021.100655.
+Name: Crossing The Chasm Between Ontology Engineering And Application Development: A Survey.
+Issue: nan.
+Volume: 70.
+
+Id: doi:10.3390/publications7030050.
+Name: Dras-Tic Linked Data: Evenly Distributing The Past.
+Issue: 3.
+Volume: 7.
+
+Id: doi:10.1108/jmtm-04-2020-0137.
+Name: Application Of Design Thinking To Product-Configuration Projects.
+Issue: 1.
+Volume: 32.
+
+Id: doi:10.3390/su132413844.
+Name: Approaching Healthy City Ontology: First-Level Classes Definition Using Bfo.
+Issue: 24.
+Volume: 13.
+
+Id: doi:10.1080/02681102.2017.1412289.
+Name: Open Data And E-Government â Related Or Competing Ecosystems: A Paradox Of Open Government And Promise Of Civic Engagement In Estonia.
+Issue: 3.
+Volume: 25.
+
+Id: doi:10.4018/ijkss.2020040101.
+Name: Discovering Cross-Disciplinary Concepts In Multidisciplinary Context Through Collaborative Framework.
+Issue: 2.
+Volume: 11.
+
+Id: doi:10.3390/app10020591.
+Name: An Analytical Game For Knowledge Acquisition For Maritime Behavioral Analysis Systems.
+Issue: 2.
+Volume: 10.
+
+Id: doi:10.1016/j.eswa.2019.113135.
+Name: Iota: Interlinking Of Heterogeneous Multilingual Open Fiscal Data.
+Issue: nan.
+Volume: 147.
+
+Id: doi:10.1016/j.xgen.2021.100031.
+Name: Empirical Validation Of An Automated Approach To Data Use Oversight.
+Issue: 2.
+Volume: 1.
+
+Id: doi:10.3390/asi4010021.
+Name: An Ontological Approach For Early Detection Of Suspected Covid-19 Among Copd Patients.
+Issue: 1.
+Volume: 4.
+
+Id: doi:10.1016/j.crtox.2021.03.001.
+Name: Ctd Anatomy: Analyzing Chemical-Induced Phenotypes And Exposures From An Anatomical Perspective, With Implications For Environmental Health Studies.
+Issue: nan.
+Volume: 2.
+
+Id: doi:10.1016/j.jbi.2019.103293.
+Name: Making Work Visible For Electronic Phenotype Implementation: Lessons Learned From The Emerge Network.
+Issue: nan.
+Volume: 99.
+
+Id: doi:10.1371/journal.pcbi.1009283.
+Name: Diffusion Enables Integration Of Heterogeneous Data And User-Driven Learning In A Desktop Knowledge-Base.
+Issue: 8.
+Volume: 17.
+
+Id: doi:10.1186/s12911-020-01267-y.
+Name: Conversational Ontology Operator: Patient-Centric Vaccine Dialogue Management Engine For Spoken Conversational Agents.
+Issue: S4.
+Volume: 20.
+
+Id: doi:10.1007/s00354-019-00074-y.
+Name: Interconnection Of Biological Knowledge Using Nikkajirdf And Interlinking Ontology For Biological Concepts.
+Issue: 4.
+Volume: 37.
+
+Id: doi:10.1007/s40194-021-01151-x.
+Name: Recommendations For An Open Science Approach To Welding Process Research Data.
+Issue: 9.
+Volume: 65.
+
+Id: doi:10.1016/j.jcss.2015.06.001.
+Name: Dynamic Class Hierarchy Management For Multi-Version Ontology-Based Personalization.
+Issue: 1.
+Volume: 82.
+
+Id: doi:10.1016/j.jvolgeores.2014.07.012.
+Name: Knowledge Engineering In Volcanology: Practical Claims And General Approach.
+Issue: nan.
+Volume: 286.
+
+Id: doi:10.1016/j.eswa.2019.04.009.
+Name: Legal Ontologies Over Time: A Systematic Mapping Study.
+Issue: nan.
+Volume: 130.
+
+Id: doi:10.1177/01655515211022185.
+Name: Using Iso And Semantic Web Standard For Building A Multilingual Terminology E-Dictionary: A Use Case Of Chinese Ceramic Vases.
 Issue: nan.
 Volume: nan.
 
-Id: doi:10.1007/s10845-018-1427-6.
-Name: The Development Of An Ontology For Describing The Capabilities Of Manufacturing Resources.
+Id: doi:10.1007/s11625-016-0412-2.
+Name: Digital Sustainability: Basic Conditions For Sustainable Digital Artifacts And Their Ecosystems.
 Issue: 2.
-Volume: 30.
+Volume: 12.
 
-Id: doi:10.1016/j.ydbio.2021.05.015.
-Name: Developmental Basis Of Trachea-Esophageal Birth Defects.
-Issue: nan.
-Volume: 477.
-
-Id: doi:10.1007/s00778-019-00564-x.
-Name: Dataset Search: A Survey.
+Id: doi:10.1186/s13023-021-01797-2.
+Name: Towards Enhanced Understanding Of Idiopathic Ketotic Hypoglycemia: A Literature Review And Introduction Of The Patient Organization, Ketotic Hypoglycemia International.
 Issue: 1.
-Volume: 29.
+Volume: 16.
+
+Id: doi:10.1080/00207543.2021.2002967.
+Name: Actionable Cognitive Twins For Decision Making In Manufacturing.
+Issue: 2.
+Volume: 60.
+
+Id: doi:10.1016/j.ecoinf.2017.06.003.
+Name: Ontology-Based Support For Taxonomic Functions.
+Issue: nan.
+Volume: 41.
+
+Id: doi:10.1007/s12652-020-02150-4.
+Name: Ontological Concepts For Information Sharing In Cloud Robotics.
+Issue: nan.
+Volume: nan.
+
+Id: doi:10.3390/electronics10091060.
+Name: Collaborative Ontology Engineering Methodologies For The Development Of Decision Support Systems: Case Studies In The Healthcare Domain.
+Issue: 9.
+Volume: 10.
+
+Id: doi:10.1017/s0269888920000065.
+Name: Ontology Engineering Methodologies For The Evolution Of Living And Reused Ontologies: Status, Trends, Findings And Recommendations.
+Issue: nan.
+Volume: 35.
+
+Id: doi:10.3390/met11071025.
+Name: A Decision Support System For Changes In Operation Modes Of The Copper Heap Leaching Process.
+Issue: 7.
+Volume: 11.
+
+Id: doi:10.1680/jmapl.17.00052.
+Name: An Ontology-Based Data Integration Framework For Construction Information Management.
+Issue: 3.
+Volume: 171.
+
+Id: doi:10.1007/s10115-020-01498-5.
+Name: Snowl Model: Social Networks Unification-Based Semantic Data Integration.
+Issue: 11.
+Volume: 62.
+
+Id: doi:10.1177/2053951717743530.
+Name: Fairer Machine Learning In The Real World: Mitigating Discrimination Without Collecting Sensitive Data.
+Issue: 2.
+Volume: 4.
+
+Id: doi:10.1007/s00778-018-0528-3.
+Name: Summarizing Semantic Graphs: A Survey.
+Issue: 3.
+Volume: 28.
+
+Id: doi:10.1002/eng2.12217.
+Name: What Is Knowledge In Industry 4.0?.
+Issue: 8.
+Volume: 2.
+
+Id: doi:10.1016/j.earscirev.2018.07.006.
+Name: Geospatial Sensor Web: A Cyber-Physical Infrastructure For Geoscience Research And Application.
+Issue: nan.
+Volume: 185.
+
+Id: doi:10.1108/ijpsm-02-2018-0062.
+Name: Balancing Control, Usability And Visibility Of Linked Open Government Data To Create Public Value.
+Issue: 5.
+Volume: 32.
+
+Id: doi:10.3390/app11125633.
+Name: Semantic Microservice Framework For Digital Twins.
+Issue: 12.
+Volume: 11.
+
+Id: doi:10.1017/s0269888916000011.
+Name: Scientific Knowledge Engineering: A Conceptual Delineation And Overview Of The State Of The Art.
+Issue: 2.
+Volume: 31.
+
+Id: doi:10.1080/17538947.2016.1266041.
+Name: Multidimensional And Quantitative Interlinking Approach For Linked Geospatial Data.
+Issue: 9.
+Volume: 10.
+
+Id: doi:10.3390/ijgi6120386.
+Name: Benchmarking The Applicability Of Ontology In Geographic Object-Based Image Analysis.
+Issue: 12.
+Volume: 6.
+
+Id: doi:10.3390/bdcc2030025.
+Name: Exploiting Inter- And Intra-Base Crossing With Multi-Mappings: Application To Environmental Data.
+Issue: 3.
+Volume: 2.
+
+Id: doi:10.1108/dta-12-2018-0110.
+Name: A Systematic Literature Review On Wikidata.
+Issue: 3.
+Volume: 53.
+
+Id: doi:10.12688/f1000research.25144.1.
+Name: Dictionary Of Disease Ontologies (Dodo): A Graph Database To Facilitate Access And Interaction With Disease And Phenotype Ontologies.
+Issue: nan.
+Volume: 9.
 
 Id: doi:10.1007/s11423-019-09706-y.
 Name: The Use Of Open Data As A Material For Learning.

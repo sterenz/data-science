@@ -9,21 +9,9 @@ Doi: doi:10.1093/nar/gky1120.
 Title: The Nhgri-Ebi Gwas Catalog Of Published Genome-Wide Association Studies, Targeted Arrays And Summary Statistics 2019.
 Publication Year: 2018.
 
-Doi: doi:10.3390/info12040160.
-Title: Conversation Concepts: Understanding Topics And Building Taxonomies For Financial Services.
-Publication Year: 2021.
-
 Doi: doi:10.1162/dint_a_00030.
 Title: Fair Data Reuse â The Path Through Data Citation.
 Publication Year: 2020.
-
-Doi: doi:10.1016/j.patter.2020.100136.
-Title: Dataset Reuse: Toward Translating Principles To Practice.
-Publication Year: 2020.
-
-Doi: doi:10.1016/j.xgen.2021.100029.
-Title: Ga4Gh: International Policies And Standards For Data Sharing Across Genomic Research And Healthcare.
-Publication Year: 2021.
 
 Doi: doi:10.1017/s0269888918000139.
 Title: Knowledge Machines.
@@ -44,6 +32,18 @@ Publication Year: 2017.
 Doi: doi:10.1016/j.websem.2014.11.003.
 Title: On The Formulation Of Performant Sparql Queries.
 Publication Year: 2015.
+
+Doi: doi:10.1016/j.patter.2020.100136.
+Title: Dataset Reuse: Toward Translating Principles To Practice.
+Publication Year: 2020.
+
+Doi: doi:10.1016/j.xgen.2021.100029.
+Title: Ga4Gh: International Policies And Standards For Data Sharing Across Genomic Research And Healthcare.
+Publication Year: 2021.
+
+Doi: doi:10.3390/info12040160.
+Title: Conversation Concepts: Understanding Topics And Building Taxonomies For Financial Services.
+Publication Year: 2021.
 
 Doi: doi:10.1162/qss_a_00023.
 Title: Opencitations, An Infrastructure Organization For Open Scholarship.
