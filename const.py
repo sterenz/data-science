@@ -415,6 +415,26 @@ FILTER(?venueId = '$VENUE_ID')
 # Proceedings by event.        #
 #                              #
 ################################
+EVENT_PARTIAL_NAME = "web"
+
+PROCEEDINGS_BY_EVENT = """
+PREFIX res:     <https://allorapy.github.io/res/>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX fabio:   <http://purl.org/spar/fabio/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema:  <https://schema.org/>
+
+SELECT ?proceedings ?proceedingsId ?proceedingsTitle ?proceedingsEvent
+ WHERE {
+
+   ?proceedings a fabio:ConferenceProceedings;
+                dcterms:title ?proceedingsTitle;
+                dcterms:identifier ?proceedingsId;
+   				      schema:event ?proceedingsEvent.
+   
+   FILTER(?proceedingsEvent = '$EVENT_PARTIAL_NAME')
+}  
+"""
 
 ################################
 #                              #
@@ -538,7 +558,7 @@ WHERE {
                   dcterms:identifier ?organizationId;
                   schema:name ?organizationName.  
   
-  FILTER(?publicationId in $PUBLICATIONS_LIST) 
+  FILTER(?publicationId IN $PUBLICATIONS_LIST) 
 }
 GROUP BY ?organization ?organizationId ?organizationName
 ORDER BY (?publicationId)

@@ -580,6 +580,82 @@ def do_journal_articles_in_journal(_generic_query_processor: QueryProcessor) -> 
     print('-- INFO: The result has been write in: ''./queries-results/journal_articles_in_journal.txt'' ')
 
 
+#
+# Proceedings Events.
+#
+def do_proceedings_by_event(_generic_query_processor: QueryProcessor) -> None:
+
+    # Define a counter to know how many item are retrieved.
+    counter = 0
+
+    # Define a list to collect items to print in the file.
+    result_string_list = []
+
+    #
+    # Do the query.
+    #
+    res_proceedings_by_event = _generic_query_processor.getProceedingsByEvent(EVENT_PARTIAL_NAME)
+
+    # Build the template string.
+    string_to_template = 'Proceedings by = $EVENT :\n\n'
+    header_proceedings_by_event = Template(string_to_template).substitute(EVENT = EVENT_PARTIAL_NAME)
+
+    #
+    # Opens file and casts as f then, write the file.
+    #
+    with open('./queries-results/proceedings_by_event.txt', 'w', encoding='utf-8') as f: 
+        f.write(header_proceedings_by_event)
+
+    if len(res_proceedings_by_event) <= 0:
+        # Build the template string.
+        string_to_template = '-- INFO: No proceedings found for the event = $EVENT :\n\n'
+        print_info = Template(string_to_template).substitute(EVENT = EVENT_PARTIAL_NAME)
+
+    else:
+
+        # Append the header title to the list.
+        result_string_list.append(header_proceedings_by_event)
+
+        # For each proceedings in the list:
+        for proceedings in res_proceedings_by_event:
+            counter += 1
+
+            proceedings_id    = proceedings.getIds()
+            proceedings_name  = proceedings.getTitle()
+            proceedings_event = proceedings.getEvent()
+
+            result_string = '\nId: $ID.\nName: $NAME.\n'
+            # Pupulate the template string parameters.
+            result_string = Template(result_string).substitute(
+                                ID    = proceedings_id,
+                                NAME  = proceedings_name,
+                                EVENT = proceedings_event
+                            )
+
+            # Append the result_string to the result list.
+            result_string_list.append(result_string)
+
+            # If I'm done to iterate over the list then print the number of items found.
+            if counter == len(res_proceedings_by_event):
+
+                items_found = '\nItems found: $COUNT'
+                items_found = Template(items_found).substitute(COUNT = counter)
+                
+                result_string_list.append(items_found)
+
+        #
+        # Opens file and casts as f then, for item in the list write the file.
+        #
+        with open('./queries-results/proceedings_by_event.txt', 'w', encoding='utf-8') as f: 
+            for string in result_string_list:
+                f.write(string)
+    #
+    # File closed automatically.
+    #
+    print('-- INFO: ''Proceedings by author'' Query has been processed. ', EMOJI_STARS, EMOJI_STARS, EMOJI_STARS)
+    print('-- INFO: The result has been write in: ''./queries-results/proceedings_by_event.txt'' ')
+
+
 
 #
 # Publication Authors.
@@ -609,15 +685,15 @@ def do_publication_authors(_generic_query_processor: QueryProcessor) -> None:
     for author in res_publication_authors:
         counter += 1
         
-        author_doi         = author.getIds()
+        author_id         = author.getIds()
         author_name        = author.getGivenName()
         author_family_name = author.getFamilyName()
         
         # Build the template string.
-        result_string = '\nDoi: $DOI.\nName: $NAME.\nFamily name: $FAMILY_NAME.\n'
+        result_string = '\nId: $ID.\nName: $NAME.\nFamily name: $FAMILY_NAME.\n'
         # Pupulate the template string parameters.
         result_string = Template(result_string).substitute(
-                                                    DOI         = author_doi,
+                                                    ID          = author_id,
                                                     NAME        = author_name,
                                                     FAMILY_NAME = author_family_name
                                                 )

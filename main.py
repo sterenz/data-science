@@ -184,13 +184,13 @@ def app():
 
                 do_journal_articles_in_journal(generic)
 
-                # TODO: "proceedings by event" query but we dont have the event.
+                do_proceedings_by_event(generic)
 
                 do_publication_authors(generic)
 
                 do_publications_by_author_name(generic)
 
-                # do_distinct_publisher_of_publications(generic) #TODO: FIX - SQL query
+                do_distinct_publisher_of_publications(generic)
             
             print('-- INFO: All results were been produced!')
 
