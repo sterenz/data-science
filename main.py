@@ -172,7 +172,7 @@ def app():
 
                 do_most_cited_publication(generic)
 
-                do_most_cited_venue(generic) # TODO: Check if the most cited of the two databases is returned
+                do_most_cited_venue(generic)
 
                 do_venues_by_publisher_id(generic)
 

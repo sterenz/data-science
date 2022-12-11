@@ -622,7 +622,6 @@ class GenericQueryProcessor(object):
         # List of queryProcessor instances.
         self.queryProcessor: list[QueryProcessor] = [] # QueryProcessor [0..*].
 
-
     def cleanQueryProcessor(self) -> bool:
         if len(self.queryProcessor) > 0:
             self.queryProcessor = []
@@ -656,7 +655,6 @@ class GenericQueryProcessor(object):
                 relational_publication_published_year_df: DataFrame = processor.getPublicationsPublishedInYear(_year)
 
         if isinstance(triplestore_publication_published_year_df, DataFrame):
-
             # Triplestore Dataframe clean up.
             triplestore_publication_published_year_df.drop(
                 [
@@ -678,9 +676,8 @@ class GenericQueryProcessor(object):
             )
 
         if isinstance(relational_publication_published_year_df, DataFrame):
-
             # Relational Dataframe clean up.
-            relational_publication_published_year_df.set_axis(
+            relational_publication_published_year_df = relational_publication_published_year_df.set_axis(
                 [
                     'publication_internal_id',
                     'publication_title',
@@ -691,7 +688,8 @@ class GenericQueryProcessor(object):
                     'chapter_number'
                 ],
                 axis = 'columns',
-                inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
+                #inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
+                copy = False
             )
 
             relational_publication_published_year_df.drop(
@@ -732,7 +730,6 @@ class GenericQueryProcessor(object):
                 relational_publications_by_author_id_df: DataFrame = processor.getPublicationsByAuthorId(_id)
 
         if isinstance(triplestore_publications_by_author_id_df, DataFrame):
-            
             # Triplestore Dataframe clean up.
             triplestore_publications_by_author_id_df.drop(
                 [
@@ -757,9 +754,8 @@ class GenericQueryProcessor(object):
             )
 
         if isinstance(relational_publications_by_author_id_df, DataFrame):
-
             # Relational Dataframe clean up.
-            relational_publications_by_author_id_df.set_axis(
+            relational_publications_by_author_id_df = relational_publications_by_author_id_df.set_axis(
                 [
                     'publication_internal_id',
                     'publication_doi',
@@ -773,7 +769,8 @@ class GenericQueryProcessor(object):
                     'event'
                 ],
                 axis = 'columns',
-                inplace = True
+                #inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
+                copy = False
             )
 
             relational_publications_by_author_id_df.drop(
@@ -809,7 +806,6 @@ class GenericQueryProcessor(object):
         most_cited_publication = []
 
         for processor in self.queryProcessor:
-
             # Type guard.
             if isinstance(processor, TriplestoreQueryProcessor):
                 triplestore_most_cited_publication_df = processor.getMostCitedPublication()
@@ -817,7 +813,6 @@ class GenericQueryProcessor(object):
                 relational_most_cited_publication_df = processor.getMostCitedPublication()
                 
         if isinstance(triplestore_most_cited_publication_df, DataFrame):
-
             # Triplestore Dataframe clean up.
             triplestore_most_cited_publication_df.drop(
                 [
@@ -827,7 +822,7 @@ class GenericQueryProcessor(object):
                 axis = 'columns',
                 inplace = True
             )
-            # Rename Data Frame columns.
+            # Rename DataFrame columns.
             triplestore_most_cited_publication_df.rename(
                 columns = {
                     'publicationId'   :'publication_doi',
@@ -839,9 +834,8 @@ class GenericQueryProcessor(object):
             )
 
         if isinstance(relational_most_cited_publication_df, DataFrame):
-            
             # Relational Dataframe clean up.
-            relational_most_cited_publication_df.set_axis(
+            relational_most_cited_publication_df = relational_most_cited_publication_df.set_axis(
                 [
                     'internalId',
                     'publication_doi',
@@ -864,7 +858,8 @@ class GenericQueryProcessor(object):
                     'organizationId'
                 ],
                 axis = 'columns',
-                inplace = True
+                #inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
+                copy = False
             )
 
             relational_most_cited_publication_df.drop(
@@ -912,7 +907,6 @@ class GenericQueryProcessor(object):
         most_cited_venue = []
 
         for processor in self.queryProcessor:
-
             # Type guard.
             if isinstance(processor, TriplestoreQueryProcessor):
                 triplestore_most_cited_venue_df = processor.getMostCitedVenue()
@@ -920,7 +914,6 @@ class GenericQueryProcessor(object):
                 relational_most_cited_venue_df = processor.getMostCitedVenue()
          
         if isinstance(triplestore_most_cited_venue_df, DataFrame):
-
             # Triplestore DataFrame Clean up.
             triplestore_most_cited_venue_df.drop(
                 [
@@ -942,16 +935,16 @@ class GenericQueryProcessor(object):
             )
             
         if isinstance(relational_most_cited_venue_df, DataFrame):
-            
             # Relational Dataframe clean up.
-            relational_most_cited_venue_df.set_axis(
+            relational_most_cited_venue_df = relational_most_cited_venue_df.set_axis(
                 [
                     'venue_internal_id',
                     'venue_id',
                     'venue_title'
                 ],
                 axis = 'columns',
-                inplace = True
+                #inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
+                copy = False
             )
 
             relational_most_cited_venue_df.drop(
@@ -965,9 +958,9 @@ class GenericQueryProcessor(object):
 
         # Concatenate both DataFrame(s).
         most_cited_publication_df: DataFrame = pd.concat(
-                [triplestore_most_cited_venue_df, relational_most_cited_venue_df],
-                ignore_index=True 
-            ).drop_duplicates().reset_index(drop=True)
+                                                    [triplestore_most_cited_venue_df, relational_most_cited_venue_df],
+                                                    ignore_index=True 
+                                               ).drop_duplicates().reset_index(drop=True)
 
 
         for idx, row in most_cited_publication_df.iterrows():
@@ -992,7 +985,6 @@ class GenericQueryProcessor(object):
                 relational_venues_by_publisher_id_df = processor.getVenuesByPublisherId(_id)
 
         if isinstance(triplestore_venues_by_publisher_id_df, DataFrame):
-
             # Triplestore Dataframe clean up.
             triplestore_venues_by_publisher_id_df.drop(
                 [
@@ -1016,16 +1008,16 @@ class GenericQueryProcessor(object):
                 )
 
         if isinstance(relational_venues_by_publisher_id_df, DataFrame):
-            
             # Relational Dataframe clean up.
-            relational_venues_by_publisher_id_df.set_axis(
+            relational_venues_by_publisher_id_df = relational_venues_by_publisher_id_df.set_axis(
                 [
                     'venue_id',
                     'crossref',
                     'venue_title'
                 ],
                 axis = 'columns',
-                inplace = True
+                #inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
+                copy = False
             )
 
             relational_venues_by_publisher_id_df.drop(
@@ -1062,7 +1054,6 @@ class GenericQueryProcessor(object):
                 relational_publication_in_venue_df = processor.getPublicationInVenue(_venueId)
                 
         if isinstance(triplestore_publication_in_venue_df, DataFrame):
-
             # Triplestore DataFrame clean up.
             triplestore_publication_in_venue_df.drop(
                 [
@@ -1087,9 +1078,8 @@ class GenericQueryProcessor(object):
             )
         
         if isinstance(relational_publication_in_venue_df, DataFrame):
-
             # Relational DataFrame clean up.
-            relational_publication_in_venue_df.set_axis(
+            relational_publication_in_venue_df = relational_publication_in_venue_df.set_axis(
                 [
                     'publication_internal_id',
                     'publication_doi',
@@ -1101,7 +1091,8 @@ class GenericQueryProcessor(object):
                     'venue_id'
                 ],
                 axis = 'columns',
-                inplace = True
+                #inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
+                copy = False
             )
 
             relational_publication_in_venue_df.drop(
@@ -1142,7 +1133,6 @@ class GenericQueryProcessor(object):
                 relational_journal_articles_in_issue_df = processor.getJournalArticlesInIssue(_issue, _volume, _journalId)
 
         if isinstance( triplestore_journal_articles_in_issue_df, DataFrame):
-
             # Triplestore DataFrame clean up.
             triplestore_journal_articles_in_issue_df.drop(
                 [
@@ -1156,21 +1146,20 @@ class GenericQueryProcessor(object):
                 
             # Rename Data Frame columns.
             triplestore_journal_articles_in_issue_df.rename(
-                    columns = {
-                        'JournalArticleId'              :'journal_article_doi', 
-                        'JournalArticleTitle'           :'journal_article_title', 
-                        'JournalArticlePublicationYear' :'journal_article_publication_year', 
-                        'issue'                         :'issue', 
-                        'volume'                        :'volume', 
-                    }, 
-                    inplace = True,
-                    errors  = 'raise'
-                )
+                columns = {
+                    'JournalArticleId'              :'journal_article_doi', 
+                    'JournalArticleTitle'           :'journal_article_title', 
+                    'JournalArticlePublicationYear' :'journal_article_publication_year', 
+                    'issue'                         :'issue', 
+                    'volume'                        :'volume', 
+                }, 
+                inplace = True,
+                errors  = 'raise'
+            )
 
         if isinstance(relational_journal_articles_in_issue_df, DataFrame):
-            
             # Relational DataFrame clean up.                
-            relational_journal_articles_in_issue_df.set_axis(
+            relational_journal_articles_in_issue_df = relational_journal_articles_in_issue_df.set_axis(
                 [
                     'journal_article_interal_id',
                     'journal_article_doi',
@@ -1181,7 +1170,8 @@ class GenericQueryProcessor(object):
                     'venue_id'
                 ],
                 axis = 'columns',
-                inplace = True
+                #inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
+                copy = False
             )
 
             relational_journal_articles_in_issue_df.drop(
@@ -1225,7 +1215,6 @@ class GenericQueryProcessor(object):
                 relational_journal_articles_in_volume_df = processor.getJournalArticlesInVolume(_volume, _journalId)
 
         if isinstance(triplestore_journal_articles_in_volume_df, DataFrame):
-
             # Triplestore DataFrame clean up.
             triplestore_journal_articles_in_volume_df.drop(
                 [
@@ -1251,9 +1240,8 @@ class GenericQueryProcessor(object):
             )
 
         if isinstance(relational_journal_articles_in_volume_df, DataFrame):
- 
             # Relational DataFrame clean up.                
-            relational_journal_articles_in_volume_df.set_axis(
+            relational_journal_articles_in_volume_df = relational_journal_articles_in_volume_df.set_axis(
                 [
                     'journal_article_interal_id',
                     'journal_article_doi',
@@ -1264,7 +1252,8 @@ class GenericQueryProcessor(object):
                     'venue_id'
                 ],
                 axis = 'columns',
-                inplace = True
+                #inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
+                copy = False
             )
 
             relational_journal_articles_in_volume_df.drop(
@@ -1278,9 +1267,9 @@ class GenericQueryProcessor(object):
             
          # Concatenate both DataFrame(s).
         journal_articles_in_volume_df: DataFrame = pd.concat(
-                [triplestore_journal_articles_in_volume_df, relational_journal_articles_in_volume_df],
-                ignore_index=True 
-            ).drop_duplicates().reset_index(drop=True)
+                                                        [triplestore_journal_articles_in_volume_df, relational_journal_articles_in_volume_df],
+                                                        ignore_index=True 
+                                                   ).drop_duplicates().reset_index(drop=True)
 
         for idx, row in journal_articles_in_volume_df.iterrows():
 
@@ -1308,7 +1297,6 @@ class GenericQueryProcessor(object):
                 relational_journal_articles_in_journal_df = processor.getJournalArticlesInJournal(_journalId)
 
         if isinstance(triplestore_journal_articles_in_journal_df, DataFrame):
-
             # Triplestore DataFrame clean up.
             triplestore_journal_articles_in_journal_df.drop(
                 [
@@ -1334,21 +1322,21 @@ class GenericQueryProcessor(object):
             )
 
         if isinstance(relational_journal_articles_in_journal_df, DataFrame):
-
             # Relational DataFrame clean up.
-            relational_journal_articles_in_journal_df.set_axis(
-                                [
-                                    'journal_article_internal_id', 
-                                    'journal_article_doi', 
-                                    'journal_article_title', 
-                                    'journal_article_publication_year', 
-                                    'issue', 
-                                    'volume',
-                                    'venue_id'
-                                ],
-                                axis = 'columns',
-                                inplace = True
-                            )
+            relational_journal_articles_in_journal_df = relational_journal_articles_in_journal_df.set_axis(
+                [
+                    'journal_article_internal_id', 
+                    'journal_article_doi', 
+                    'journal_article_title', 
+                    'journal_article_publication_year', 
+                    'issue', 
+                    'volume',
+                    'venue_id'
+                ],
+                axis = 'columns',
+                #inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
+                copy = False
+            )
 
             relational_journal_articles_in_journal_df.drop(
                 [
@@ -1361,9 +1349,9 @@ class GenericQueryProcessor(object):
 
          # Concatenate both DataFrame(s).
         journal_articles_in_journal_df: DataFrame = pd.concat(
-                [triplestore_journal_articles_in_journal_df, relational_journal_articles_in_journal_df],
-                ignore_index=True 
-            ).drop_duplicates().reset_index(drop=True)
+                                                        [triplestore_journal_articles_in_journal_df, relational_journal_articles_in_journal_df],
+                                                        ignore_index=True 
+                                                    ).drop_duplicates().reset_index(drop=True)
 
         for idx, row in journal_articles_in_journal_df.iterrows():
 
@@ -1384,7 +1372,6 @@ class GenericQueryProcessor(object):
         proceeding_by_event = []
 
         for processor in self.queryProcessor:
-
             # Type guard.
             if isinstance(processor, TriplestoreQueryProcessor) and isinstance(_eventPartialName, str):
                 triplestore_proceeding_by_event_df = processor.getProceedingsByEvent(_eventPartialName)
@@ -1392,7 +1379,6 @@ class GenericQueryProcessor(object):
                 relational_proceeding_by_event_df = processor.getProceedingsByEvent(_eventPartialName)
 
         if isinstance(triplestore_proceeding_by_event_df, DataFrame):
-
             # Triplestore DataFrame clean up.
             triplestore_proceeding_by_event_df.drop(
                 [
@@ -1414,9 +1400,8 @@ class GenericQueryProcessor(object):
             )
             
         if isinstance(relational_proceeding_by_event_df, DataFrame):
-
             # Relational DataFrame clean up.
-            relational_proceeding_by_event_df.set_axis(
+            relational_proceeding_by_event_df = relational_proceeding_by_event_df.set_axis(
                 [
                     'proceedings_internal_id',
                     'proceedings_title',
@@ -1425,7 +1410,8 @@ class GenericQueryProcessor(object):
                     'proceedings_event'
                 ],
                 axis    = 'columns',
-                inplace = True
+                #inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
+                copy = False
             )
 
             relational_proceeding_by_event_df.drop(
@@ -1443,24 +1429,17 @@ class GenericQueryProcessor(object):
                                                 ignore_index = True
                                             ).drop_duplicates().reset_index(drop=True)
 
-        if proceeding_by_event_df.empty:
+        for idx, row in proceeding_by_event_df.iterrows():
 
-            print('-- WARN:: The query produced 0 result.')
+            proceedings = Proceedings(
+                            row['proceedings_id'],
+                            row['proceedings_title'],
+                            row['proceedings_event']
+                        )
 
-            return proceeding_by_event
+            proceeding_by_event.append(proceedings)
 
-        else:
-            for idx, row in proceeding_by_event_df.iterrows():
-
-                proceedings = Proceedings(
-                    row['proceedings_id'],
-                    row['proceedings_title'],
-                    row['proceedings_event']
-                )
-
-                proceeding_by_event.append(proceedings)
-
-            return proceeding_by_event
+        return proceeding_by_event
 
 
     def getPublicationAuthors(self, _publicationId: str) -> list[Person]:
@@ -1476,7 +1455,6 @@ class GenericQueryProcessor(object):
                 relational_publication_authors_df = processor.getPublicationAuthors(_publicationId)
 
         if isinstance(triplestore_publication_authors_df, DataFrame):
-
             # Triplestore DataFrame clean up.
             triplestore_publication_authors_df.drop(
                 [
@@ -1502,9 +1480,8 @@ class GenericQueryProcessor(object):
             )
             
         if isinstance(relational_publication_authors_df, DataFrame):
-
             # Relational DataFrame clean up.
-            relational_publication_authors_df.set_axis(
+            relational_publication_authors_df = relational_publication_authors_df.set_axis(
                 [
                     'internalId',
                     'publicationId',
@@ -1513,7 +1490,8 @@ class GenericQueryProcessor(object):
                     'author_id'
                 ],
                 axis    = 'columns',
-                inplace = True
+                #inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
+                copy = False
             )
 
             relational_publication_authors_df.drop(
@@ -1535,10 +1513,10 @@ class GenericQueryProcessor(object):
         for idx, row in publication_authors_df.iterrows():
 
             author = Person(
-                            row['author_id'],
-                            row['author_name'],
-                            row['author_family_name']
-                        )
+                        row['author_id'],
+                        row['author_name'],
+                        row['author_family_name']
+                     )
 
             publication_authors.append(author)
 
@@ -1557,7 +1535,6 @@ class GenericQueryProcessor(object):
                 relational_publications_by_author_name_df = processor.getPublicationsByAuthorName(_authorPartialName)
 
         if isinstance(triplestore_publications_by_author_name_df, DataFrame):
-
             # Triplestore Dataframe clean up.
             triplestore_publications_by_author_name_df.drop(
                 [
@@ -1583,7 +1560,6 @@ class GenericQueryProcessor(object):
             )
 
         if isinstance(relational_publications_by_author_name_df, DataFrame):
-    
         # Relational Dataframe clean up.
             relational_publications_by_author_name_df.drop(
                 [
@@ -1597,6 +1573,7 @@ class GenericQueryProcessor(object):
                 axis    = 'columns', 
                 inplace = True
             )
+
             # Rename DataFrame columns.
             relational_publications_by_author_name_df.rename(
                 columns = {
@@ -1610,9 +1587,9 @@ class GenericQueryProcessor(object):
             
         # Concatenate both DataFrame(s).
         publications_by_author_name_df: DataFrame = pd.concat(
-                [triplestore_publications_by_author_name_df, relational_publications_by_author_name_df],
-                ignore_index=True 
-            ).drop_duplicates().reset_index(drop=True)
+                                                        [triplestore_publications_by_author_name_df, relational_publications_by_author_name_df],
+                                                        ignore_index=True 
+                                                    ).drop_duplicates().reset_index(drop=True)
             
         for idx, row in publications_by_author_name_df.iterrows():
 
@@ -1634,7 +1611,6 @@ class GenericQueryProcessor(object):
         # Compose a pattern to template string parameter.
         #
         if isinstance(_pubIdList,list):
-
             # ONLY fo the SPARQL query we create a string (that represent a fake tuple)
             # as input of the `getDistinctPublisherOfPublications` for the `TriplestoreQueryProcessor`
             pubIdListTuple: str = '(' # Init the result string.
@@ -1666,45 +1642,53 @@ class GenericQueryProcessor(object):
                 relational_publishers_df = processor.getDistinctPublisherOfPublications(_pubIdList)
 
         if isinstance(triplestore_publishers_df, DataFrame):
-
             # Triplestore DtaFrame clean up.
-            triplestore_publishers_df.drop(["organization"], axis=1, inplace=True)
+            triplestore_publishers_df.drop(
+                [
+                    "organization"
+                ],
+                axis = 'columns',
+                inplace = True
+            )
 
             # Rename Data Frame columns.
             triplestore_publishers_df.rename(
-                    columns = {
-                        'organizationId'   :'organization_id', 
-                        'organizationName' :'organization_name', 
-                    }, 
-                    inplace = True,
-                    errors  = 'raise'
-                )
+                columns = {
+                    'organizationId'   :'organization_id', 
+                    'organizationName' :'organization_name', 
+                }, 
+                inplace = True,
+                errors  = 'raise'
+            )
             
         if isinstance(relational_publishers_df, DataFrame):
-
             # Relational Dataframe clean up.
-            relational_publishers_df.set_axis([
-                                            'organization_internal_id',
-                                            'organization_id',
-                                            'organization_name',
-                                            'publication_doi'
-                                        ],
-                                        axis = 'columns',
-                                        inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
-                                    )
+            relational_publishers_df = relational_publishers_df.set_axis(
+                [
+                    'organization_internal_id',
+                    'organization_id',
+                    'organization_name',
+                    'publication_doi'
+                ],
+                axis = 'columns',
+                #inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
+                copy = False
+            )
 
-            relational_publishers_df.drop([
-                                            'organization_internal_id',
-                                            'publication_doi'
-                                        ],
-                                        axis = 'columns',
-                                        inplace = True
-                                    )
+            relational_publishers_df.drop(
+                [
+                    'organization_internal_id',
+                    'publication_doi'
+                ],
+                axis = 'columns',
+                inplace = True
+            )
+
         # Concatenate both DataFrame(s).
         publishers_df: DataFrame = pd.concat(
-                [triplestore_publishers_df, relational_publishers_df],
-                ignore_index=True, 
-            ).drop_duplicates().reset_index(drop=True) 
+                                        [triplestore_publishers_df, relational_publishers_df],
+                                        ignore_index=True, 
+                                   ).drop_duplicates().reset_index(drop=True) 
 
         for idx, row in publishers_df.iterrows():
 

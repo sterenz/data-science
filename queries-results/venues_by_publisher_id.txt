@@ -1,4 +1,4 @@
-Venues published by Organization with id = crossref:78:
+Venues published by Publisher with id = crossref:78:
 
 
 Id: issn:0306-4379.

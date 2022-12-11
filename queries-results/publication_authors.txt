@@ -1,16 +1,16 @@
-Authors of Publications with doi: doi:10.3390/info11050263:
+Authors of Publications with doi: doi:10.1080/21645515.2021.1910000:
 
 
-Id: 0000-0001-5641-3160.
-Name: Krzysztof.
-Family name: WÄcel.
+Id: doi:10.1080/21645515.2021.1910000.
+Name: Tauseef.
+Family name: Ahmad.
 
-Id: 0000-0002-0163-5492.
-Name: WÅodzimierz.
-Family name: Lewoniewski.
+Id: doi:10.1080/21645515.2021.1910000.
+Name: Mukhtiar.
+Family name: Baig.
 
-Id: 0000-0001-5464-9698.
-Name: Witold.
-Family name: Abramowicz.
+Id: doi:10.1080/21645515.2021.1910000.
+Name: Harapan.
+Family name: Harapan.
 
 Items found: 3

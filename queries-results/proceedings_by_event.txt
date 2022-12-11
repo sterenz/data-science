@@ -1,2 +1,1 @@
-Proceedings by = web :
-
+The query `getProceedingsByEvent` produced zero results for the Event "web"

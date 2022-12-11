@@ -1,19 +1,19 @@
-Publications by Venue id = issn:0949-877X:
+Publications by Venue id = issn:0944-1344:
 
 
-Id: doi:10.1007/s00778-016-0444-3.
-Name: Scalekb: Scalable Learning And Inference Over Large Knowledge Bases.
+Id: doi:10.1007/s11356-020-11947-x.
+Name: A Bibliometric Analysis Of Comparative Research On The Evolution Of International And Chinese Green Supply Chain Research Hotspots And Frontiers.
 
-Id: doi:10.1007/s00778-019-00558-9.
-Name: An Analytical Study Of Large Sparql Query Logs.
+Id: doi:10.1007/s11356-020-11643-w.
+Name: Uncovering The Dynamics In Global Carbon Dioxide Utilization Research: A Bibliometric Analysis (1995–2019).
 
-Id: doi:10.1007/s00778-019-00564-x.
-Name: Dataset Search: A Survey.
+Id: doi:10.1007/s11356-021-15939-3.
+Name: Using Mendelian Randomization As The Cornerstone For Causal Inference In Epidemiology.
 
-Id: doi:10.1007/s00778-018-0528-3.
-Name: Summarizing Semantic Graphs: A Survey.
+Id: doi:10.1007/s11356-021-15787-1.
+Name: Bibliometric Analysis Of Global Research On White Rot Fungi Biotechnology For Environmental Application.
 
-Id: doi:10.1007/s00778-019-00591-8.
-Name: Top-K Relevant Semantic Place Retrieval On Spatiotemporal Rdf Data.
+Id: doi:10.1007/s11356-021-13094-3.
+Name: Blockchain In Supply Chain Management: A Review, Bibliometric, And Network Analysis.
 
 Items found: 5

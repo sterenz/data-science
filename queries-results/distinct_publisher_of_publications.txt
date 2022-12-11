@@ -1,8 +1,8 @@
-Publisher of Publication(s) with doi: doi:10.1093/database/baz080, doi:10.1007/s41061-021-00349-3:
+Publisher of Publication(s) with doi: doi:10.1080/21645515.2021.1910000, doi:10.3390/ijfs9030035:
 
 
-Id: crossref:297.
-Name: Springer Science and Business Media LLC.
+Id: crossref:301.
+Name: Informa UK Limited.
 
-Id: crossref:286.
-Name: Oxford University Press (OUP).
+Id: crossref:1968.
+Name: MDPI AG.

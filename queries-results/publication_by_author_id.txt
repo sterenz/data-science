@@ -1,32 +1,8 @@
-List Publications by Author ID published in 0000-0003-0530-4305:
+List of publications by Author ID "0000-0001-9857-1511":
 
 
-Doi: doi:10.3233/ds-190016.
-Name: Enabling Text Search On Sparql Endpoints Through Oscar.
-Author ORC-ID: 0000-0003-0530-4305.
+Doi: doi:10.3989/arbor.2021.799007.
+Name: El Movimiento Open Citations Y Sus Implicaciones En La Transformación De La Evaluación Científica.
+Author ORC-ID: 0000-0001-9857-1511.
 
-Doi: doi:10.1007/s11192-020-03397-6.
-Name: The Practice Of Self-Citations: A Longitudinal Study.
-Author ORC-ID: 0000-0003-0530-4305.
-
-Doi: doi:10.1162/qss_a_00023.
-Name: Opencitations, An Infrastructure Organization For Open Scholarship.
-Author ORC-ID: 0000-0003-0530-4305.
-
-Doi: doi:10.1007/s11192-019-03217-6.
-Name: Software Review: Coci, The Opencitations Index Of Crossref Open Doi-To-Doi Citations.
-Author ORC-ID: 0000-0003-0530-4305.
-
-Doi: doi:10.1007/978-3-030-62466-8_28.
-Name: The Opencitations Data Model.
-Author ORC-ID: 0000-0003-0530-4305.
-
-Doi: doi:10.1007/s11192-021-04097-5.
-Name: A Qualitative And Quantitative Analysis Of Open Citations To Retracted Articles: The Wakefield 1998 Et Al.'S Case.
-Author ORC-ID: 0000-0003-0530-4305.
-
-Doi: doi:10.3233/ds-190023.
-Name: Editorial: Special Issue On Scholarly Data Analysis (Semantics, Analytics, Visualisation).
-Author ORC-ID: 0000-0003-0530-4305.
-
-Items found: 7
+Items found: 1

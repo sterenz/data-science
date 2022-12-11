@@ -63,7 +63,6 @@ WHERE {
 # Publications published in year. #
 #                                 #
 ###################################
-
 PUBLICATIONS_PUBLISHED_IN_YEAR_YEAR = 2020
 
 PUBLICATIONS_PUBLISHED_IN_YEAR = """
@@ -103,8 +102,7 @@ SELECT ?publication ?publicationId ?publicationYear ?publicationTitle
 # Publications by Author id. #
 #                            #
 ##############################
-
-PUBLICATION_BY_AUTHOR_ID_AUTHOR_ID = '0000-0003-0530-4305'
+PUBLICATION_BY_AUTHOR_ID_AUTHOR_ID = '0000-0001-9857-1511'
 
 PUBLICATIONS_BY_AUTHOR_ID = """
 PREFIX res:     <https://allorapy.github.io/res/>
@@ -254,7 +252,7 @@ WHERE {
 # Publication in Venue. #
 #                       #
 #########################
-PUBLICATION_IN_VENUE_VENUE_ID = 'issn:0949-877X'
+PUBLICATION_IN_VENUE_VENUE_ID = 'issn:0944-1344'
 
 PUBLICATION_IN_VENUE = """
 PREFIX res:     <https://allorapy.github.io/res/>
@@ -377,7 +375,7 @@ FILTER(?volume = '$VOLUME' && ?venueId = '$VENUE_ID')
 # Journal articles in Journal. #
 #                              #
 ################################
-JOURNAL_ARTICLES_IN_JOURNAL_VENUE_ID = 'issn:1758-0463'
+JOURNAL_ARTICLES_IN_JOURNAL_VENUE_ID = 'issn:2164-5515'
 
 JOURNAL_ARTICLES_IN_JOURNAL = """
 PREFIX res:     <https://allorapy.github.io/res/>
@@ -441,7 +439,7 @@ SELECT ?proceedings ?proceedingsId ?proceedingsTitle ?proceedingsEvent
 # Publication Authors.         #
 #                              #
 ################################
-PUBLICATION_AUTHORS_PUBLICATION_ID = 'doi:10.3390/info11050263'
+PUBLICATION_AUTHORS_PUBLICATION_ID = 'doi:10.1080/21645515.2021.1910000'
 
 PUBLICATION_AUTHORS = """
 PREFIX res:     <https://allorapy.github.io/res/>
@@ -486,7 +484,7 @@ SELECT ?publication ?publicationId ?publicationYear ?publicationTitle ?author ?a
 # Publications by Author name. #
 #                              #
 ################################
-PUBLICATIONS_BY_AUTHOR_NAME_NAME = 'Paul'
+PUBLICATIONS_BY_AUTHOR_NAME_NAME = 'paul'
 
 PUBLICATIONS_BY_AUTHOR_NAME = """
 PREFIX res:     <https://allorapy.github.io/res/>
@@ -529,7 +527,7 @@ SELECT ?publication ?publicationId ?publicationYear ?publicationTitle ?author ?a
 # Distinct publisher of Publications. #
 #                                     #
 #######################################
-DISTINCT_PUBLISHER_OF_PUBLICATIONS_PUBLICATION_ID_LIST = ['''doi:10.1093/database/baz080''', '''doi:10.1007/s41061-021-00349-3''']
+DISTINCT_PUBLISHER_OF_PUBLICATIONS_PUBLICATION_ID_LIST = ['''doi:10.1080/21645515.2021.1910000''', '''doi:10.3390/ijfs9030035''']
 
 DISTINCT_PUBLISHER_OF_PUBLICATIONS = """
 PREFIX res:     <https://allorapy.github.io/res/>
