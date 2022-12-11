@@ -1,6 +1,18 @@
 Publications published in 2020:
 
 
+Doi: doi:10.1007/978-3-030-45442-5_78.
+Name: Graph-Based Entity-Oriented Search: A Unified Framework In Information Retrieval.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-62466-8_41.
+Name: Google Dataset Search By The Numbers.
+Year: 2020.
+
+Doi: doi:10.4018/978-1-7998-1863-2.ch002.
+Name: Fuzzy Ontology For Requirements Determination And Documentation During Software Development.
+Year: 2020.
+
 Doi: doi:10.3390/a13090217.
 Name: R2D2: A Dbpedia Chatbot Using Triple-Pattern Like Queries.
 Year: 2020.
@@ -27,18 +39,6 @@ Year: 2020.
 
 Doi: doi:10.1145/3371315.
 Name: Mining Expressive Rules In Knowledge Graphs.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-45442-5_78.
-Name: Graph-Based Entity-Oriented Search: A Unified Framework In Information Retrieval.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-62466-8_41.
-Name: Google Dataset Search By The Numbers.
-Year: 2020.
-
-Doi: doi:10.4018/978-1-7998-1863-2.ch002.
-Name: Fuzzy Ontology For Requirements Determination And Documentation During Software Development.
 Year: 2020.
 
 Doi: doi:10.1007/978-3-030-54956-5_1.

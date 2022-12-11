@@ -142,9 +142,7 @@ def blazegraph_instance_is_empty() -> bool:
 # Start the blazegraph server db instance.
 #
 def start_blazegraph_server() -> None:
-    try: 
-        #os.system("start \"\" cmd /c \"cd D:\\Sviluppo\\git-repo\\projects\\data-science-uni-bo\\allorapy-data-science\\blazegraph && java -server -Xmx4g -jar blazegraph.jar\"")
-        
+    try:         
         # Join the current directory path with the target folder.
         blazegraph_path = os.path.join(os.path.dirname(__file__), './blazegraph' )
 

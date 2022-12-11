@@ -834,6 +834,7 @@ class GraphDataProcessor(DataProcessor):
         # Get the rdf graph populated.
         rdf_graph = self.get_graph()
      
+        # A serialized version of the graph is saved as JSON.
         rdf_graph.serialize('./data-test/json-graph.json', format='json-ld')
 
         # Test.
