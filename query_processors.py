@@ -506,10 +506,9 @@ class RelationalQueryProcessor(RelationalProcessor):
 
     def getProceedingsByEvent(self, PartialName):
         with connect(self.getDbPath()) as con:
-            query = """SELECT Proceeding.internalID, title, OrgID.id, name, Proceeding.event
+            query = """SELECT Proceeding.internalID, title, Proceeding.event, VenueID.id
                                FROM Proceeding
-                               LEFT JOIN Organization ON Proceeding.Publisher == Organization.InternalID
-                               LEFT JOIN OrgID ON Organization.internalID == OrgID.OrgID
+                               LEFT JOIN VenueID ON VenueID.VenueID == Proceeding.internalID
                                WHERE lower(event) LIKE '%""" + PartialName + """%' ;
                             """
             df_sql = read_sql(query, con)
@@ -1405,9 +1404,8 @@ class GenericQueryProcessor(object):
                 [
                     'proceedings_internal_id',
                     'proceedings_title',
-                    'proceedings_id',
-                    'da_togliere',
-                    'proceedings_event'
+                    'proceedings_event',
+                    'proceedings_id'
                 ],
                 axis    = 'columns',
                 #inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
@@ -1417,7 +1415,6 @@ class GenericQueryProcessor(object):
             relational_proceeding_by_event_df.drop(
                 [
                     'proceedings_internal_id',
-                    'da_togliere'
                 ], 
                 axis    = 'columns', 
                 inplace = True

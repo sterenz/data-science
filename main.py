@@ -24,6 +24,9 @@ from const import *
 # Queries.
 from queries import *
 
+# os
+import os
+
 
 
 #####################
@@ -98,6 +101,12 @@ def app():
                 # Rdb processing. #
                 #                 #
                 ###################
+
+                # Check if 'sqlite' directory already exists, otherwise create it.
+                db_directory_path = './sqlite/'   
+                if not os.path.exists(db_directory_path):
+                    os.makedirs(db_directory_path)
+
 
                 # Init RelationalDataProcessor.
                 relational_data_processor = RelationalDataProcessor()

@@ -787,7 +787,7 @@ class GraphDataProcessor(DataProcessor):
         #                                                      #
         ########################################################
 
-        spinner = Spinner('-- INFO: Create relation with the Publication and References ')
+        spinner = Spinner('-- INFO: Create relation with the Publication and References')
         state   = '' 
         counter = 0 # counter.
 
