@@ -67,10 +67,3 @@ All queries results are produced here:
 ```
 
 For each query is produced a file with related name `<query-name>.txt` .
-
-# 📝 TODOS
-
-TODO: Fix all todo(s) and fixme(s).  
-TODO: Remove apex from Query string parameters and add it to string passed.  
-TODO: Define python types in variables and class attributes.  
-TODO: Method's comment return types 'foo(): -> type' instead of 'foo(): type'.
