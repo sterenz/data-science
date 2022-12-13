@@ -65,9 +65,8 @@ class RelationalDataProcessor(RelationalProcessor):
             publication_ids = publications[["id"]]
 
             publication_internal_id = []
-            pub_count = 0
             for idx, row in publications.iterrows():
-                publication_internal_id.append("publication-" + str(idx + pub_count))
+                publication_internal_id.append("publication-" + str(idx))
 
             publication_ids.insert(0, "PublicationID", Series(publication_internal_id, dtype="string"))
             with connect(self.getDbPath()) as con:
@@ -669,7 +668,7 @@ class RelationalDataProcessor(RelationalProcessor):
             for key in authors:
                 lst_doi_single_authors.append(key)
 
-            ciao = DataFrame({
+            single_authors_df = DataFrame({
                 "doi_single_authors": Series(lst_doi_single_authors, dtype="string", name="doi_single_authors"),
             })
 
@@ -679,7 +678,7 @@ class RelationalDataProcessor(RelationalProcessor):
                 df_sql = read_sql(query, con)
                 author_count = df_sql.values.tolist()[0][0] + 1
 
-            for idx, row in ciao.iterrows():
+            for idx, row in single_authors_df.iterrows():
                 authors_internal_id.append("authors-" + str(idx + author_count))
 
             authorsID_df = DataFrame({
