@@ -5,6 +5,7 @@
 #############################
 
 # pandas.
+import pandas as pd
 from pandas import DataFrame, Series, json_normalize, merge
 
 # rdflib.
@@ -432,7 +433,6 @@ class GraphDataProcessor(DataProcessor):
         print('-- INFO: Literal objects associated to Organization resources.')
 
 
-
     ############################################################################
     #
     # do_venue_triples(self): -> None.
@@ -575,6 +575,9 @@ class GraphDataProcessor(DataProcessor):
                 
         # Create the Authors set.
         authors_set = set()
+
+        # Create the Authors and Subject dictionary.
+        authors_subject_dict: dict = {}
  
         # Init a progress bar for the process of Person resources.
         authors_bar = ChargingBar(
@@ -589,7 +592,21 @@ class GraphDataProcessor(DataProcessor):
         #                                   #
         #####################################
 
-        for index, row in authors_df.iterrows():
+        # Create a DataFrame copy and drop useless columns.
+        no_doi_authors_df = authors_df.copy()       
+        no_doi_authors_df.drop(
+            [
+                'doi'
+            ],
+            axis = 'columns',
+            inplace = True            
+        )
+
+        # Remove duplicates.
+        unique_authors_df = no_doi_authors_df.drop_duplicates().copy().reset_index(drop=True)
+
+        # Iterate over unique_authors_df for create Person triplets.
+        for index, row in unique_authors_df.iterrows():
 
             # Create a resource id.
             author_local_id = 'person-' + str(index)
@@ -597,43 +614,46 @@ class GraphDataProcessor(DataProcessor):
             # Create a subject.
             subject = URIRef(self.base_url + author_local_id)
 
-            # If the dictionary is empty than assign an empty set to the dictionary.
-            if not self.author_internal_id_dict:
-                self.author_internal_id_dict[row['doi']] = set()
+            authors_subject_dict[row['orc_id']] = subject
 
             #
-            # If the value of 'doi' is already in dictonary, add the subject.
-            # Otherwise create a new key and inizialite it with an empty set,
-            # than add the subject.
-            #
-            if row['doi'] in self.author_internal_id_dict:
-                self.author_internal_id_dict[row['doi']].add(subject)
-            else:
-                self.author_internal_id_dict[row['doi']] = set()
-                self.author_internal_id_dict[row['doi']].add(subject)
-
-            #
-            # If these columns elements are not in set then add them.
-            if (row['doi'], row['orc_id']) not in authors_set:
-                authors_set.add((row['doi'], row['orc_id']))
-
-            #
-            # Don't duplicate authors.
+            # Add triples of all Author's types.
+            # Create the Author resource.
             #            
-            for item in authors_set:
-                if row['orc_id'] == item[1]:
-                    #
-                    # Add triples of all Author's types.
-                    # Create the Author resource.
-                    #            
-                    rdf_graph.add((subject, RDF.type, Person))
-        
-                    #
-                    # Create the Author properties object.
-                    #
-                    rdf_graph.add((subject, id         , Literal(row['orc_id'])))
-                    rdf_graph.add((subject, givenName  , Literal(row['given_name'])))
-                    rdf_graph.add((subject, familyName , Literal(row['family_name'])))
+            rdf_graph.add((subject, RDF.type, Person))
+
+            #
+            # Create the Author properties object.
+            #
+            rdf_graph.add((subject, id         , Literal(row['orc_id'])))
+            rdf_graph.add((subject, givenName  , Literal(row['given_name'])))
+            rdf_graph.add((subject, familyName , Literal(row['family_name'])))
+
+        # Iterate over author_df to create internal dictionary for assign Authors to Publications.
+        for index, row in authors_df.iterrows():
+
+            if row['orc_id'] in authors_subject_dict.keys():
+
+                # If the dictionary is empty than inizialite it with an empty set as value.
+                if not self.author_internal_id_dict:
+                    self.author_internal_id_dict[row['doi']] = set()
+
+                #
+                # If the value of 'doi' is already in dictonary, add the subject.
+                # Otherwise create a new key and inizialite it with an empty set,
+                # than add the subject.
+                #
+                if row['doi'] in self.author_internal_id_dict: 
+                    # Iterate over the dictionary items.
+                    for orc_id, person in authors_subject_dict.items():
+                        if orc_id == row['orc_id']:
+                                self.author_internal_id_dict[row['doi']].add(person)
+                else:
+                    self.author_internal_id_dict[row['doi']] = set()
+                    # Iterate over the dictionary items.
+                    for orc_id, person in authors_subject_dict.items():
+                        if orc_id == row['orc_id']:
+                                self.author_internal_id_dict[row['doi']].add(person)
 
             # Increase the progress bar.
             authors_bar.next()
@@ -842,8 +862,6 @@ class GraphDataProcessor(DataProcessor):
         print('-- INFO: Number of triples added to the graph after processing venues and publications: ', len(rdf_graph))
 
         self.set_graph(rdf_graph)
-
-
 
     ############################################################################
     #

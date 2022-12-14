@@ -1,29 +1,9 @@
 Journal articles in Volume = 17, Venue id = issn:2164-5515 :
 
 
-Id: doi:10.1186/s12911-017-0568-4.
-Name: An Ontology-Aware Integration Of Clinical Models, Terminologies And Guidelines: An Exploratory Study Of The Scale For The Assessment And Rating Of Ataxia (Sara).
-Issue: 1.0.
-Volume: 17.
-
-Id: doi:10.1016/j.softx.2021.100952.
-Name: Owloop: A Modular Api To Describe Owl Axioms In Oop Objects Hierarchies.
-Issue: nan.
-Volume: 17.
-
-Id: doi:10.1371/journal.pcbi.1009283.
-Name: Diffusion Enables Integration Of Heterogeneous Data And User-Driven Learning In A Desktop Knowledge-Base.
-Issue: 8.0.
-Volume: 17.
-
-Id: doi:10.1007/s11629-019-5576-7.
-Name: Augmented Planning Support System Framework For Mountainous Urban Master Planning.
-Issue: 4.0.
-Volume: 17.
-
 Id: None.
 Name: Research Trends In Rabies Vaccine In The Last Three Decades: A Bibliometric Analysis Of Global Perspective.
 Issue: 9.
 Volume: 17.
 
-Items found: 5
+Items found: 1

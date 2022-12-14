@@ -1,5 +1,5 @@
 The most cited Publication is:
 
 
-Doi: doi:10.1038/sdata.2016.18.
-Name: The Fair Guiding Principles For Scientific Data Management And Stewardship.
+Doi: doi:10.1093/nar/gkz997.
+Name: The Monarch Initiative In 2019: An Integrative Data And Analytic Platform Connecting Phenotypes To Genotypes Across Species.
