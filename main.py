@@ -27,8 +27,6 @@ from queries import *
 # os
 import os
 
-
-
 #####################
 #                   #
 # Program.          #
@@ -38,191 +36,58 @@ import os
 #####################
 def app():
 
-    print('-- INFO: App is running. ', EMOJI_LED_GREEN )
+    # Once all the classes are imported, first create the relational
+    # database using the related source data
+    rel_path = "relational.db"
+    rel_dp = RelationalDataProcessor()
+    rel_dp.setDbPath(rel_path)
+    rel_dp.uploadData("data/relational_publications.csv")
+    rel_dp.uploadData("data/relational_other_data.json")
 
+    # Then, create the RDF triplestore (remember first to run the
+    # Blazegraph instance) using the related source data
+    grp_endpoint = "http://127.0.0.1:9999/blazegraph/sparql"
+    grp_dp = TriplestoreDataProcessor()
+    grp_dp.setEndpointUrl(grp_endpoint)
+    grp_dp.uploadData("data/graph_publications.csv")
+    grp_dp.uploadData("data/graph_other_data.json")
+
+    # In the next passage, create the query processors for both
+    # the databases, using the related classes
+    rel_qp = RelationalQueryProcessor()
+    rel_qp.setDbPath(rel_path)
+
+    grp_qp = TriplestoreQueryProcessor()
+    grp_qp.setEndpointUrl(grp_endpoint)
+
+    # Finally, create a generic query processor for asking
+    # about data
+    generic = GenericQueryProcessor()
+    generic.addQueryProcessor(rel_qp)
+    generic.addQueryProcessor(grp_qp)
+
+    result_q1 = generic.getPublicationsPublishedInYear(2020)
+    result_q2 = generic.getPublicationsByAuthorId("0000-0001-9857-1511")
+    result_q3 = generic.getMostCitedPublication()
+    result_q4 = generic.getMostCitedVenue()
+    result_q5 = generic.getVenuesByPublisherId("crossref:78")
+    result_q6 = generic.getPublicationInVenue("issn:0944-1344")
+    result_q7 = generic.getJournalArticlesInIssue("9", "17", "issn:2164-5515")
+    result_q8 = generic.getJournalArticlesInVolume("17", "issn:2164-5515")
+    result_q9 = generic.getJournalArticlesInJournal("issn:2164-5515")
+    result_q10 = generic.getProceedingsByEvent("web")
+    result_q11 = generic.getPublicationAuthors("doi:10.1080/21645515.2021.1910000")
+    result_q12 = generic.getPublicationsByAuthorName("doe")
+    result_q13 = generic.getDistinctPublisherOfPublications([ "doi:10.1080/21645515.2021.1910000", "doi:10.3390/ijfs9030035" ])
+
+    # etc...
+
+
+if __name__ == "__main__":
     try:
-        # Flag to know if the data has been uploaded correctly in blazegraph.
-        data_has_been_uploaded = False
 
-        #
-        # First Blazegraph instance running check.
-        # If it's not running, then start it.
-        #
-        if not blazegraph_instance_is_active():
-            # Start blazegraph instance.
-            start_blazegraph_server()
-            
-            # Wait 3 sec while blazegraph is starting up.
-            time.sleep(3)
-
-        #
-        # Second Blazegraph instance running check.
-        # If anyway not run, then abort.
-        #
-        if not blazegraph_instance_is_active():
-            
-            data_has_been_uploaded = False
-
-            raise Exception('-- ERR: Blazegraph instance is not running. ', EMOJI_LED_RED )
-        else:
-            print('-- INFO: Balazegraph instance is running. ', EMOJI_LED_GREEN)
-
-            try:
-                ###########################
-                #                         #
-                # Triplestore processing. #
-                #                         #
-                ###########################
-                if blazegraph_instance_is_empty():
-                    # Init TriplestoreDataProcessor.
-                    triplestore_data_processor = TriplestoreDataProcessor()
-
-                    # Write its "enpointUrl" property.
-                    triplestore_data_processor.setEnpointUrl(BASE_URL)
-
-                    # Create a list with files to process.
-                    file_list = [
-                            GRAPH_CSV_FILE,
-                            GRAPH_JSON_FILE
-                        ]
-
-                    #
-                    # For each file in the list, process it.
-                    #
-                    for path in file_list:
-                        if "graph" in path:
-                            data_has_been_uploaded = triplestore_data_processor.uploadData(path)
-                else:
-                    print('-- INFO: RDF Graph has been loaded to Blazegraph db yet.')
-                    pass
-
-                ###################
-                #                 #
-                # Rdb processing. #
-                #                 #
-                ###################
-
-                # Check if 'sqlite' directory already exists, otherwise create it.
-                db_directory_path = './sqlite/'   
-                if not os.path.exists(db_directory_path):
-                    os.makedirs(db_directory_path)
-
-
-                # Init RelationalDataProcessor.
-                relational_data_processor = RelationalDataProcessor()
-
-                # Set the database path.
-                relational_data_processor.setDbPath(DB_PATH)
-
-                print("-- INFO: Uploading csv data for relational...")
-                data_has_been_uploaded = relational_data_processor.uploadData("data/relational_publications.csv")
-                if data_has_been_uploaded:
-                    print("-- INFO: Upload completed for relational csv.")
-
-                data_has_been_uploaded = relational_data_processor.uploadData("data/relational_other_data.json")
-                print("-- INFO: Uploading json data for relational...")
-                if data_has_been_uploaded:
-                    print("-- INFO: Upload completed for relational json.")
-
-            except Exception as error:
-
-                print(error)
-
-                data_has_been_uploaded = False
-
-                raise
-
-            finally:
-                if data_has_been_uploaded:
-                    print('-- INFO: RDF Graph has been loaded to Blazegraph db successfully!')
-                    print('-- INFO: RDB Tables has been loaded to sqlite db successfully!')
-                else:
-                    print('-- ERR: Sorry, Something went wrong...')
-
-            ####################
-            #                  #
-            # Init Processors. #
-            #                  #
-            ####################
-
-            #
-            # In the next step, create the query processors for both databases, 
-            # using the related classes.
-            #
-
-            # Triplestore.
-            triplestore_query_processor = TriplestoreQueryProcessor()
-            triplestore_query_processor.setEnpointUrl(ENDPOINT)
-
-            # RDBMS.
-            relational_query_processor = RelationalQueryProcessor()
-            relational_query_processor.setDbPath(DB_PATH)
-
-            # Create a list of processors.
-            query_processors: list[QueryProcessor] = [triplestore_query_processor, relational_query_processor]
-
-            # Finally, create a generic query processor for asking about data.
-            generic = GenericQueryProcessor()
-            query_has_been_added = generic.addQueryProcessor(query_processors)
-
-            ###############
-            #             #
-            # Do Queries. #
-            #             #
-            ###############
-
-            if query_has_been_added :
-
-                create_folder("queries-results")
-
-                do_query_publications_published_in_year(generic)
-
-                do_publications_by_author_id(generic)
-
-                do_most_cited_publication(generic)
-
-                do_most_cited_venue(generic)
-
-                do_venues_by_publisher_id(generic)
-
-                do_publication_in_venue(generic)
-
-                do_journal_articles_in_issue(generic)
-
-                do_journal_articles_in_volume(generic)
-
-                do_journal_articles_in_journal(generic)
-
-                do_proceedings_by_event(generic)
-
-                do_publication_authors(generic)
-
-                do_publications_by_author_name(generic)
-
-                do_distinct_publisher_of_publications(generic)
-            
-            print('-- INFO: All results were been produced!')
-
-            if generic.cleanQueryProcessor():
-                print('-- INFO: ''Generic Query Processor'' successfully cleaned.')
-            else: 
-                print('-- INFO: ''Generic Query Processor'' already clean.')
+        app()
 
     except Exception as error:
 
         print(error)
-
-    finally:
-        print('-- INFO: App execution terminate.')
-
-
-
-############################
-#                          #
-# Application Entry point. #
-#                          #
-############################
-
-if __name__ == "__main__":
-    app()
-#%%

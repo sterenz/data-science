@@ -1,14 +1,6 @@
 Publications published in 2020:
 
 
-Doi: doi:10.1007/978-3-030-59833-4_1.
-Name: The New Dbpedia Release Cycle: Increasing Agility And Efficiency In Knowledge Extraction Workflows.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-45442-5_78.
-Name: Graph-Based Entity-Oriented Search: A Unified Framework In Information Retrieval.
-Year: 2020.
-
 Doi: doi:10.1007/s11192-020-03397-6.
 Name: The Practice Of Self-Citations: A Longitudinal Study.
 Year: 2020.
@@ -39,110 +31,6 @@ Year: 2020.
 
 Doi: doi:10.17645/pag.v8i2.2591.
 Name: Integrating Manual And Automatic Annotation For The Creation Of Discourse Network Data Sets.
-Year: 2020.
-
-Doi: doi:10.4018/978-1-7998-1863-2.ch002.
-Name: Fuzzy Ontology For Requirements Determination And Documentation During Software Development.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-62466-8_41.
-Name: Google Dataset Search By The Numbers.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-37933-9_8.
-Name: Maturity Assessment Of Togaf Adm Using Enterprise Architecture Model Analysis And Description Logics.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-46970-2_22.
-Name: Towards A More Reproducible Biomedical Research Environment: Endorsement And Adoption Of The Fair Principles.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-54956-5_1.
-Name: Requirements Analysis For An Open Research Knowledge Graph.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-60276-5_25.
-Name: Legal Tech: Documentsâ Validation Method Based On The Associative-Ontological Approach.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-44584-3_39.
-Name: Orometric Methods In Bounded Metric Data.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-58285-2_27.
-Name: Fast Pathfinding In Knowledge Graphs Using Word Embeddings.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-39459-2_2.
-Name: Optimized Term Extraction Method Based On Computing Merged Partial C-Values.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-45442-5_15.
-Name: Machine-Actionable Data Management Plans: A Knowledge Retrieval Approach To Automate The Assessment Of Fundersâ Requirements.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-62015-8_2.
-Name: Croppesto: An Ontology Model For Identifying And Managing Plant Pests And Diseases.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-54956-5_2.
-Name: Question Answering On Scholarly Knowledge Graphs.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-49461-2_25.
-Name: Qanswer Kg: Designing A Portable Question Answering System Over Rdf Data.
-Year: 2020.
-
-Doi: doi:10.4018/978-1-5225-9687-5.ch002.
-Name: Ontology-Based Open Tourism Data Integration Framework.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-59621-7_2.
-Name: Malont: An Ontology For Malware Threat Intelligence.
-Year: 2020.
-
-Doi: doi:10.4018/978-1-7998-1934-9.ch013.
-Name: Model Based On Ontological Engineering As Support For Stakeholder Management.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-49461-2_31.
-Name: Vquanda: Verbalization Question Answering Dataset.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-61380-8_3.
-Name: Agentdevlaw: A Middleware Architecture For Integrating Legal Ontologies And Multi-Agent Systems.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-65847-2_11.
-Name: Mapping The Web Ontology Language To The Openapi Specification.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-62466-8_1.
-Name: Casqad â A New Dataset For Context-Aware Spatial Question Answering.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-49461-2_4.
-Name: A Simple Method For Inducing Class Taxonomies In Knowledge Graphs.
-Year: 2020.
-
-Doi: doi:10.4018/978-1-7998-2104-5.ch009.
-Name: Contemporary Archival Description As Required Digital Competence Of Today'S Archivists.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-42517-3_1.
-Name: Comparative Study Of Rdf And Owl Ontology Languages As Support For The Semantic Web.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-63799-6_17.
-Name: Semantic Technologies Towards Accountable Artificial Intelligence: A Poultry Chain Management Use Case.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-50146-4_31.
-Name: Image-Based World-Perceiving Knowledge Graph (Wpkg) With Imprecision.
-Year: 2020.
-
-Doi: doi:10.1007/978-3-030-50316-1_26.
-Name: Ontology Evolution In The Context Of Model-Based Secure Software Engineering.
 Year: 2020.
 
 Doi: doi:10.1002/cpe.5744.
@@ -439,6 +327,118 @@ Year: 2020.
 
 Doi: doi:10.3390/info11030129.
 Name: The ZaragozaâS Knowledge Graph: Open Data To Harness The City Knowledge.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-59833-4_1.
+Name: The New Dbpedia Release Cycle: Increasing Agility And Efficiency In Knowledge Extraction Workflows.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-45442-5_78.
+Name: Graph-Based Entity-Oriented Search: A Unified Framework In Information Retrieval.
+Year: 2020.
+
+Doi: doi:10.4018/978-1-7998-1863-2.ch002.
+Name: Fuzzy Ontology For Requirements Determination And Documentation During Software Development.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-62466-8_41.
+Name: Google Dataset Search By The Numbers.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-37933-9_8.
+Name: Maturity Assessment Of Togaf Adm Using Enterprise Architecture Model Analysis And Description Logics.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-46970-2_22.
+Name: Towards A More Reproducible Biomedical Research Environment: Endorsement And Adoption Of The Fair Principles.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-54956-5_1.
+Name: Requirements Analysis For An Open Research Knowledge Graph.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-60276-5_25.
+Name: Legal Tech: Documentsâ Validation Method Based On The Associative-Ontological Approach.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-44584-3_39.
+Name: Orometric Methods In Bounded Metric Data.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-58285-2_27.
+Name: Fast Pathfinding In Knowledge Graphs Using Word Embeddings.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-39459-2_2.
+Name: Optimized Term Extraction Method Based On Computing Merged Partial C-Values.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-45442-5_15.
+Name: Machine-Actionable Data Management Plans: A Knowledge Retrieval Approach To Automate The Assessment Of Fundersâ Requirements.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-62015-8_2.
+Name: Croppesto: An Ontology Model For Identifying And Managing Plant Pests And Diseases.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-54956-5_2.
+Name: Question Answering On Scholarly Knowledge Graphs.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-49461-2_25.
+Name: Qanswer Kg: Designing A Portable Question Answering System Over Rdf Data.
+Year: 2020.
+
+Doi: doi:10.4018/978-1-5225-9687-5.ch002.
+Name: Ontology-Based Open Tourism Data Integration Framework.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-59621-7_2.
+Name: Malont: An Ontology For Malware Threat Intelligence.
+Year: 2020.
+
+Doi: doi:10.4018/978-1-7998-1934-9.ch013.
+Name: Model Based On Ontological Engineering As Support For Stakeholder Management.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-49461-2_31.
+Name: Vquanda: Verbalization Question Answering Dataset.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-61380-8_3.
+Name: Agentdevlaw: A Middleware Architecture For Integrating Legal Ontologies And Multi-Agent Systems.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-65847-2_11.
+Name: Mapping The Web Ontology Language To The Openapi Specification.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-62466-8_1.
+Name: Casqad â A New Dataset For Context-Aware Spatial Question Answering.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-49461-2_4.
+Name: A Simple Method For Inducing Class Taxonomies In Knowledge Graphs.
+Year: 2020.
+
+Doi: doi:10.4018/978-1-7998-2104-5.ch009.
+Name: Contemporary Archival Description As Required Digital Competence Of Today'S Archivists.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-42517-3_1.
+Name: Comparative Study Of Rdf And Owl Ontology Languages As Support For The Semantic Web.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-63799-6_17.
+Name: Semantic Technologies Towards Accountable Artificial Intelligence: A Poultry Chain Management Use Case.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-50146-4_31.
+Name: Image-Based World-Perceiving Knowledge Graph (Wpkg) With Imprecision.
+Year: 2020.
+
+Doi: doi:10.1007/978-3-030-50316-1_26.
+Name: Ontology Evolution In The Context Of Model-Based Secure Software Engineering.
 Year: 2020.
 
 Doi: doi:10.1162/qss_a_00023.

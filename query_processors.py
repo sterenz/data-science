@@ -49,7 +49,7 @@ class TriplestoreQueryProcessor(QueryProcessor, TriplestoreProcessor):
         
     # getPublicationsPublishedInYear(_year: int): -> DataFrame.
     def getPublicationsPublishedInYear(self, _year: int) -> DataFrame:
-        endpoint_url = self.getEnpointUrl()
+        endpoint_url = self.getEndpointUrl()
         
         # Parametrize query by passing Publication year.
         sparql_query = Template(PUBLICATIONS_PUBLISHED_IN_YEAR).substitute(YEAR = _year)
@@ -62,7 +62,7 @@ class TriplestoreQueryProcessor(QueryProcessor, TriplestoreProcessor):
     # getPublicationsByAuthorId(_id: str): -> DataFrame.
     def getPublicationsByAuthorId(self, _id: str) -> DataFrame:
 
-        endpoint_url = self.getEnpointUrl()
+        endpoint_url = self.getEndpointUrl()
 
         # Parametrize query by passing Author id.
         sparql_query = Template(PUBLICATIONS_BY_AUTHOR_ID).substitute(AUTHOR_ID = _id)
@@ -74,7 +74,7 @@ class TriplestoreQueryProcessor(QueryProcessor, TriplestoreProcessor):
 
     # getMostCitedPublication(): -> DataFrame. 
     def getMostCitedPublication(self) -> DataFrame:
-        endpoint_url = self.getEnpointUrl()
+        endpoint_url = self.getEndpointUrl()
 
         df_sparql = get(endpoint_url, MOST_CITED_PUBLICATION, True)
 
@@ -83,7 +83,7 @@ class TriplestoreQueryProcessor(QueryProcessor, TriplestoreProcessor):
     
     # getMostCitedVenue(): -> DataFrame.
     def getMostCitedVenue(self) -> DataFrame:
-        endpoint_url = self.getEnpointUrl()
+        endpoint_url = self.getEndpointUrl()
 
         df_sparql = get(endpoint_url, MOST_CITED_VENUE, True)
 
@@ -92,7 +92,7 @@ class TriplestoreQueryProcessor(QueryProcessor, TriplestoreProcessor):
 
     # getVenuesByPublisherId(_id: str): -> DataFrame.
     def getVenuesByPublisherId(self, _id: str) -> DataFrame:
-        endpoint_url = self.getEnpointUrl()
+        endpoint_url = self.getEndpointUrl()
 
         # Parametrize query by passing publisher id (Organization).
         sparql_query = Template(VENUES_BY_PUBLISHER_ID).substitute(PUBLISHER_ID = _id)
@@ -103,7 +103,7 @@ class TriplestoreQueryProcessor(QueryProcessor, TriplestoreProcessor):
 
     # getPublicationInVenue(_venueId: str): -> DataFrame.
     def getPublicationInVenue(self, _venueId: str) -> DataFrame:
-        endpoint_url = self.getEnpointUrl()
+        endpoint_url = self.getEndpointUrl()
 
         # Parametrize query by passing Venue id.
         sparql_query = Template(PUBLICATION_IN_VENUE).substitute(VENUE_ID = _venueId)
@@ -114,7 +114,7 @@ class TriplestoreQueryProcessor(QueryProcessor, TriplestoreProcessor):
 
     # getJournalArticlesInIssue(_issue: str, _volume: str, _journalId: str): -> DataFrame.
     def getJournalArticlesInIssue(self, _issue: str, _volume: str, _journalId: str) -> DataFrame:
-        endpoint_url = self.getEnpointUrl()
+        endpoint_url = self.getEndpointUrl()
 
         # Parametrize query by passing Issue, Volume, and Venue issn.
         sparql_query = Template(JOURNAL_ARTICLES_IN_ISSUE).substitute(
@@ -129,7 +129,7 @@ class TriplestoreQueryProcessor(QueryProcessor, TriplestoreProcessor):
 
     # getJournalArticlesInVolume(_volume: str, _journalId: str): -> DataFrame.
     def getJournalArticlesInVolume(self, _volume: str, _journalId: str) -> DataFrame:
-        endpoint_url = self.getEnpointUrl()
+        endpoint_url = self.getEndpointUrl()
 
         # Parametrize query by passing Volume and Venue issn.
         sparql_query = Template(JOURNAL_ARTICLES_IN_VOLUME).substitute(
@@ -143,7 +143,7 @@ class TriplestoreQueryProcessor(QueryProcessor, TriplestoreProcessor):
 
     # getJournalArticlesInJournal(_journalId: str): -> DataFrame.
     def getJournalArticlesInJournal(self, _journalId: str) -> DataFrame:
-        endpoint_url = self.getEnpointUrl()
+        endpoint_url = self.getEndpointUrl()
 
         # Parametrize query by passing journal issn.
         sparql_query = Template(JOURNAL_ARTICLES_IN_JOURNAL).substitute(VENUE_ID = _journalId)
@@ -153,7 +153,7 @@ class TriplestoreQueryProcessor(QueryProcessor, TriplestoreProcessor):
 
     # getProceedingsByEvent(_eventPartialName: str): -> DataFrame.
     def getProceedingsByEvent(self, _eventPartialName:str) -> DataFrame:
-        endpoint_url = self.getEnpointUrl()
+        endpoint_url = self.getEndpointUrl()
 
         # Parametrize query by passing journal issn.
         sparql_query = Template(PROCEEDINGS_BY_EVENT).substitute(EVENT_PARTIAL_NAME = _eventPartialName)
@@ -163,7 +163,7 @@ class TriplestoreQueryProcessor(QueryProcessor, TriplestoreProcessor):
     
     # getPublicationAuthors(_publicationId: str): -> DataFrame.
     def getPublicationAuthors(self, _publicationId: str) -> DataFrame:
-        endpoint_url = self.getEnpointUrl()
+        endpoint_url = self.getEndpointUrl()
 
         # Parametrize query by passing publication doi.
         sparql_query = Template(PUBLICATION_AUTHORS).substitute(PUBLICATION_ID = _publicationId)
@@ -174,7 +174,7 @@ class TriplestoreQueryProcessor(QueryProcessor, TriplestoreProcessor):
 
     # getPublicationsByAuthorName(_authorPartialName: str): -> DataFrame.
     def getPublicationsByAuthorName(self, _authorPartialName: str) -> DataFrame:
-        endpoint_url = self.getEnpointUrl()
+        endpoint_url = self.getEndpointUrl()
 
         # Parametrize query by passing Person name.
         sparql_query = Template(PUBLICATIONS_BY_AUTHOR_NAME).substitute(AUTHOR_NAME = _authorPartialName)
@@ -185,7 +185,7 @@ class TriplestoreQueryProcessor(QueryProcessor, TriplestoreProcessor):
 
     # getDistinctPublisherOfPublications(_pubIdList: list[str]): -> DataFrame.
     def getDistinctPublisherOfPublications(self, _pubIdList: list[str]) -> DataFrame:
-        endpoint_url = self.getEnpointUrl()
+        endpoint_url = self.getEndpointUrl()
 
         # Parametrize query by passing a list of publication doi.
         sparql_query = Template(DISTINCT_PUBLISHER_OF_PUBLICATIONS).substitute(PUBLICATIONS_LIST = _pubIdList)
@@ -194,55 +194,6 @@ class TriplestoreQueryProcessor(QueryProcessor, TriplestoreProcessor):
         return df_sparql
 
 
-###################################
-#                                 #
-# RelationalQueryProcessor Class. #
-#                                 #
-###################################
-"""
-class RelationalQueryProcessor(QueryProcessor, RelationalProcessor):
-    def __init__(self) -> None:
-        super().__init__()
-
-    def getPublicationsPublishedInYear(self, _year: int) -> DataFrame:
-        pass
-
-    def getPublicationsByAuthorId(self, _id: str) -> DataFrame:
-        pass
-
-    def getMostCitedPublication(self) -> DataFrame:
-        pass
-
-    def getMostCitedVenue(self) -> DataFrame:
-        pass
-
-    def getVenuesByPublisherId(self, _id: str) -> DataFrame:
-        pass
-
-    def getPublicationInVenue(self, _venueId: str) -> DataFrame:
-        pass
-
-    def getJournalArticlesInIssue(self, _issue: str, _volume: str, _journalId: str) -> DataFrame:
-        pass
-
-    def getJournalArticlesInVolume(self, _volume: str, _journalId: str) -> DataFrame:
-        pass
-
-    def getJournalArticlesInJournal(self, _journalId: str) -> DataFrame:
-        pass
-
-    def getProceedingsByEvent(self, _eventPartialName:str) -> DataFrame:
-        pass
-
-    def getPublicationAuthors(self, _publicationId: str) -> DataFrame:
-        pass
-
-    def getPublicationsByAuthorName(self, _authorPartialName: str) -> DataFrame:
-        pass
-
-    def getDistinctPublisherOfPublications(self, _pubIdList: list[str]) -> DataFrame:
-        pass
-"""
 
 ####################################
 #                                  #
@@ -619,7 +570,7 @@ class RelationalQueryProcessor(RelationalProcessor):
 class GenericQueryProcessor(object):
     def __init__(self) -> None:
         # List of queryProcessor instances.
-        self.queryProcessor: list[QueryProcessor] = [] # QueryProcessor [0..*].
+        self.queryProcessor: list[QueryProcessor] = []
 
     def cleanQueryProcessor(self) -> bool:
         if len(self.queryProcessor) > 0:
@@ -628,16 +579,15 @@ class GenericQueryProcessor(object):
         else: 
             return False
 
-    def addQueryProcessor(self, _processors: list[QueryProcessor]) -> bool:
+    def addQueryProcessor(self, _processor: QueryProcessor) -> bool:
         result: bool = False
         
-        for processor in _processors:
-            if isinstance(processor, TriplestoreQueryProcessor) or isinstance(processor, RelationalQueryProcessor):
-                self.queryProcessor.append(processor)
- 
-                result = True
-            else:
-                result = False
+        if isinstance(_processor, TriplestoreQueryProcessor) or isinstance(_processor, RelationalQueryProcessor):
+            self.queryProcessor.append(_processor)
+
+            result = True
+        else:
+            result = False
 
         return result
 

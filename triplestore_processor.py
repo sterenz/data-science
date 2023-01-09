@@ -9,17 +9,17 @@ from data_processors import GraphDataProcessor
 class TriplestoreProcessor(object):
     # None because it doesn't return anything.
     def __init__(self) -> None:
-        self.enpointUrl: str = '' # string [0..1].
+        self.endpointUrl: str = '' # string [0..1].
 
     # getEndpointUrl(): string.
-    def getEnpointUrl(self) -> str:
-        return self.enpointUrl
+    def getEndpointUrl(self) -> str:
+        return self.endpointUrl
 
     # setEndpointUrl(_url: string): boolean.
-    def setEnpointUrl(self, _url: str) -> bool:
+    def setEndpointUrl(self, _url: str) -> bool:
 
         if isinstance(_url, str) and _url != '':
-            self.enpointUrl = _url
+            self.endpointUrl = _url
             return True
         else: 
             return False
@@ -43,7 +43,7 @@ class TriplestoreDataProcessor(TriplestoreProcessor):
         # Init processor property with an instance of GraphDataProcessor class.
         # get the endpoint url from inherited class.
         #
-        self.processor = GraphDataProcessor(self.getEnpointUrl())
+        self.processor = GraphDataProcessor(self.getEndpointUrl())
 
     def uploadData(self, _path: str) -> bool:
 
@@ -89,10 +89,10 @@ class TriplestoreDataProcessor(TriplestoreProcessor):
                 if self.processor.data_frames_has_been_built():
                     try:
                         # Build the rdf graph.
-                        self.processor.graphBuilder()
+                        self.processor.graphBuilder() #TEST
 
                         # Deploy all triples to blazegraph.
-                        self.processor.triplestoreDeploy()
+                        self.processor.triplestoreDeploy() #TEST
 
                         data_has_been_uploaded = True
                     except Exception:
