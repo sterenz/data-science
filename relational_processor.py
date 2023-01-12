@@ -9,6 +9,7 @@ import pandas as pd
 from json import load
 from sqlite3 import connect
 from data_model import *
+import os
 
 ###################################
 #                                 #
@@ -39,6 +40,7 @@ class RelationalDataProcessor(RelationalProcessor):
         super().__init__()
 
     def uploadData(self, path):
+        path = repr(os.path.abspath(path)).replace("'", "")
 
         if path.split(".")[1] == 'csv':
             with connect(self.getDbPath()) as con:
