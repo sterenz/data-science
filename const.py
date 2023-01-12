@@ -10,8 +10,8 @@
 #CSV_FILE  = './data/empty.csv' # for testing purpose.
 GRAPH_CSV_FILE       = './data/graph_publications.csv'
 GRAPH_JSON_FILE      = './data/graph_other_data.json'
-RELATIONAL_CSV_FILE  = './data/relational_publications.csv'
-RELATIONAL_JSON_FILE = './data/relational_other_data.json'
+#RELATIONAL_CSV_FILE  
+#RELATIONAL_JSON_FILE
 
 #
 # Root of resources in the graph DB.
