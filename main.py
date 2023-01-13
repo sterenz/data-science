@@ -4,28 +4,30 @@
 #                                                                              #
 ################################################################################
 
-# time.
-import time
+# # time.
+# import time
 
-# common utilities internal.
-from common_utils import blazegraph_instance_is_active, blazegraph_instance_is_empty, create_folder, start_blazegraph_server
+# # common utilities internal.
+# from common_utils import blazegraph_instance_is_active, blazegraph_instance_is_empty, create_folder, start_blazegraph_server
 
-from query_processors import RelationalQueryProcessor, TriplestoreQueryProcessor
-from relational_processor import RelationalDataProcessor
+# from query_processors import RelationalQueryProcessor, TriplestoreQueryProcessor
+# from relational_processor import RelationalDataProcessor
 
-from triplestore_processor import TriplestoreDataProcessor
+# from triplestore_processor import TriplestoreDataProcessor
 
-# generic query processor.
-from query_processors import GenericQueryProcessor
+# # generic query processor.
+# from query_processors import GenericQueryProcessor
 
-# const.
-from const import *
+# # const.
+# from const import *
 
-# Queries.
-from queries import *
+# # Queries.
+# from queries import *
 
-# os
-import os
+# # os
+# import os
+
+from impl import *
 
 #####################
 #                   #
@@ -66,21 +68,19 @@ def app():
     generic.addQueryProcessor(rel_qp)
     generic.addQueryProcessor(grp_qp)
 
-    result_q1 = generic.getPublicationsPublishedInYear(2020)
+    result_q1 = generic.getPublicationsPublishedInYear(2019)
     result_q2 = generic.getPublicationsByAuthorId("0000-0001-9857-1511")
     result_q3 = generic.getMostCitedPublication()
     result_q4 = generic.getMostCitedVenue()
-    result_q5 = generic.getVenuesByPublisherId("crossref:78")
+    result_q5 = generic.getVenuesByPublisherId("crossref:78") #
     result_q6 = generic.getPublicationInVenue("issn:0944-1344")
     result_q7 = generic.getJournalArticlesInIssue("9", "17", "issn:2164-5515")
     result_q8 = generic.getJournalArticlesInVolume("17", "issn:2164-5515")
     result_q9 = generic.getJournalArticlesInJournal("issn:2164-5515")
     result_q10 = generic.getProceedingsByEvent("web")
     result_q11 = generic.getPublicationAuthors("doi:10.1080/21645515.2021.1910000")
-    result_q12 = generic.getPublicationsByAuthorName("doe")
+    result_q12 = generic.getPublicationsByAuthorName("silvio")
     result_q13 = generic.getDistinctPublisherOfPublications([ "doi:10.1080/21645515.2021.1910000", "doi:10.3390/ijfs9030035" ])
-
-    # etc...
 
 
 if __name__ == "__main__":
