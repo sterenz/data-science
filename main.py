@@ -74,7 +74,8 @@ def app():
     result_q4 = generic.getMostCitedVenue()
     result_q5 = generic.getVenuesByPublisherId("crossref:78") #
     result_q6 = generic.getPublicationInVenue("issn:0944-1344")
-    result_q7 = generic.getJournalArticlesInIssue("9", "17", "issn:2164-5515")
+    #result_q7 = generic.getJournalArticlesInIssue("9", "17", "issn:2164-5515")
+    result_q7 = generic.getJournalArticlesInIssue("4", "59", "issn:0168-7433")
     result_q8 = generic.getJournalArticlesInVolume("17", "issn:2164-5515")
     result_q9 = generic.getJournalArticlesInJournal("issn:2164-5515")
     result_q10 = generic.getProceedingsByEvent("web")

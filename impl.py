@@ -1181,10 +1181,10 @@ class TriplestoreDataProcessor(TriplestoreProcessor):
                 if self.processor.data_frames_has_been_built():
                     try:
                         # Build the rdf graph.
-                        self.processor.graphBuilder() #TEST
+                        # self.processor.graphBuilder() #TEST
 
                         # Deploy all triples to blazegraph.
-                        self.processor.triplestoreDeploy() #TEST
+                        # self.processor.triplestoreDeploy() #TEST
 
                         data_has_been_uploaded = True
                     except Exception:
@@ -2674,7 +2674,7 @@ class GenericQueryProcessor(object):
             elif isinstance(processor, RelationalQueryProcessor) and isinstance(_issue, str) and isinstance(_volume, str) and isinstance(_journalId, str):
                 relational_journal_articles_in_issue_df = processor.getJournalArticlesInIssue(_issue, _volume, _journalId)
 
-        if isinstance( triplestore_journal_articles_in_issue_df, DataFrame):
+        if isinstance(triplestore_journal_articles_in_issue_df, DataFrame):
             # Triplestore DataFrame clean up.
             triplestore_journal_articles_in_issue_df.drop(
                 [
@@ -2876,7 +2876,6 @@ class GenericQueryProcessor(object):
                     'venue_id'
                 ],
                 axis = 'columns',
-                #inplace = True # FutureWarning: DataFrame.set_axis 'inplace' keyword is deprecated and will be removed in a future version.
                 copy = False
             )
 
